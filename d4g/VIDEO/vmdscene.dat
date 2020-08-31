@@ -1,0 +1,4256 @@
+# 
+# Molecular graphics exported from VMD 1.9.1
+# http://www.ks.uiuc.edu/Research/vmd/
+# 
+# Requires Tachyon version 0.99.0 or newer
+# 
+# Default tachyon rendering command for this scene:
+#   tachyon  -aasamples 12 %s -format TARGA -o %s.tga
+# 
+Begin_Scene
+Resolution 997 1147
+Shader_Mode Medium
+  Trans_VMD
+  Fog_VMD
+End_Shader_Mode
+Camera
+  Projection Orthographic
+  Zoom 0.333333
+  Aspectratio 1
+  Antialiasing 12
+  Raydepth 50
+  Center  0 0 -2
+  Viewdir 0 0 2
+  Updir   0 1 0
+End_Camera
+Directional_Light Direction 0.1 -0.1 1 Color 1 1 1
+Directional_Light Direction -1 -2 0.5 Color 1 1 1
+Directional_Light Direction 1 -2 -1 Color 1 1 1
+Directional_Light Direction 1 1 0 Color 1 1 1
+
+Background 1 1 1
+Fog Exp2 Start 0 End 10 Density 0.32 Color 1 1 1
+# MoleculeID: 0 ReprID: 0 Beginning CPK
+# MoleculeID: 0 ReprID: 0 Beginning VDW
+Sphere 
+  Center 0.0163264 -0.619067 -0.0648816 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.0720729 -0.474782 -0.119112 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.196732 -0.40939 -0.0236948 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.336985 -0.49543 -0.0293052 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.137827 -0.432568 0.124528 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.0546861 -0.359972 -0.124768 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.16545 -0.355189 -0.0446644 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.0380077 -0.261625 -0.23272 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.11504 -0.124664 -0.241318 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.121837 -0.0667654 -0.399406 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.230287 -0.156384 -0.484975 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.0118444 -0.0719569 -0.472007 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.0556635 -0.00985947 -0.149539 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.068683 0.0065935 -0.129518 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.148628 0.09238 -0.0991697 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.105044 0.229075 -0.0294912 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.1428 0.231472 0.138262 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.0837282 0.0960362 0.215097 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.292777 0.243079 0.146912 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.188978 0.35253 -0.105957 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.283887 0.331224 -0.197948 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.165473 0.483572 -0.0578306 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.248842 0.610868 -0.112674 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.174534 0.674156 -0.245053 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.194029 0.590051 -0.379832 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.0246549 0.690429 -0.207285 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.261407 0.727565 0.00269985 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.180787 0.725666 0.109166 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.0932623 -0.29586 0.191847 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.00953972 -0.333659 0.33192 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.126817 -0.396948 0.446803 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.25933 -0.296181 0.480338 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.338577 -0.281215 0.334045 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.488016 -0.203015 0.333172 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.598026 -0.269275 0.424279 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.233702 -0.212976 0.224211 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.22228 -0.150913 0.525474 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.0609497 -0.437622 0.587398 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.120574 -0.433215 0.317804 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.241982 -0.443159 0.398314 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.363607 -0.536331 0.35283 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.240933 -0.375888 0.518375 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.089695 0.0677628 -0.499698 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.256062 0.0479582 -0.530483 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.289816 -0.0208617 -0.676276 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.199451 0.0438534 -0.805777 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.0394102 0.0648149 -0.760497 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.0571833 0.12968 -0.878397 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.199881 0.120626 -0.822135 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.01594 0.146484 -0.618293 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.233835 0.191923 -0.848091 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.439269 -0.0166992 -0.708913 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.335108 -0.0213994 -0.411004 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.420086 0.0463282 -0.319898 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.507102 -0.0464995 -0.208999 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.432948 0.18205 -0.326332 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.349806 0.355489 0.259113 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.516115 0.344959 0.24302 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.57191 0.202805 0.324958 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.51764 0.202496 0.484045 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.350824 0.20378 0.503012 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.311077 0.242116 0.655751 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.167175 0.194466 0.685277 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.290423 0.320817 0.405586 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.581171 0.326981 0.563161 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.727806 0.179095 0.30743 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.565079 0.343839 0.0862448 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.687512 0.407824 0.0378544 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.720132 0.408957 -0.123092 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center -0.766603 0.477514 0.124584 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.0260397 0.841768 -0.205961 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.172835 0.841982 -0.125341 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.291048 0.765834 -0.217449 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.306069 0.824356 -0.374483 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.156853 0.820922 -0.456178 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.154472 0.892559 -0.612554 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.00671256 0.908413 -0.65833 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.038631 0.889775 -0.361436 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.359264 0.971277 -0.363825 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.434141 0.762827 -0.158001 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.162566 0.790278 0.0255802 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.13073 0.879267 0.1337 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.128922 0.807549 0.28662 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+Sphere 
+  Center 0.118853 1.01454 0.118716 
+   Rad 0.0108597 
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0163264 -0.619067 -0.0648816
+  Apex 0.0441997 -0.546925 -0.0919967
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0720729 -0.474782 -0.119112
+  Apex 0.134402 -0.442086 -0.0714033
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0720729 -0.474782 -0.119112
+  Apex 0.00869322 -0.417377 -0.12194
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0720729 -0.474782 -0.119112
+  Apex 0.0441997 -0.546925 -0.0919967
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.196732 -0.40939 -0.0236948
+  Apex 0.266859 -0.45241 -0.0265
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.196732 -0.40939 -0.0236948
+  Apex 0.16728 -0.420979 0.0504167
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.196732 -0.40939 -0.0236948
+  Apex 0.134402 -0.442086 -0.0714033
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.336985 -0.49543 -0.0293052
+  Apex 0.266859 -0.45241 -0.0265
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.137827 -0.432568 0.124528
+  Apex 0.115545 -0.364214 0.158188
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.137827 -0.432568 0.124528
+  Apex 0.16728 -0.420979 0.0504167
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.0546861 -0.359972 -0.124768
+  Apex -0.110068 -0.35758 -0.0847161
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.0546861 -0.359972 -0.124768
+  Apex -0.0463469 -0.310799 -0.178744
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.0546861 -0.359972 -0.124768
+  Apex 0.00869322 -0.417377 -0.12194
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.16545 -0.355189 -0.0446644
+  Apex -0.110068 -0.35758 -0.0847161
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.0380077 -0.261625 -0.23272
+  Apex -0.0463469 -0.310799 -0.178744
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.0380077 -0.261625 -0.23272
+  Apex -0.0765238 -0.193145 -0.237019
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.11504 -0.124664 -0.241318
+  Apex -0.118438 -0.0957147 -0.320362
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.11504 -0.124664 -0.241318
+  Apex -0.0853517 -0.0672617 -0.195429
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.11504 -0.124664 -0.241318
+  Apex -0.0765238 -0.193145 -0.237019
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.121837 -0.0667654 -0.399406
+  Apex -0.176062 -0.111575 -0.442191
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.121837 -0.0667654 -0.399406
+  Apex -0.0549961 -0.0693612 -0.435706
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.121837 -0.0667654 -0.399406
+  Apex -0.118438 -0.0957147 -0.320362
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.230287 -0.156384 -0.484975
+  Apex -0.176062 -0.111575 -0.442191
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0118444 -0.0719569 -0.472007
+  Apex 0.0507697 -0.00209701 -0.485852
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0118444 -0.0719569 -0.472007
+  Apex -0.0549961 -0.0693612 -0.435706
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.0556635 -0.00985947 -0.149539
+  Apex 0.0065099 -0.00163299 -0.139529
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.0556635 -0.00985947 -0.149539
+  Apex -0.102146 0.0412601 -0.124355
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.0556635 -0.00985947 -0.149539
+  Apex -0.0853517 -0.0672617 -0.195429
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.068683 0.0065935 -0.129518
+  Apex 0.0065099 -0.00163299 -0.139529
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.148628 0.09238 -0.0991697
+  Apex -0.102146 0.0412601 -0.124355
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.148628 0.09238 -0.0991697
+  Apex -0.126836 0.160727 -0.0643303
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.105044 0.229075 -0.0294912
+  Apex -0.123922 0.230273 0.0543852
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.105044 0.229075 -0.0294912
+  Apex -0.147011 0.290802 -0.067724
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.105044 0.229075 -0.0294912
+  Apex -0.126836 0.160727 -0.0643303
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.1428 0.231472 0.138262
+  Apex -0.113264 0.163754 0.176679
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.1428 0.231472 0.138262
+  Apex -0.217789 0.237275 0.142587
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.1428 0.231472 0.138262
+  Apex -0.123922 0.230273 0.0543852
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.0837282 0.0960362 0.215097
+  Apex -0.113264 0.163754 0.176679
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.292777 0.243079 0.146912
+  Apex -0.321292 0.299283 0.203012
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.292777 0.243079 0.146912
+  Apex -0.217789 0.237275 0.142587
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.188978 0.35253 -0.105957
+  Apex -0.236433 0.341877 -0.151953
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.188978 0.35253 -0.105957
+  Apex -0.177226 0.418051 -0.0818939
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.188978 0.35253 -0.105957
+  Apex -0.147011 0.290802 -0.067724
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.283887 0.331224 -0.197948
+  Apex -0.236433 0.341877 -0.151953
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.165473 0.483572 -0.0578306
+  Apex -0.177226 0.418051 -0.0818939
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.165473 0.483572 -0.0578306
+  Apex -0.207158 0.54722 -0.0852516
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.248842 0.610868 -0.112674
+  Apex -0.211688 0.642511 -0.178863
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.248842 0.610868 -0.112674
+  Apex -0.255125 0.669216 -0.054987
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.248842 0.610868 -0.112674
+  Apex -0.207158 0.54722 -0.0852516
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.174534 0.674156 -0.245053
+  Apex -0.184282 0.632103 -0.312443
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.174534 0.674156 -0.245053
+  Apex -0.0995944 0.682292 -0.226169
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.174534 0.674156 -0.245053
+  Apex -0.211688 0.642511 -0.178863
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.194029 0.590051 -0.379832
+  Apex -0.184282 0.632103 -0.312443
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.0246549 0.690429 -0.207285
+  Apex 0.000692487 0.766098 -0.206623
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.0246549 0.690429 -0.207285
+  Apex -0.0995944 0.682292 -0.226169
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.261407 0.727565 0.00269985
+  Apex -0.221097 0.726615 0.0559332
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.261407 0.727565 0.00269985
+  Apex -0.255125 0.669216 -0.054987
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.180787 0.725666 0.109166
+  Apex -0.221097 0.726615 0.0559332
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0932623 -0.29586 0.191847
+  Apex 0.115545 -0.364214 0.158188
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0932623 -0.29586 0.191847
+  Apex 0.0514009 -0.314759 0.261884
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0932623 -0.29586 0.191847
+  Apex 0.163482 -0.254418 0.208029
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.00953972 -0.333659 0.33192
+  Apex 0.0681784 -0.365303 0.389362
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.00953972 -0.333659 0.33192
+  Apex -0.055517 -0.383437 0.324862
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.00953972 -0.333659 0.33192
+  Apex 0.0514009 -0.314759 0.261884
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.126817 -0.396948 0.446803
+  Apex 0.193074 -0.346564 0.463571
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.126817 -0.396948 0.446803
+  Apex 0.0938834 -0.417285 0.517101
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.126817 -0.396948 0.446803
+  Apex 0.0681784 -0.365303 0.389362
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.25933 -0.296181 0.480338
+  Apex 0.298954 -0.288698 0.407192
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.25933 -0.296181 0.480338
+  Apex 0.240805 -0.223547 0.502906
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.25933 -0.296181 0.480338
+  Apex 0.193074 -0.346564 0.463571
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.338577 -0.281215 0.334045
+  Apex 0.413296 -0.242115 0.333608
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.338577 -0.281215 0.334045
+  Apex 0.28614 -0.247095 0.279128
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.338577 -0.281215 0.334045
+  Apex 0.298954 -0.288698 0.407192
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.488016 -0.203015 0.333172
+  Apex 0.543021 -0.236145 0.378726
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.488016 -0.203015 0.333172
+  Apex 0.413296 -0.242115 0.333608
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.598026 -0.269275 0.424279
+  Apex 0.543021 -0.236145 0.378726
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.233702 -0.212976 0.224211
+  Apex 0.28614 -0.247095 0.279128
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.233702 -0.212976 0.224211
+  Apex 0.163482 -0.254418 0.208029
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.22228 -0.150913 0.525474
+  Apex 0.240805 -0.223547 0.502906
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0609497 -0.437622 0.587398
+  Apex 0.0938834 -0.417285 0.517101
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.120574 -0.433215 0.317804
+  Apex -0.181278 -0.438187 0.358059
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.120574 -0.433215 0.317804
+  Apex -0.055517 -0.383437 0.324862
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.241982 -0.443159 0.398314
+  Apex -0.302795 -0.489745 0.375572
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.241982 -0.443159 0.398314
+  Apex -0.241458 -0.409524 0.458345
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.241982 -0.443159 0.398314
+  Apex -0.181278 -0.438187 0.358059
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.363607 -0.536331 0.35283
+  Apex -0.302795 -0.489745 0.375572
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.240933 -0.375888 0.518375
+  Apex -0.241458 -0.409524 0.458345
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.089695 0.0677628 -0.499698
+  Apex 0.0507697 -0.00209701 -0.485852
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.089695 0.0677628 -0.499698
+  Apex 0.172879 0.0578606 -0.515091
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.089695 0.0677628 -0.499698
+  Apex 0.0528174 0.107124 -0.558995
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.256062 0.0479582 -0.530483
+  Apex 0.272939 0.013548 -0.60338
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.256062 0.0479582 -0.530483
+  Apex 0.295585 0.0132792 -0.470744
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.256062 0.0479582 -0.530483
+  Apex 0.172879 0.0578606 -0.515091
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.289816 -0.0208617 -0.676276
+  Apex 0.244633 0.0114961 -0.741027
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.289816 -0.0208617 -0.676276
+  Apex 0.364542 -0.0187805 -0.692595
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.289816 -0.0208617 -0.676276
+  Apex 0.272939 0.013548 -0.60338
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.199451 0.0438534 -0.805777
+  Apex 0.11943 0.054334 -0.783137
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.199451 0.0438534 -0.805777
+  Apex 0.216642 0.117888 -0.826934
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.199451 0.0438534 -0.805777
+  Apex 0.244633 0.0114961 -0.741027
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0394102 0.0648149 -0.760497
+  Apex -0.00888652 0.0972469 -0.819447
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0394102 0.0648149 -0.760497
+  Apex 0.027675 0.10565 -0.689395
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0394102 0.0648149 -0.760497
+  Apex 0.11943 0.054334 -0.783137
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.0571833 0.12968 -0.878397
+  Apex -0.128532 0.125153 -0.850266
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.0571833 0.12968 -0.878397
+  Apex -0.00888652 0.0972469 -0.819447
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.199881 0.120626 -0.822135
+  Apex -0.128532 0.125153 -0.850266
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.01594 0.146484 -0.618293
+  Apex 0.027675 0.10565 -0.689395
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.01594 0.146484 -0.618293
+  Apex 0.0528174 0.107124 -0.558995
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.233835 0.191923 -0.848091
+  Apex 0.216642 0.117888 -0.826934
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.439269 -0.0166992 -0.708913
+  Apex 0.364542 -0.0187805 -0.692595
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.335108 -0.0213994 -0.411004
+  Apex 0.377597 0.0124642 -0.365451
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.335108 -0.0213994 -0.411004
+  Apex 0.295585 0.0132792 -0.470744
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.420086 0.0463282 -0.319898
+  Apex 0.463594 -8.56817e-05 -0.264449
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.420086 0.0463282 -0.319898
+  Apex 0.426517 0.114189 -0.323115
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.420086 0.0463282 -0.319898
+  Apex 0.377597 0.0124642 -0.365451
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.507102 -0.0464995 -0.208999
+  Apex 0.463594 -8.56817e-05 -0.264449
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.432948 0.18205 -0.326332
+  Apex 0.426517 0.114189 -0.323115
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.349806 0.355489 0.259113
+  Apex -0.321292 0.299283 0.203012
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.349806 0.355489 0.259113
+  Apex -0.432961 0.350224 0.251067
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.349806 0.355489 0.259113
+  Apex -0.320115 0.338153 0.33235
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.516115 0.344959 0.24302
+  Apex -0.544013 0.273882 0.283989
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.516115 0.344959 0.24302
+  Apex -0.540597 0.344399 0.164633
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.516115 0.344959 0.24302
+  Apex -0.432961 0.350224 0.251067
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.57191 0.202805 0.324958
+  Apex -0.544775 0.202651 0.404502
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.57191 0.202805 0.324958
+  Apex -0.649858 0.19095 0.316194
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.57191 0.202805 0.324958
+  Apex -0.544013 0.273882 0.283989
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.51764 0.202496 0.484045
+  Apex -0.434232 0.203138 0.493529
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.51764 0.202496 0.484045
+  Apex -0.549405 0.264738 0.523603
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.51764 0.202496 0.484045
+  Apex -0.544775 0.202651 0.404502
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.350824 0.20378 0.503012
+  Apex -0.33095 0.222948 0.579382
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.350824 0.20378 0.503012
+  Apex -0.320623 0.262299 0.454299
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.350824 0.20378 0.503012
+  Apex -0.434232 0.203138 0.493529
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.311077 0.242116 0.655751
+  Apex -0.239126 0.218291 0.670515
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.311077 0.242116 0.655751
+  Apex -0.33095 0.222948 0.579382
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.167175 0.194466 0.685277
+  Apex -0.239126 0.218291 0.670515
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.290423 0.320817 0.405586
+  Apex -0.320623 0.262299 0.454299
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.290423 0.320817 0.405586
+  Apex -0.320115 0.338153 0.33235
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.581171 0.326981 0.563161
+  Apex -0.549405 0.264738 0.523603
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.727806 0.179095 0.30743
+  Apex -0.649858 0.19095 0.316194
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.565079 0.343839 0.0862448
+  Apex -0.626296 0.375831 0.0620494
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.565079 0.343839 0.0862448
+  Apex -0.540597 0.344399 0.164633
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.687512 0.407824 0.0378544
+  Apex -0.703822 0.40839 -0.042619
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.687512 0.407824 0.0378544
+  Apex -0.727058 0.442669 0.0812197
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.687512 0.407824 0.0378544
+  Apex -0.626296 0.375831 0.0620494
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.720132 0.408957 -0.123092
+  Apex -0.703822 0.40839 -0.042619
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base -0.766603 0.477514 0.124584
+  Apex -0.727058 0.442669 0.0812197
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0260397 0.841768 -0.205961
+  Apex 0.000692487 0.766098 -0.206623
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0260397 0.841768 -0.205961
+  Apex 0.099437 0.841875 -0.165652
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.0260397 0.841768 -0.205961
+  Apex 0.0323355 0.865771 -0.283699
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.172835 0.841982 -0.125341
+  Apex 0.231941 0.803908 -0.171395
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.172835 0.841982 -0.125341
+  Apex 0.167701 0.81613 -0.049881
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.172835 0.841982 -0.125341
+  Apex 0.099437 0.841875 -0.165652
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.291048 0.765834 -0.217449
+  Apex 0.298559 0.795095 -0.295966
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.291048 0.765834 -0.217449
+  Apex 0.362594 0.76433 -0.187725
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.291048 0.765834 -0.217449
+  Apex 0.231941 0.803908 -0.171395
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.306069 0.824356 -0.374483
+  Apex 0.231461 0.822639 -0.41533
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.306069 0.824356 -0.374483
+  Apex 0.332667 0.897816 -0.369154
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.306069 0.824356 -0.374483
+  Apex 0.298559 0.795095 -0.295966
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.156853 0.820922 -0.456178
+  Apex 0.155662 0.85674 -0.534366
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.156853 0.820922 -0.456178
+  Apex 0.0977421 0.855348 -0.408807
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.156853 0.820922 -0.456178
+  Apex 0.231461 0.822639 -0.41533
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.154472 0.892559 -0.612554
+  Apex 0.0805922 0.900486 -0.635442
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.154472 0.892559 -0.612554
+  Apex 0.155662 0.85674 -0.534366
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.00671256 0.908413 -0.65833
+  Apex 0.0805922 0.900486 -0.635442
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.038631 0.889775 -0.361436
+  Apex 0.0977421 0.855348 -0.408807
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.038631 0.889775 -0.361436
+  Apex 0.0323355 0.865771 -0.283699
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.359264 0.971277 -0.363825
+  Apex 0.332667 0.897816 -0.369154
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.434141 0.762827 -0.158001
+  Apex 0.362594 0.76433 -0.187725
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.162566 0.790278 0.0255802
+  Apex 0.146648 0.834772 0.0796402
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.162566 0.790278 0.0255802
+  Apex 0.167701 0.81613 -0.049881
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.13073 0.879267 0.1337
+  Apex 0.129826 0.843408 0.21016
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.13073 0.879267 0.1337
+  Apex 0.124791 0.946906 0.126208
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.13073 0.879267 0.1337
+  Apex 0.146648 0.834772 0.0796402
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.128922 0.807549 0.28662
+  Apex 0.129826 0.843408 0.21016
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+FCylinder
+  Base 0.118853 1.01454 0.118716
+  Apex 0.124791 0.946906 0.126208
+  Rad 0.0108597
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0.35 0.35 0.35 TexFunc 0
+
+# MoleculeID: 0 ReprID: 1 Beginning Ribbons
+VertexArray  Numverts 610
+
+Coords
+-0.0971317 -0.847059 -0.0641916
+-0.119318 -0.813135 -0.0518401
+-0.140853 -0.794593 -0.0482287
+-0.153513 -0.798517 -0.0547371
+-0.152461 -0.823407 -0.0688791
+-0.1381 -0.859757 -0.0852525
+-0.115914 -0.893681 -0.0976043
+-0.0943785 -0.912222 -0.101216
+-0.0817188 -0.908299 -0.0947073
+-0.0827705 -0.883408 -0.0805655
+-0.0956517 -0.824046 -0.0831032
+-0.116296 -0.790096 -0.0683784
+-0.136153 -0.769729 -0.0649817
+-0.147636 -0.770725 -0.0742104
+-0.14636 -0.792703 -0.0925393
+-0.132812 -0.827269 -0.112967
+-0.112168 -0.861219 -0.127692
+-0.0923116 -0.881586 -0.131089
+-0.0808284 -0.88059 -0.121861
+-0.0821041 -0.858612 -0.103532
+-0.0882595 -0.802742 -0.0959549
+-0.106943 -0.769063 -0.0782835
+-0.124565 -0.746883 -0.0740323
+-0.134397 -0.744673 -0.0848253
+-0.132681 -0.763279 -0.10654
+-0.120075 -0.795593 -0.130882
+-0.101392 -0.829272 -0.148553
+-0.0837687 -0.851452 -0.152804
+-0.0739373 -0.853662 -0.142011
+-0.0756525 -0.835056 -0.120296
+-0.0750477 -0.781312 -0.104297
+-0.0915574 -0.748512 -0.083148
+-0.106993 -0.725202 -0.0769076
+-0.11546 -0.720283 -0.0879593
+-0.113723 -0.735636 -0.112083
+-0.102447 -0.765395 -0.140062
+-0.0859369 -0.798194 -0.161212
+-0.0705009 -0.821505 -0.167452
+-0.0620341 -0.826423 -0.1564
+-0.063771 -0.811071 -0.132277
+-0.0565491 -0.758754 -0.108764
+-0.0708213 -0.727574 -0.0838685
+-0.0845122 -0.704054 -0.0749245
+-0.0923922 -0.697179 -0.0853479
+-0.091452 -0.709573 -0.111158
+-0.0820498 -0.736503 -0.142495
+-0.0677778 -0.767683 -0.167391
+-0.0540869 -0.791202 -0.176334
+-0.0462066 -0.798078 -0.165911
+-0.047147 -0.785684 -0.140101
+-0.0339601 -0.734552 -0.110109
+-0.0459869 -0.705724 -0.0814745
+-0.0584582 -0.682886 -0.0694945
+-0.0666108 -0.674763 -0.0787446
+-0.0673301 -0.684456 -0.105692
+-0.0603418 -0.708264 -0.140044
+-0.0483147 -0.737092 -0.168678
+-0.0358434 -0.759929 -0.180658
+-0.027691 -0.768053 -0.171408
+-0.0269715 -0.75836 -0.144461
+-0.00880432 -0.708148 -0.109426
+-0.0186102 -0.682341 -0.0772779
+-0.0303322 -0.661027 -0.0621474
+-0.0394936 -0.652348 -0.0698137
+-0.0425946 -0.659619 -0.0973485
+-0.038451 -0.680063 -0.134234
+-0.028645 -0.70587 -0.166382
+-0.016923 -0.727184 -0.181513
+-0.00776172 -0.735863 -0.173846
+-0.00466073 -0.728592 -0.146312
+0.0171789 -0.678838 -0.107929
+0.00954676 -0.656624 -0.0726595
+-0.00175405 -0.63766 -0.0544031
+-0.0124068 -0.629192 -0.060132
+-0.0183421 -0.634452 -0.0876596
+-0.0172933 -0.651433 -0.12647
+-0.00966084 -0.673647 -0.161739
+0.00163996 -0.692611 -0.179996
+0.0122923 -0.701079 -0.174267
+0.0182279 -0.695819 -0.146739
+0.0420439 -0.645951 -0.10671
+0.0365404 -0.627756 -0.0688376
+0.0255727 -0.611913 -0.0476408
+0.0133294 -0.604473 -0.0512156
+0.00448775 -0.608278 -0.0781968
+0.00242507 -0.621875 -0.118279
+0.00792801 -0.640071 -0.156151
+0.0188965 -0.655914 -0.177348
+0.0311395 -0.663354 -0.173773
+0.0399812 -0.659548 -0.146792
+0.0638151 -0.609112 -0.106649
+0.060416 -0.595152 -0.0667832
+0.0499518 -0.582988 -0.0430522
+0.0364197 -0.577265 -0.0445201
+0.0249884 -0.58017 -0.0706263
+0.0200247 -0.590592 -0.111399
+0.0234239 -0.604552 -0.151265
+0.0338881 -0.616717 -0.174996
+0.04742 -0.62244 -0.173528
+0.0588515 -0.619535 -0.147421
+0.080821 -0.568257 -0.108601
+0.079491 -0.558505 -0.0673845
+0.0698271 -0.550228 -0.0417185
+0.055521 -0.546589 -0.0414066
+0.0420363 -0.548976 -0.0665686
+0.0345241 -0.556478 -0.107593
+0.0358541 -0.56623 -0.148809
+0.0455179 -0.574507 -0.174475
+0.0598245 -0.578146 -0.174787
+0.0733088 -0.575759 -0.149625
+0.0917845 -0.523335 -0.113649
+0.0924377 -0.51756 -0.0716739
+0.0838203 -0.51305 -0.0447285
+0.0692232 -0.511529 -0.0431058
+0.0542223 -0.513576 -0.0674255
+0.0445477 -0.51841 -0.108397
+0.0438944 -0.524185 -0.150373
+0.0525117 -0.528694 -0.177318
+0.067109 -0.530216 -0.178941
+0.0821097 -0.528169 -0.154622
+0.0956274 -0.474477 -0.123097
+0.0981178 -0.472257 -0.0808532
+0.09066 -0.471001 -0.0532227
+0.0761026 -0.47119 -0.0507593
+0.0600059 -0.472751 -0.0744052
+0.0485183 -0.475088 -0.115127
+0.0460279 -0.477308 -0.157371
+0.0534855 -0.478564 -0.185002
+0.0680432 -0.478375 -0.187464
+0.0841399 -0.476814 -0.163819
+0.0928602 -0.426588 -0.133678
+0.0923681 -0.425839 -0.0913122
+0.0831176 -0.426929 -0.0642221
+0.0686413 -0.429442 -0.0627551
+0.0544698 -0.432418 -0.0874729
+0.0460149 -0.434722 -0.128932
+0.0465069 -0.435471 -0.171298
+0.0557574 -0.434382 -0.198388
+0.0702337 -0.431868 -0.199855
+0.0844053 -0.428891 -0.175138
+0.0839998 -0.385767 -0.145777
+0.0804704 -0.386709 -0.103559
+0.0697832 -0.39059 -0.0772657
+0.0560205 -0.395929 -0.0769396
+0.0444391 -0.400686 -0.102705
+0.0394626 -0.403044 -0.144722
+0.0429919 -0.402103 -0.18694
+0.053679 -0.398222 -0.213233
+0.0674419 -0.392883 -0.213559
+0.0790232 -0.388126 -0.187793
+0.0697225 -0.35142 -0.158954
+0.0631645 -0.354082 -0.117173
+0.0514892 -0.360718 -0.0918696
+0.0391563 -0.368794 -0.0927079
+0.0308769 -0.375226 -0.119367
+0.0298134 -0.377555 -0.161665
+0.0363716 -0.374893 -0.203446
+0.0480471 -0.368257 -0.22875
+0.0603796 -0.360181 -0.227911
+0.0686593 -0.353749 -0.201252
+0.0515575 -0.323048 -0.172794
+0.0419023 -0.327245 -0.131748
+0.0293672 -0.336067 -0.107547
+0.0187408 -0.346143 -0.109436
+0.0140812 -0.353625 -0.136693
+0.0171689 -0.355655 -0.178907
+0.0268242 -0.351457 -0.219954
+0.0393591 -0.342636 -0.244154
+0.0499858 -0.33256 -0.242266
+0.0546451 -0.325078 -0.215008
+0.0313215 -0.299421 -0.186651
+0.0183908 -0.304889 -0.146668
+0.00467372 -0.315154 -0.12371
+-0.00459135 -0.326296 -0.126545
+-0.00586438 -0.33406 -0.154091
+0.00134027 -0.335478 -0.195825
+0.0142708 -0.330011 -0.235808
+0.0279882 -0.319746 -0.258766
+0.0372529 -0.308604 -0.255931
+0.0385262 -0.30084 -0.228385
+0.0103533 -0.278786 -0.199662
+-0.00603604 -0.285273 -0.161126
+-0.021462 -0.296329 -0.139669
+-0.0300326 -0.307731 -0.143485
+-0.0284741 -0.315124 -0.171118
+-0.0173818 -0.315684 -0.212012
+-0.000992656 -0.309197 -0.250547
+0.0144336 -0.298141 -0.272005
+0.0230041 -0.286739 -0.268189
+0.0214454 -0.279346 -0.240556
+-0.0105109 -0.259436 -0.21095
+-0.0304481 -0.266697 -0.174269
+-0.0480587 -0.277954 -0.154679
+-0.0566164 -0.288907 -0.159662
+-0.0528525 -0.295371 -0.187315
+-0.0382044 -0.29488 -0.227075
+-0.0182676 -0.287618 -0.263756
+-0.000656605 -0.276362 -0.283345
+0.00790107 -0.265409 -0.278363
+0.00413704 -0.258944 -0.25071
+-0.0307405 -0.239885 -0.219778
+-0.0541712 -0.24764 -0.185332
+-0.0742462 -0.258463 -0.167997
+-0.0832965 -0.268219 -0.174395
+-0.0778663 -0.273182 -0.202081
+-0.060029 -0.271457 -0.24048
+-0.0365984 -0.263702 -0.274926
+-0.0165236 -0.252879 -0.292261
+-0.00747299 -0.243123 -0.285864
+-0.0129032 -0.238159 -0.258178
+-0.0500488 -0.218664 -0.22569
+-0.0767493 -0.2266 -0.193757
+-0.0992608 -0.236303 -0.178934
+-0.108984 -0.244067 -0.186884
+-0.102205 -0.246927 -0.21457
+-0.0815138 -0.243789 -0.251416
+-0.054813 -0.235853 -0.28335
+-0.0323018 -0.22615 -0.298172
+-0.0225784 -0.218385 -0.290223
+-0.0293572 -0.215526 -0.262537
+-0.0682533 -0.193928 -0.228498
+-0.0978368 -0.201777 -0.199192
+-0.122415 -0.209816 -0.186867
+-0.132599 -0.214975 -0.19623
+-0.1245 -0.215284 -0.223707
+-0.101211 -0.210624 -0.258801
+-0.0716277 -0.202775 -0.288107
+-0.0470496 -0.194736 -0.300432
+-0.0368652 -0.189577 -0.291068
+-0.0449643 -0.189268 -0.263592
+-0.0849069 -0.16336 -0.227968
+-0.116899 -0.170994 -0.20125
+-0.14298 -0.177206 -0.19116
+-0.153188 -0.179624 -0.201552
+-0.143623 -0.177323 -0.228456
+-0.117939 -0.171183 -0.261597
+-0.085947 -0.163548 -0.288316
+-0.0598662 -0.157336 -0.298406
+-0.0496587 -0.154919 -0.288014
+-0.0592235 -0.15722 -0.261109
+-0.0990886 -0.12484 -0.223533
+-0.133042 -0.132243 -0.199284
+-0.160119 -0.136752 -0.19109
+-0.169977 -0.136643 -0.202082
+-0.158852 -0.131959 -0.228061
+-0.130991 -0.124488 -0.259104
+-0.0970379 -0.117085 -0.283353
+-0.0699611 -0.112577 -0.291547
+-0.0601026 -0.112686 -0.280554
+-0.0712285 -0.11737 -0.254575
+-0.109019 -0.0869056 -0.214897
+-0.144593 -0.0926501 -0.1926
+-0.172333 -0.0943342 -0.185652
+-0.181643 -0.0913152 -0.196708
+-0.168968 -0.0847458 -0.221544
+-0.139148 -0.0771358 -0.250673
+-0.103575 -0.0713915 -0.27297
+-0.0758345 -0.0697072 -0.279917
+-0.066524 -0.0727262 -0.268862
+-0.079199 -0.0792956 -0.244027
+-0.114807 -0.0567101 -0.202541
+-0.1518 -0.060686 -0.182259
+-0.179787 -0.0593997 -0.176282
+-0.188077 -0.0533432 -0.186894
+-0.173505 -0.0448295 -0.210041
+-0.141635 -0.0371103 -0.236882
+-0.104642 -0.0331347 -0.257164
+-0.076656 -0.0344208 -0.263141
+-0.0683655 -0.0404776 -0.252529
+-0.0829381 -0.0489913 -0.229382
+-0.117154 -0.0316799 -0.187095
+-0.155369 -0.0339791 -0.168928
+-0.183276 -0.0300952 -0.16376
+-0.190217 -0.0215115 -0.173567
+-0.173541 -0.0115067 -0.194601
+-0.139617 -0.00390238 -0.218829
+-0.101403 -0.00160292 -0.236996
+-0.0734959 -0.00548688 -0.242164
+-0.0665547 -0.0140707 -0.232358
+-0.083231 -0.0240753 -0.211323
+-0.116474 -0.00967878 -0.16874
+-0.155768 -0.0105161 -0.1529
+-0.183505 -0.00470921 -0.148711
+-0.18909 0.00552422 -0.157772
+-0.17039 0.016275 -0.176623
+-0.134548 0.0234365 -0.198063
+-0.0952538 0.0242738 -0.213904
+-0.0675166 0.0184667 -0.218093
+-0.0619313 0.00823349 -0.209031
+-0.0806314 -0.0025169 -0.19018
+-0.113353 0.0107899 -0.147731
+-0.153613 0.0111968 -0.134518
+-0.181237 0.0182669 -0.131763
+-0.185672 0.0292997 -0.140517
+-0.165224 0.0400811 -0.157437
+-0.127704 0.0464925 -0.176059
+-0.087444 0.0460857 -0.189272
+-0.0598208 0.0390154 -0.192027
+-0.0553859 0.0279825 -0.183274
+-0.0758336 0.0172017 -0.166354
+-0.108698 0.031037 -0.12466
+-0.149783 0.0324984 -0.114386
+-0.177342 0.0402775 -0.113631
+-0.18085 0.0514027 -0.122684
+-0.158966 0.0616243 -0.138086
+-0.120049 0.0670384 -0.153954
+-0.0789641 0.0655769 -0.164228
+-0.0514045 0.0577977 -0.164983
+-0.0478967 0.0466727 -0.15593
+-0.0697809 0.036451 -0.140528
+-0.103591 0.0524985 -0.100416
+-0.145306 0.0548284 -0.0933406
+-0.172763 0.062804 -0.0951121
+-0.175473 0.0733791 -0.105054
+-0.152403 0.0825151 -0.119368
+-0.112363 0.0867215 -0.132588
+-0.0706478 0.0843919 -0.139664
+-0.0431913 0.076416 -0.137892
+-0.0404806 0.0658409 -0.127951
+-0.0635512 0.0567049 -0.113636
+-0.0991541 0.0767145 -0.0761669
+-0.141258 0.0797074 -0.072439
+-0.168472 0.0873578 -0.0770786
+-0.170399 0.0967429 -0.0883131
+-0.146305 0.104278 -0.101852
+-0.105392 0.107086 -0.112524
+-0.0632879 0.104093 -0.116252
+-0.0360744 0.0964428 -0.111612
+-0.0341468 0.0870575 -0.100377
+-0.0582409 0.0795222 -0.0868385
+-0.0964381 0.105099 -0.0533247
+-0.13867 0.108558 -0.0529373
+-0.165442 0.115413 -0.0604811
+-0.166527 0.123047 -0.0730739
+-0.141512 0.128542 -0.0859063
+-0.0999514 0.1298 -0.0940766
+-0.0577196 0.126342 -0.0944638
+-0.0309479 0.119487 -0.0869203
+-0.0298623 0.111854 -0.0743275
+-0.0548773 0.106358 -0.0614953
+-0.0963669 0.138763 -0.03332
+-0.138479 0.142558 -0.0361118
+-0.164624 0.148356 -0.0462847
+-0.164814 0.153941 -0.0599515
+-0.138978 0.157182 -0.071893
+-0.0969832 0.156839 -0.0775478
+-0.0548707 0.153044 -0.0747557
+-0.0287262 0.147247 -0.0645831
+-0.0285358 0.141661 -0.050916
+-0.0543723 0.138421 -0.0389743
+-0.0997798 0.178665 -0.0172677
+-0.141566 0.182766 -0.0229912
+-0.166958 0.187527 -0.0353677
+-0.166258 0.19113 -0.04967
+-0.139733 0.192198 -0.0604353
+-0.097514 0.190325 -0.0635505
+-0.0557282 0.186225 -0.0578272
+-0.0303358 0.181464 -0.0454504
+-0.0310357 0.177861 -0.0311482
+-0.057561 0.176792 -0.0203834
+-0.107532 0.225904 -0.00594187
+-0.148829 0.230356 -0.0143366
+-0.1734 0.234318 -0.0285201
+-0.171862 0.236278 -0.0430739
+-0.144802 0.235486 -0.0524399
+-0.102555 0.232245 -0.0530403
+-0.0612589 0.227793 -0.0446458
+-0.0366875 0.223831 -0.0304623
+-0.0382255 0.221871 -0.0159082
+-0.0652857 0.222664 -0.00654221
+-0.117447 0.273813 -0.000751972
+-0.158394 0.276144 -0.011405
+-0.182366 0.277653 -0.0270164
+-0.180205 0.277763 -0.0416226
+-0.152737 0.276432 -0.0496449
+-0.110454 0.27417 -0.0480189
+-0.069506 0.271839 -0.0373659
+-0.0455345 0.270331 -0.0217545
+-0.0476954 0.270221 -0.0071485
+-0.0751634 0.271551 0.000873804
+-0.127647 0.314664 -0.00220346
+-0.168009 0.314744 -0.0151095
+-0.191151 0.313642 -0.0319576
+-0.188234 0.311778 -0.0463114
+-0.160372 0.309865 -0.0526893
+-0.118208 0.308632 -0.048655
+-0.0778458 0.308552 -0.0357492
+-0.0547034 0.309654 -0.0189011
+-0.0576205 0.311518 -0.00454688
+-0.0854818 0.313432 0.00183105
+-0.138237 0.349323 -0.00908327
+-0.17776 0.347154 -0.0242116
+-0.199851 0.343592 -0.0420995
+-0.196071 0.339998 -0.055913
+-0.167865 0.337744 -0.0603764
+-0.126005 0.337691 -0.0537853
+-0.0864819 0.33986 -0.0386569
+-0.0643913 0.343422 -0.0207696
+-0.0681713 0.347016 -0.0069561
+-0.0963781 0.34927 -0.00249195
+-0.149314 0.378611 -0.0198796
+-0.18774 0.374339 -0.0372252
+-0.208572 0.368804 -0.0560939
+-0.203853 0.364121 -0.0692782
+-0.175386 0.362077 -0.0717423
+-0.134045 0.363454 -0.0625446
+-0.0956186 0.367726 -0.0451992
+-0.0747863 0.37326 -0.0263305
+-0.0795051 0.377944 -0.0131462
+-0.107972 0.379988 -0.0106823
+-0.160983 0.403598 -0.0330091
+-0.198054 0.397472 -0.0526013
+-0.217438 0.390665 -0.0725653
+-0.211731 0.385777 -0.0852752
+-0.183112 0.384674 -0.0858774
+-0.142513 0.387778 -0.0741405
+-0.105441 0.393903 -0.0545485
+-0.0860573 0.400711 -0.0345845
+-0.0917648 0.4056 -0.0218742
+-0.120384 0.406702 -0.0212724
+-0.173303 0.425685 -0.0471351
+-0.208785 0.417996 -0.0689874
+-0.226578 0.410667 -0.0902078
+-0.219886 0.406497 -0.102692
+-0.191264 0.407079 -0.10167
+-0.151644 0.41219 -0.0875328
+-0.116161 0.419878 -0.0656803
+-0.0983683 0.427207 -0.0444596
+-0.105061 0.431378 -0.031976
+-0.133683 0.430796 -0.0329981
+-0.186235 0.446587 -0.0612438
+-0.219948 0.43761 -0.085295
+-0.236112 0.430402 -0.107822
+-0.228553 0.427718 -0.120218
+-0.200157 0.430582 -0.117749
+-0.161771 0.437901 -0.101359
+-0.128057 0.446878 -0.0773072
+-0.111894 0.454085 -0.0547812
+-0.119453 0.45677 -0.0423851
+-0.147849 0.453906 -0.0448534
+-0.199725 0.468327 -0.0744431
+-0.231557 0.458258 -0.10054
+-0.246172 0.451555 -0.124249
+-0.237987 0.450779 -0.136514
+-0.21013 0.456227 -0.132651
+-0.17324 0.465817 -0.114134
+-0.141409 0.475886 -0.0880373
+-0.126794 0.482588 -0.0643282
+-0.134979 0.483364 -0.0520627
+-0.162836 0.477917 -0.0559261
+-0.213867 0.493031 -0.0856979
+-0.243751 0.481965 -0.113629
+-0.256947 0.475834 -0.138306
+-0.248414 0.476979 -0.150301
+-0.221411 0.484963 -0.145035
+-0.186253 0.496738 -0.124517
+-0.156369 0.507804 -0.0965867
+-0.143173 0.513935 -0.0719101
+-0.151706 0.51279 -0.0599144
+-0.178709 0.504805 -0.0651808
+-0.228923 0.522619 -0.0937788
+-0.256816 0.510583 -0.123323
+-0.268691 0.504874 -0.148759
+-0.260012 0.507672 -0.160373
+-0.234095 0.517908 -0.153728
+-0.200839 0.531672 -0.131362
+-0.172946 0.543708 -0.101819
+-0.161071 0.549417 -0.0763817
+-0.16975 0.546619 -0.0647676
+-0.195667 0.536383 -0.0714128
+-0.24521 0.558699 -0.0973868
+-0.271077 0.545705 -0.128335
+-0.281671 0.540203 -0.154375
+-0.272946 0.544295 -0.165563
+-0.248235 0.556416 -0.157624
+-0.216975 0.571938 -0.13359
+-0.191109 0.584931 -0.102643
+-0.180514 0.590433 -0.0766015
+-0.189239 0.586342 -0.0654142
+-0.213951 0.574221 -0.0733533
+-0.263487 0.603555 -0.0952709
+-0.287218 0.589465 -0.127427
+-0.29629 0.58355 -0.153947
+-0.287239 0.588069 -0.164702
+-0.263522 0.601297 -0.155585
+-0.234197 0.61818 -0.130076
+-0.210466 0.63227 -0.0979202
+-0.201393 0.638186 -0.0713995
+-0.210444 0.633666 -0.0606441
+-0.234162 0.620439 -0.069762
+-0.281113 0.651682 -0.0898931
+-0.304964 0.639143 -0.122598
+-0.313919 0.634085 -0.149335
+-0.304558 0.638438 -0.159891
+-0.280455 0.65054 -0.150235
+-0.250819 0.665769 -0.124054
+-0.226968 0.678308 -0.0913491
+-0.218013 0.683366 -0.0646122
+-0.227374 0.679013 -0.0540559
+-0.251477 0.66691 -0.0637124
+-0.296013 0.695921 -0.0848696
+-0.319969 0.685034 -0.118086
+-0.328853 0.680987 -0.145018
+-0.31927 0.685326 -0.15538
+-0.294881 0.696392 -0.145213
+-0.265003 0.709961 -0.118402
+-0.241047 0.720848 -0.085186
+-0.232164 0.724895 -0.0582538
+-0.241746 0.720556 -0.0478916
+-0.266135 0.709489 -0.0580578
+-0.308632 0.736323 -0.0796301
+-0.332677 0.727197 -0.113309
+-0.341536 0.724356 -0.140404
+-0.331826 0.728885 -0.150563
+-0.307255 0.739054 -0.139909
+-0.27721 0.750979 -0.112509
+-0.253165 0.760104 -0.0788302
+-0.244306 0.762946 -0.0517364
+-0.254016 0.758416 -0.0415759
+-0.278586 0.748248 -0.0522306
+-0.319405 0.772933 -0.0736284
+-0.343523 0.765687 -0.10771
+-0.352413 0.764288 -0.134906
+-0.34268 0.769269 -0.14483
+-0.318042 0.778729 -0.13369
+-0.287909 0.789053 -0.105742
+-0.263791 0.796298 -0.0716603
+-0.254901 0.797697 -0.0444636
+-0.264634 0.792716 -0.0345399
+-0.289272 0.783257 -0.0456803
+-0.328755 0.805806 -0.066354
+-0.352934 0.800567 -0.100758
+-0.361924 0.800881 -0.127956
+-0.352292 0.806627 -0.137559
+-0.327716 0.815611 -0.125899
+-0.297584 0.824402 -0.0974302
+-0.273406 0.829641 -0.0630264
+-0.264415 0.829327 -0.0358284
+-0.274048 0.823581 -0.0262256
+-0.298623 0.814597 -0.0378852
+-0.337085 0.835052 -0.0573342
+-0.361322 0.831941 -0.0919547
+-0.370506 0.834247 -0.118992
+-0.361128 0.841088 -0.128118
+-0.336771 0.849852 -0.115847
+-0.306739 0.857191 -0.0868661
+-0.282502 0.860302 -0.0522456
+-0.273318 0.857996 -0.0252092
+-0.282696 0.851155 -0.0160832
+-0.307052 0.842391 -0.0283539
+-0.344794 0.860893 -0.0461133
+-0.369096 0.860006 -0.0808167
+-0.378592 0.864534 -0.107462
+-0.369657 0.872747 -0.115871
+-0.345701 0.881508 -0.102832
+-0.315877 0.887472 -0.0733261
+-0.291575 0.88836 -0.0386226
+-0.282079 0.883832 -0.0119774
+-0.291014 0.875619 -0.00356817
+-0.31497 0.866857 -0.0166075
+-0.352329 0.883715 -0.032181
+-0.376705 0.885089 -0.066817
+-0.386638 0.891939 -0.0927987
+-0.378335 0.901648 -0.100202
+-0.354967 0.910508 -0.0861993
+-0.32546 0.915135 -0.0561392
+-0.301085 0.913761 -0.0215037
+-0.291152 0.906911 0.00447845
+-0.299455 0.897202 0.0118818
+-0.322822 0.888342 -0.00212097
+-0.360236 0.904008 -0.0148861
+-0.384678 0.907603 -0.0493152
+-0.395126 0.916692 -0.0743928
+-0.387589 0.927803 -0.0805395
+-0.364947 0.936691 -0.0654078
+-0.335847 0.939962 -0.0347769
+-0.311406 0.936366 -0.000348091
+-0.300958 0.927278 0.0247295
+-0.308495 0.916167 0.0308759
+-0.331137 0.907279 0.0157442
+-0.369156 0.922204 0.00657129
+-0.393622 0.927916 -0.0275531
+-0.40457 0.939008 -0.0515897
+-0.397817 0.951242 -0.0563579
+-0.375943 0.959947 -0.040036
+-0.347303 0.961796 -0.00885892
+-0.322837 0.956084 0.0252652
+-0.311889 0.944992 0.0493019
+-0.318642 0.932758 0.0540702
+-0.340516 0.924054 0.0377486
+-0.379737 0.938546 0.0330276
+-0.404152 0.94624 -0.000741959
+-0.415489 0.959039 -0.0237262
+-0.409416 0.972056 -0.0271461
+-0.388253 0.980319 -0.00969601
+-0.360085 0.98067 0.0219598
+-0.335669 0.972976 0.0557289
+-0.324332 0.960177 0.0787137
+-0.330405 0.94716 0.0821335
+-0.351568 0.938898 0.0646834
+-0.394208 0.954178 0.0667357
+-0.418162 0.963518 0.033051
+-0.42889 0.977223 0.010298
+-0.422296 0.990058 0.00716734
+-0.400898 0.997121 0.0248551
+-0.372869 0.995713 0.0566053
+-0.348915 0.986373 0.0902901
+-0.338186 0.972669 0.113044
+-0.34478 0.959833 0.116174
+-0.366179 0.95277 0.0984855
+
+Normals
+-0.857382 -0.265734 -0.440773
+-0.731197 -0.454579 -0.508634
+-0.287859 -0.782726 -0.551795
+0.909076 -0.411757 0.0635358
+0.935391 0.061957 0.348145
+0.857382 0.265734 0.440773
+0.731197 0.454579 0.508634
+0.28786 0.782725 0.551795
+-0.909076 0.411757 -0.063536
+-0.935391 -0.061957 -0.348145
+-0.777699 -0.0674501 -0.625008
+-0.66033 -0.256954 -0.705647
+-0.252252 -0.629376 -0.73502
+0.833444 -0.535222 0.137508
+0.851369 -0.125845 0.509249
+0.777699 0.06745 0.625008
+0.66033 0.256954 0.705647
+0.252253 0.629376 0.73502
+-0.833444 0.535222 -0.137508
+-0.851369 0.125845 -0.509249
+-0.665825 0.14963 -0.73095
+-0.559708 -0.0389277 -0.827775
+-0.19883 -0.456414 -0.867268
+0.730688 -0.665311 0.153154
+0.734531 -0.329781 0.593051
+0.665825 -0.14963 0.73095
+0.559708 0.0389277 0.827775
+0.19883 0.456413 0.867268
+-0.730688 0.665311 -0.153155
+-0.734531 0.32978 -0.593051
+-0.573404 0.333103 -0.748499
+-0.47967 0.148985 -0.864708
+-0.164093 -0.299157 -0.939988
+0.6364 -0.76419 0.104929
+0.634918 -0.498506 0.590229
+0.573404 -0.333103 0.748499
+0.47967 -0.148985 0.864708
+0.164093 0.299157 0.939989
+-0.6364 0.764189 -0.104929
+-0.634918 0.498506 -0.590229
+-0.53368 0.46567 -0.70593
+-0.452549 0.290254 -0.84318
+-0.171311 -0.168817 -0.970646
+0.573723 -0.818915 0.0148398
+0.584823 -0.614922 0.529011
+0.53368 -0.46567 0.70593
+0.452549 -0.290254 0.84318
+0.171312 0.168817 0.970646
+-0.573723 0.818915 -0.0148402
+-0.584823 0.614922 -0.529011
+-0.55212 0.550172 -0.626478
+-0.483485 0.387672 -0.784826
+-0.223777 -0.0633153 -0.972582
+0.546997 -0.831377 -0.0980165
+0.58973 -0.681759 0.432924
+0.55212 -0.550172 0.626478
+0.483485 -0.387672 0.784826
+0.223778 0.0633146 0.972582
+-0.546997 0.831377 0.0980162
+-0.58973 0.681759 -0.432925
+-0.620445 0.58778 -0.519194
+-0.564042 0.442059 -0.697453
+-0.31452 0.0171983 -0.949095
+0.551635 -0.80336 -0.224302
+0.641984 -0.700473 0.31176
+0.620445 -0.58778 0.519194
+0.564042 -0.442059 0.697453
+0.31452 -0.017199 0.949095
+-0.551635 0.80336 0.224301
+-0.641984 0.700473 -0.31176
+-0.721446 0.573546 -0.388022
+-0.676922 0.447936 -0.584063
+-0.429791 0.0672298 -0.900422
+0.57736 -0.733454 -0.358748
+0.72543 -0.666927 0.170175
+0.721446 -0.573546 0.388022
+0.676922 -0.447936 0.584063
+0.429792 -0.0672304 0.900422
+-0.57736 0.733454 0.358748
+-0.72543 0.666927 -0.170175
+-0.829159 0.503866 -0.242103
+-0.796249 0.400895 -0.453068
+-0.549515 0.0815061 -0.831499
+0.608003 -0.621902 -0.493529
+0.815477 -0.578525 0.0175317
+0.829159 -0.503866 0.242103
+0.796249 -0.400895 0.453068
+0.549515 -0.0815066 0.831498
+-0.608003 0.621902 0.493528
+-0.815477 0.578525 -0.0175318
+-0.916458 0.387583 -0.0994218
+-0.895077 0.308579 -0.321894
+-0.652987 0.0633144 -0.754718
+0.626399 -0.477759 -0.615931
+0.886339 -0.444808 -0.128639
+0.916458 -0.387583 0.0994217
+0.895077 -0.308579 0.321894
+0.652988 -0.0633148 0.754717
+-0.626399 0.477759 0.615931
+-0.886339 0.444808 0.128639
+-0.968912 0.246504 0.0211101
+-0.958957 0.191377 -0.209226
+-0.728844 0.0254217 -0.684207
+0.623768 -0.318702 -0.713682
+0.92442 -0.287779 -0.250261
+0.968912 -0.246504 -0.0211101
+0.958957 -0.191377 0.209226
+0.728845 -0.025422 0.684206
+-0.623768 0.318702 0.713682
+-0.92442 0.287779 0.250261
+-0.988583 0.103078 0.109902
+-0.989658 0.0705448 -0.124903
+-0.777811 -0.018215 -0.628235
+0.602263 -0.162114 -0.781664
+0.931956 -0.129819 -0.338532
+0.988583 -0.103078 -0.109902
+0.989658 -0.0705447 0.124903
+0.777811 0.0182149 0.628234
+-0.602264 0.162114 0.781663
+-0.931956 0.129819 0.338532
+-0.985907 -0.0127919 0.166803
+-0.997254 -0.0251625 -0.069653
+-0.806963 -0.0476571 -0.588676
+0.569376 -0.0297997 -0.821537
+0.919159 -0.000297639 -0.393885
+0.985907 0.0127919 -0.166803
+0.997254 0.0251625 0.0696529
+0.806964 0.0476571 0.588675
+-0.569376 0.0297997 0.821537
+-0.919159 0.00029763 0.393885
+-0.980388 -0.170219 0.0993218
+-0.975085 -0.173965 -0.137639
+-0.751989 -0.144761 -0.643084
+0.616646 0.092867 -0.781744
+0.9306 0.156908 -0.330703
+0.980388 0.170219 -0.0993218
+0.975085 0.173965 0.137639
+0.751989 0.144761 0.643084
+-0.616647 -0.092867 0.781743
+-0.9306 -0.156908 0.330703
+-0.932081 -0.361576 0.0220882
+-0.909933 -0.355377 -0.213843
+-0.662895 -0.264429 -0.700463
+0.638304 0.240337 -0.731305
+0.901852 0.347458 -0.256779
+0.932081 0.361576 -0.0220882
+0.909933 0.355377 0.213843
+0.662895 0.264429 0.700462
+-0.638304 -0.240337 0.731304
+-0.901852 -0.347458 0.256779
+-0.835231 -0.546962 -0.0567578
+-0.796412 -0.530665 -0.290038
+-0.536297 -0.378957 -0.754173
+0.629699 0.384611 -0.674946
+0.827116 0.532525 -0.179713
+0.835231 0.546962 0.0567578
+0.796412 0.530665 0.290038
+0.536297 0.378957 0.754173
+-0.6297 -0.384612 0.674946
+-0.827116 -0.532525 0.179713
+-0.719691 -0.682408 -0.127925
+-0.663871 -0.657177 -0.356922
+-0.39405 -0.457901 -0.796901
+0.610651 0.494752 -0.618324
+0.73507 0.669292 -0.108262
+0.719691 0.682408 0.127925
+0.663871 0.657177 0.356922
+0.394051 0.457901 0.796901
+-0.610651 -0.494752 0.618324
+-0.735069 -0.669292 0.108262
+-0.627455 -0.754609 -0.192004
+-0.553576 -0.722096 -0.414887
+-0.266843 -0.492314 -0.828506
+0.609097 0.561134 -0.560473
+0.666076 0.744719 -0.0416691
+0.627455 0.754609 0.192004
+0.553576 0.722096 0.414887
+0.266844 0.492314 0.828505
+-0.609097 -0.561134 0.560473
+-0.666076 -0.744719 0.0416691
+-0.580442 -0.772196 -0.258459
+-0.487362 -0.733941 -0.473085
+-0.171594 -0.488626 -0.855453
+0.638717 0.589375 -0.494649
+0.640907 0.767059 0.0293079
+0.580442 0.772196 0.258459
+0.487362 0.733941 0.473085
+0.171594 0.488626 0.855453
+-0.638717 -0.589375 0.494648
+-0.640906 -0.767059 -0.029308
+-0.579574 -0.741759 -0.337473
+-0.466674 -0.699258 -0.541529
+-0.110617 -0.451862 -0.885203
+0.698484 0.58365 -0.414093
+0.659907 0.742579 0.114452
+0.579574 0.741759 0.337473
+0.466674 0.699258 0.541529
+0.110618 0.451862 0.885203
+-0.698484 -0.58365 0.414092
+-0.659907 -0.742579 -0.114452
+-0.612954 -0.660738 -0.433257
+-0.480448 -0.615688 -0.624578
+-0.077123 -0.380627 -0.921507
+0.778581 0.541781 -0.316679
+0.711018 0.668661 0.217589
+0.612954 0.660738 0.433257
+0.480448 0.615688 0.624578
+0.0771236 0.380627 0.921507
+-0.778581 -0.541781 0.316678
+-0.711018 -0.668661 -0.217589
+-0.658503 -0.525822 -0.538409
+-0.507609 -0.480113 -0.715419
+-0.0568684 -0.272917 -0.960355
+0.862425 0.461146 -0.20873
+0.772396 0.541985 0.331145
+0.658503 0.525822 0.538409
+0.507609 0.480113 0.715419
+0.0568691 0.272917 0.960355
+-0.862425 -0.461146 0.208729
+-0.772396 -0.541985 -0.331145
+-0.689743 -0.349416 -0.634163
+-0.522663 -0.304656 -0.796246
+-0.0321003 -0.137591 -0.989969
+0.930807 0.350205 -0.104666
+0.818067 0.374542 0.436444
+0.689743 0.349416 0.634163
+0.522663 0.304656 0.796246
+0.0321011 0.137591 0.989969
+-0.930807 -0.350205 0.104666
+-0.818067 -0.374542 -0.436444
+-0.691301 -0.163712 -0.703777
+-0.510759 -0.120633 -0.851218
+0.0076333 0.00279327 -0.999967
+0.972715 0.231342 -0.0174798
+0.832999 0.197593 0.516788
+0.691301 0.163712 0.703777
+0.510759 0.120633 0.851218
+-0.00763248 -0.00279307 0.999967
+-0.972715 -0.231342 0.0174795
+-0.832999 -0.197593 -0.516788
+-0.667654 0.00735944 -0.744435
+-0.476219 0.0487021 -0.877977
+0.0593033 0.131543 -0.989535
+0.991374 0.12127 0.0497141
+0.821575 0.0343969 0.569062
+0.667654 -0.00735943 0.744435
+0.476219 -0.0487021 0.877977
+-0.0593025 -0.131543 0.989535
+-0.991374 -0.12127 -0.0497145
+-0.821575 -0.034397 -0.569062
+-0.630554 0.204466 -0.748729
+-0.430159 0.236026 -0.871352
+0.115627 0.256215 -0.959679
+0.995904 -0.0292241 0.0855646
+0.795518 -0.161415 0.584034
+0.630554 -0.204466 0.748729
+0.430159 -0.236026 0.871352
+-0.115627 -0.256215 0.959679
+-0.995904 0.0292242 -0.0855649
+-0.795518 0.161415 -0.584034
+-0.561456 0.41019 -0.718687
+-0.353313 0.431334 -0.830133
+0.193339 0.385707 -0.902137
+0.97715 -0.186929 0.101167
+0.738051 -0.365997 0.566857
+0.561456 -0.41019 0.718687
+0.353313 -0.431334 0.830133
+-0.193338 -0.385707 0.902137
+-0.97715 0.18693 -0.101168
+-0.738051 0.365997 -0.566857
+-0.470107 0.58133 -0.664119
+-0.25538 0.592663 -0.763893
+0.284941 0.489944 -0.823871
+0.941227 -0.321607 0.103254
+0.65842 -0.537332 0.527028
+0.470107 -0.58133 0.664119
+0.25538 -0.592663 0.763893
+-0.284941 -0.489944 0.823871
+-0.941226 0.321607 -0.103254
+-0.65842 0.537332 -0.527028
+-0.378262 0.693042 -0.613686
+-0.157737 0.695915 -0.700586
+0.374539 0.551731 -0.745193
+0.902605 -0.415772 0.111525
+0.577533 -0.651226 0.492301
+0.378262 -0.693042 0.613686
+0.157737 -0.695915 0.700586
+-0.374539 -0.551731 0.745193
+-0.902605 0.415772 -0.111525
+-0.577533 0.651226 -0.492301
+-0.300343 0.747193 -0.592872
+-0.074622 0.742974 -0.665148
+0.451394 0.572581 -0.684393
+0.870682 -0.470517 0.143268
+0.509187 -0.709426 0.487281
+0.300343 -0.747193 0.592872
+0.0746221 -0.742974 0.665148
+-0.451394 -0.572581 0.684393
+-0.870682 0.470517 -0.143269
+-0.509187 0.709426 -0.487281
+-0.237557 0.753451 -0.613089
+-0.00739428 0.743323 -0.668892
+0.5141 0.559507 -0.650117
+0.845738 -0.492328 0.205768
+0.454372 -0.721242 0.522836
+0.237557 -0.753451 0.613089
+0.00739432 -0.743323 0.668892
+-0.5141 -0.559507 0.650118
+-0.845738 0.492328 -0.205769
+-0.454372 0.721242 -0.522836
+-0.183583 0.71622 -0.673295
+0.0499607 0.70134 -0.711074
+0.566675 0.51588 -0.642454
+0.822963 -0.48398 0.297482
+0.406811 -0.690854 0.597683
+0.183583 -0.71622 0.673295
+-0.0499606 -0.70134 0.711074
+-0.566674 -0.515881 0.642454
+-0.822963 0.48398 -0.297482
+-0.406811 0.690854 -0.597683
+-0.130556 0.635619 -0.760883
+0.105024 0.617243 -0.779731
+0.614418 0.442094 -0.653485
+0.796679 -0.445247 0.408727
+0.358801 -0.618279 0.69928
+0.130556 -0.635619 0.760883
+-0.105024 -0.617243 0.779732
+-0.614418 -0.442094 0.653486
+-0.796679 0.445247 -0.408727
+-0.358801 0.618279 -0.69928
+-0.0735267 0.516949 -0.852853
+0.162617 0.496279 -0.852797
+0.660814 0.342139 -0.668032
+0.763458 -0.379536 0.522574
+0.305538 -0.508571 0.804985
+0.0735267 -0.516949 0.852853
+-0.162617 -0.496279 0.852797
+-0.660813 -0.342139 0.668032
+-0.763458 0.379536 -0.522574
+-0.305538 0.508571 -0.804986
+-0.012896 0.378284 -0.9256
+0.222421 0.356099 -0.907592
+0.705805 0.228886 -0.670411
+0.723806 -0.29921 0.621754
+0.247488 -0.379214 0.891598
+0.0128961 -0.378284 0.9256
+-0.222421 -0.356099 0.907592
+-0.705805 -0.228886 0.670411
+-0.723806 0.29921 -0.621754
+-0.247488 0.379214 -0.891598
+0.0474149 0.244014 -0.968612
+0.280752 0.220471 -0.934115
+0.747036 0.119557 -0.653945
+0.680839 -0.221093 0.698267
+0.188586 -0.253845 0.948682
+-0.0474149 -0.244014 0.968612
+-0.280752 -0.220471 0.934115
+-0.747035 -0.119558 0.653945
+-0.680838 0.221093 -0.698267
+-0.188586 0.253845 -0.948682
+0.104171 0.132686 -0.985669
+0.334623 0.107469 -0.936204
+0.782725 0.0272402 -0.621771
+0.637293 -0.157993 0.754252
+0.132133 -0.150447 0.979748
+-0.104171 -0.132686 0.985669
+-0.334623 -0.107469 0.936204
+-0.782724 -0.0272404 0.621772
+-0.637293 0.157993 -0.754252
+-0.132133 0.150447 -0.979748
+0.146339 0.00746509 -0.989206
+0.374737 -0.00557631 -0.927114
+0.809513 -0.0338273 -0.586127
+0.605211 -0.0442483 0.794834
+0.0902795 -0.0200869 0.995714
+-0.146339 -0.00746509 0.989206
+-0.374737 0.00557629 0.927115
+-0.809512 0.0338272 0.586127
+-0.605211 0.0442483 -0.794834
+-0.0902795 0.0200869 -0.995714
+0.197533 -0.126229 -0.972135
+0.422524 -0.126351 -0.897502
+0.839258 -0.0992681 -0.534595
+0.563487 0.0769521 0.822533
+0.0385555 0.119015 0.992144
+-0.197533 0.126229 0.972135
+-0.422524 0.126351 0.897502
+-0.839258 0.0992682 0.534595
+-0.563487 -0.0769521 -0.822533
+-0.0385554 -0.119015 -0.992144
+0.255991 -0.243424 -0.935528
+0.476144 -0.230675 -0.848573
+0.870341 -0.151931 -0.468426
+0.512961 0.187896 0.837595
+-0.0214547 0.242495 0.969915
+-0.255991 0.243424 0.935528
+-0.476144 0.230675 0.848573
+-0.870341 0.151931 0.468427
+-0.512961 -0.187896 -0.837595
+0.0214547 -0.242495 -0.969915
+0.319563 -0.317199 -0.892897
+0.53342 -0.292509 -0.793664
+0.900992 -0.173405 -0.397672
+0.454864 0.269412 0.848832
+-0.087751 0.324065 0.941956
+-0.319563 0.317199 0.892897
+-0.533419 0.292509 0.793664
+-0.900992 0.173406 0.397673
+-0.454864 -0.269412 -0.848832
+0.087751 -0.324065 -0.941956
+0.386536 -0.331085 -0.860798
+0.592652 -0.296 -0.749098
+0.929915 -0.152659 -0.334594
+0.390291 0.309543 0.867096
+-0.158702 0.347566 0.924128
+-0.386536 0.331085 0.860798
+-0.592652 0.296 0.749098
+-0.929915 0.152659 0.334595
+-0.390291 -0.309543 -0.867097
+0.158702 -0.347566 -0.924127
+0.453264 -0.282427 -0.84545
+0.650331 -0.238736 -0.721162
+0.954664 -0.0883546 -0.284271
+0.321887 0.305918 0.895993
+-0.230729 0.310248 0.922231
+-0.453264 0.282427 0.84545
+-0.650331 0.238736 0.721162
+-0.954664 0.0883549 0.284272
+-0.321887 -0.305918 -0.895993
+0.230729 -0.310248 -0.922231
+0.511984 -0.181791 -0.839538
+0.699014 -0.131161 -0.702977
+0.970131 0.0116019 -0.242303
+0.255381 0.265383 0.929706
+-0.296187 0.222205 0.928923
+-0.511984 0.181791 0.839538
+-0.699014 0.131161 0.702977
+-0.970131 -0.0116017 0.242304
+-0.25538 -0.265383 -0.929706
+0.296187 -0.222205 -0.928923
+0.554283 -0.0525407 -0.830668
+0.730686 0.00385364 -0.682703
+0.970944 0.130404 -0.200657
+0.197145 0.20375 0.958968
+-0.346735 0.105982 0.931957
+-0.554283 0.0525407 0.830668
+-0.730686 -0.00385365 0.682703
+-0.970944 -0.130404 0.200658
+-0.197145 -0.20375 -0.958968
+0.346735 -0.105982 -0.931956
+0.577894 0.0775626 -0.812418
+0.743358 0.139188 -0.654252
+0.956162 0.248251 -0.155326
+0.149403 0.139969 0.978819
+-0.379958 -0.0115796 0.924931
+-0.577894 -0.0775626 0.812418
+-0.743358 -0.139188 0.654252
+-0.956162 -0.248251 0.155327
+-0.149402 -0.139969 -0.978819
+0.379958 0.0115797 -0.924931
+0.587741 0.189483 -0.786547
+0.742052 0.256233 -0.619438
+0.929943 0.35153 -0.107851
+0.109439 0.0870064 0.990178
+-0.400406 -0.112085 0.909457
+-0.587741 -0.189483 0.786547
+-0.742052 -0.256233 0.619439
+-0.929943 -0.35153 0.107851
+-0.109438 -0.0870063 -0.990178
+0.400406 0.112085 -0.909457
+0.590898 0.277078 -0.757672
+0.733882 0.348952 -0.582794
+0.897959 0.435748 -0.0615912
+0.0730488 0.0489389 0.996127
+-0.414711 -0.189635 0.889974
+-0.590898 -0.277078 0.757672
+-0.733882 -0.348952 0.582794
+-0.897959 -0.435748 0.061592
+-0.0730485 -0.0489387 -0.996127
+0.414711 0.189635 -0.889974
+0.612976 0.306079 -0.728406
+0.743969 0.384006 -0.546854
+0.878774 0.476885 -0.0183582
+0.0230441 0.0495896 0.998504
+-0.447539 -0.210954 0.869026
+-0.612976 -0.306079 0.728406
+-0.743969 -0.384006 0.546855
+-0.878774 -0.476885 0.0183591
+-0.0230438 -0.0495894 -0.998504
+0.447539 0.210954 -0.869026
+0.634006 0.294825 -0.714923
+0.765614 0.364112 -0.530338
+0.897122 0.44178 0.00143277
+0.0120344 0.0301968 0.999472
+-0.466772 -0.208972 0.859334
+-0.634006 -0.294825 0.714923
+-0.765614 -0.364112 0.530338
+-0.897122 -0.44178 -0.00143188
+-0.0120341 -0.0301966 -0.999472
+0.466772 0.208972 -0.859334
+0.648997 0.293826 -0.701761
+0.781153 0.353887 -0.514357
+0.910535 0.412932 0.020321
+0.00451936 0.00274458 0.999986
+-0.480373 -0.217253 0.849731
+-0.648997 -0.293826 0.701761
+-0.781153 -0.353887 0.514358
+-0.910535 -0.412932 -0.0203202
+-0.00451902 -0.00274441 -0.999986
+0.480373 0.217253 -0.849731
+0.657609 0.306717 -0.688095
+0.790238 0.356906 -0.498139
+0.918722 0.392995 0.0387937
+0.000684288 -0.0351887 0.99938
+-0.488028 -0.239294 0.839385
+-0.657609 -0.306717 0.688095
+-0.790238 -0.356906 0.498139
+-0.918722 -0.392996 -0.0387929
+-0.000683945 0.0351889 -0.99938
+0.488028 0.239294 -0.839385
+0.659173 0.337357 -0.672072
+0.792205 0.376961 -0.479909
+0.921173 0.384798 0.0580622
+0.000952748 -0.0861599 0.996281
+-0.489101 -0.278797 0.82647
+-0.659173 -0.337357 0.672072
+-0.792205 -0.376961 0.479909
+-0.921173 -0.384798 -0.0580613
+-0.000952405 0.0861601 -0.996281
+0.489101 0.278797 -0.82647
+0.652355 0.389166 -0.650371
+0.785748 0.417425 -0.456461
+0.916927 0.390877 0.0803752
+0.00622463 -0.152406 0.988298
+-0.482306 -0.339039 0.807734
+-0.652355 -0.389166 0.650371
+-0.785748 -0.417425 0.456461
+-0.916927 -0.390877 -0.0803743
+-0.00622425 0.152406 -0.988298
+0.482306 0.339039 -0.807733
+0.635091 0.463327 -0.618051
+0.768853 0.479504 -0.423015
+0.904525 0.412222 0.109124
+0.0179244 -0.234591 0.971929
+-0.465642 -0.421116 0.778356
+-0.635091 -0.463327 0.618051
+-0.768853 -0.479504 0.423015
+-0.904525 -0.412222 -0.109124
+-0.017924 0.234591 -0.971929
+0.465642 0.421116 -0.778356
+0.605185 0.556249 -0.569507
+0.739386 0.559761 -0.374134
+0.882431 0.446494 0.148182
+0.0375816 -0.330038 0.943219
+-0.436977 -0.521481 0.732877
+-0.605185 -0.556249 0.569507
+-0.739386 -0.559761 0.374134
+-0.882431 -0.446495 -0.148181
+-0.0375813 0.330038 -0.943219
+0.436977 0.521481 -0.732877
+0.562324 0.657564 -0.501399
+0.697048 0.648176 -0.30658
+0.85044 0.486631 0.199856
+0.065426 -0.431338 0.899815
+-0.396002 -0.630001 0.668043
+-0.562324 -0.657564 0.501399
+-0.697048 -0.648176 0.30658
+-0.85044 -0.486631 -0.199856
+-0.0654258 0.431338 -0.899815
+0.396002 0.630001 -0.668043
+0.510409 0.752455 -0.416286
+0.645637 0.730406 -0.222843
+0.811299 0.522459 0.262355
+0.0987611 -0.527978 0.843496
+-0.3465 -0.732221 0.586337
+-0.510409 -0.752455 0.416286
+-0.645637 -0.730406 0.222843
+-0.811299 -0.522459 -0.262354
+-0.0987607 0.527979 -0.843496
+0.3465 0.732221 -0.586337
+0.457341 0.82859 -0.322921
+0.592846 0.79452 -0.131425
+0.770563 0.545536 0.32958
+0.13211 -0.611187 0.780383
+-0.296136 -0.8161 0.496271
+-0.457341 -0.82859 0.322921
+-0.592846 -0.79452 0.131425
+-0.770563 -0.545536 -0.329579
+-0.13211 0.611187 -0.780383
+0.296137 0.8161 -0.496271
+0.411289 0.881582 -0.231633
+0.54663 0.836302 -0.042357
+0.733985 0.552952 0.394348
+0.159822 -0.677749 0.717714
+-0.252836 -0.877324 0.407893
+-0.411289 -0.881582 0.231633
+-0.54663 -0.836302 0.042357
+-0.733985 -0.552953 -0.394348
+-0.159822 0.677749 -0.717714
+0.252836 0.877324 -0.407893
+0.446603 0.86925 -0.212016
+0.579271 0.814803 -0.0232636
+0.753519 0.515404 0.408126
+0.130059 -0.698081 0.704108
+-0.288838 -0.87485 0.388856
+-0.446603 -0.86925 0.212016
+-0.579271 -0.814803 0.0232636
+-0.753519 -0.515405 -0.408126
+-0.130058 0.698081 -0.704108
+0.288838 0.87485 -0.388856
+
+Colors
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+0.25 0.75 0.75
+Texture
+  Ambient 0 Diffuse 0.66 Specular 0 Opacity 1
+  Outline 0.76 Outline_Width 0.94   Phong Plastic 0.96 Phong_size 177.828 Color 0 0 1 TexFunc 0
+
+
+TriStrip 22
+10 0 11 1 12 2 13 3 14 4 15 5 16 6 17 7 18 8 19 9 10 0 
+TriStrip 22
+20 10 21 11 22 12 23 13 24 14 25 15 26 16 27 17 28 18 29 19 20 10 
+TriStrip 22
+30 20 31 21 32 22 33 23 34 24 35 25 36 26 37 27 38 28 39 29 30 20 
+TriStrip 22
+40 30 41 31 42 32 43 33 44 34 45 35 46 36 47 37 48 38 49 39 40 30 
+TriStrip 22
+50 40 51 41 52 42 53 43 54 44 55 45 56 46 57 47 58 48 59 49 50 40 
+TriStrip 22
+60 50 61 51 62 52 63 53 64 54 65 55 66 56 67 57 68 58 69 59 60 50 
+TriStrip 22
+70 60 71 61 72 62 73 63 74 64 75 65 76 66 77 67 78 68 79 69 70 60 
+TriStrip 22
+80 70 81 71 82 72 83 73 84 74 85 75 86 76 87 77 88 78 89 79 80 70 
+TriStrip 22
+90 80 91 81 92 82 93 83 94 84 95 85 96 86 97 87 98 88 99 89 90 80 
+TriStrip 22
+100 90 101 91 102 92 103 93 104 94 105 95 106 96 107 97 108 98 109 99 100 90 
+TriStrip 22
+110 100 111 101 112 102 113 103 114 104 115 105 116 106 117 107 118 108 119 109 110 100 
+TriStrip 22
+120 110 121 111 122 112 123 113 124 114 125 115 126 116 127 117 128 118 129 119 120 110 
+TriStrip 22
+130 120 131 121 132 122 133 123 134 124 135 125 136 126 137 127 138 128 139 129 130 120 
+TriStrip 22
+140 130 141 131 142 132 143 133 144 134 145 135 146 136 147 137 148 138 149 139 140 130 
+TriStrip 22
+150 140 151 141 152 142 153 143 154 144 155 145 156 146 157 147 158 148 159 149 150 140 
+TriStrip 22
+160 150 161 151 162 152 163 153 164 154 165 155 166 156 167 157 168 158 169 159 160 150 
+TriStrip 22
+170 160 171 161 172 162 173 163 174 164 175 165 176 166 177 167 178 168 179 169 170 160 
+TriStrip 22
+180 170 181 171 182 172 183 173 184 174 185 175 186 176 187 177 188 178 189 179 180 170 
+TriStrip 22
+190 180 191 181 192 182 193 183 194 184 195 185 196 186 197 187 198 188 199 189 190 180 
+TriStrip 22
+200 190 201 191 202 192 203 193 204 194 205 195 206 196 207 197 208 198 209 199 200 190 
+TriStrip 22
+210 200 211 201 212 202 213 203 214 204 215 205 216 206 217 207 218 208 219 209 210 200 
+TriStrip 22
+220 210 221 211 222 212 223 213 224 214 225 215 226 216 227 217 228 218 229 219 220 210 
+TriStrip 22
+230 220 231 221 232 222 233 223 234 224 235 225 236 226 237 227 238 228 239 229 230 220 
+TriStrip 22
+240 230 241 231 242 232 243 233 244 234 245 235 246 236 247 237 248 238 249 239 240 230 
+TriStrip 22
+250 240 251 241 252 242 253 243 254 244 255 245 256 246 257 247 258 248 259 249 250 240 
+TriStrip 22
+260 250 261 251 262 252 263 253 264 254 265 255 266 256 267 257 268 258 269 259 260 250 
+TriStrip 22
+270 260 271 261 272 262 273 263 274 264 275 265 276 266 277 267 278 268 279 269 270 260 
+TriStrip 22
+280 270 281 271 282 272 283 273 284 274 285 275 286 276 287 277 288 278 289 279 280 270 
+TriStrip 22
+290 280 291 281 292 282 293 283 294 284 295 285 296 286 297 287 298 288 299 289 290 280 
+TriStrip 22
+300 290 301 291 302 292 303 293 304 294 305 295 306 296 307 297 308 298 309 299 300 290 
+TriStrip 22
+310 300 311 301 312 302 313 303 314 304 315 305 316 306 317 307 318 308 319 309 310 300 
+TriStrip 22
+320 310 321 311 322 312 323 313 324 314 325 315 326 316 327 317 328 318 329 319 320 310 
+TriStrip 22
+330 320 331 321 332 322 333 323 334 324 335 325 336 326 337 327 338 328 339 329 330 320 
+TriStrip 22
+340 330 341 331 342 332 343 333 344 334 345 335 346 336 347 337 348 338 349 339 340 330 
+TriStrip 22
+350 340 351 341 352 342 353 343 354 344 355 345 356 346 357 347 358 348 359 349 350 340 
+TriStrip 22
+360 350 361 351 362 352 363 353 364 354 365 355 366 356 367 357 368 358 369 359 360 350 
+TriStrip 22
+370 360 371 361 372 362 373 363 374 364 375 365 376 366 377 367 378 368 379 369 370 360 
+TriStrip 22
+380 370 381 371 382 372 383 373 384 374 385 375 386 376 387 377 388 378 389 379 380 370 
+TriStrip 22
+390 380 391 381 392 382 393 383 394 384 395 385 396 386 397 387 398 388 399 389 390 380 
+TriStrip 22
+400 390 401 391 402 392 403 393 404 394 405 395 406 396 407 397 408 398 409 399 400 390 
+TriStrip 22
+410 400 411 401 412 402 413 403 414 404 415 405 416 406 417 407 418 408 419 409 410 400 
+TriStrip 22
+420 410 421 411 422 412 423 413 424 414 425 415 426 416 427 417 428 418 429 419 420 410 
+TriStrip 22
+430 420 431 421 432 422 433 423 434 424 435 425 436 426 437 427 438 428 439 429 430 420 
+TriStrip 22
+440 430 441 431 442 432 443 433 444 434 445 435 446 436 447 437 448 438 449 439 440 430 
+TriStrip 22
+450 440 451 441 452 442 453 443 454 444 455 445 456 446 457 447 458 448 459 449 450 440 
+TriStrip 22
+460 450 461 451 462 452 463 453 464 454 465 455 466 456 467 457 468 458 469 459 460 450 
+TriStrip 22
+470 460 471 461 472 462 473 463 474 464 475 465 476 466 477 467 478 468 479 469 470 460 
+TriStrip 22
+480 470 481 471 482 472 483 473 484 474 485 475 486 476 487 477 488 478 489 479 480 470 
+TriStrip 22
+490 480 491 481 492 482 493 483 494 484 495 485 496 486 497 487 498 488 499 489 490 480 
+TriStrip 22
+500 490 501 491 502 492 503 493 504 494 505 495 506 496 507 497 508 498 509 499 500 490 
+TriStrip 22
+510 500 511 501 512 502 513 503 514 504 515 505 516 506 517 507 518 508 519 509 510 500 
+TriStrip 22
+520 510 521 511 522 512 523 513 524 514 525 515 526 516 527 517 528 518 529 519 520 510 
+TriStrip 22
+530 520 531 521 532 522 533 523 534 524 535 525 536 526 537 527 538 528 539 529 530 520 
+TriStrip 22
+540 530 541 531 542 532 543 533 544 534 545 535 546 536 547 537 548 538 549 539 540 530 
+TriStrip 22
+550 540 551 541 552 542 553 543 554 544 555 545 556 546 557 547 558 548 559 549 550 540 
+TriStrip 22
+560 550 561 551 562 552 563 553 564 554 565 555 566 556 567 557 568 558 569 559 560 550 
+TriStrip 22
+570 560 571 561 572 562 573 563 574 564 575 565 576 566 577 567 578 568 579 569 570 560 
+TriStrip 22
+580 570 581 571 582 572 583 573 584 574 585 575 586 576 587 577 588 578 589 579 580 570 
+TriStrip 22
+590 580 591 581 592 582 593 583 594 584 595 585 596 586 597 587 598 588 599 589 590 580 
+TriStrip 22
+600 590 601 591 602 592 603 593 604 594 605 595 606 596 607 597 608 598 609 599 600 590 
+End_VertexArray
+# MoleculeID: 0 ReprID: 2 Beginning PaperChain Rings
+VertexArray  Numverts 14
+
+Coords
+0.154569 0.790995 -0.292727
+0.175922 0.87055 -0.287556
+0.172835 0.841982 -0.125341
+0.291048 0.765834 -0.217449
+0.306069 0.824356 -0.374483
+0.156853 0.820922 -0.456178
+0.038631 0.889775 -0.361436
+0.0260397 0.841768 -0.205961
+0.172835 0.841982 -0.125341
+0.291048 0.765834 -0.217449
+0.306069 0.824356 -0.374483
+0.156853 0.820922 -0.456178
+0.038631 0.889775 -0.361436
+0.0260397 0.841768 -0.205961
+
+Normals
+0.258724 0.963917 0.0626492
+0.258724 0.963917 0.0626492
+0.334034 0.89088 -0.307821
+-0.0188651 0.937462 0.347576
+-0.119488 0.976894 0.177203
+0.586431 0.795261 0.153814
+0.514844 0.806478 0.290739
+0.165512 0.938231 -0.303856
+0.614561 0.774829 0.148171
+0.509211 0.789379 0.342907
+0.139233 0.945593 -0.294055
+0.288864 0.909077 -0.300229
+-0.0239242 0.955753 0.293197
+-0.0952809 0.980669 0.170908
+
+Colors
+0.303182 1 0
+0.303182 1 0
+0.303182 1 0
+0.303182 1 0
+0.303182 1 0
+0.303182 1 0
+0.303182 1 0
+0.303182 1 0
+0.303182 1 0
+0.303182 1 0
+0.303182 1 0
+0.303182 1 0
+0.303182 1 0
+0.303182 1 0
+Texture
+  Ambient 0.08 Diffuse 0.39 Specular 0 Opacity 1
+  Phong Plastic 0.34 Phong_size 2.81838 Color 0 0 1 TexFunc 0
+
+
+TriMesh 12
+2 3 0
+3 4 0
+4 5 0
+5 6 0
+6 7 0
+7 2 0
+8 9 1
+9 10 1
+10 11 1
+11 12 1
+12 13 1
+13 8 1
+
+End_VertexArray
+VertexArray  Numverts 14
+
+Coords
+-0.419185 0.238384 0.349799
+-0.446388 0.305065 0.390113
+-0.516115 0.344959 0.24302
+-0.57191 0.202805 0.324958
+-0.51764 0.202496 0.484045
+-0.350824 0.20378 0.503012
+-0.290423 0.320817 0.405586
+-0.349806 0.355489 0.259113
+-0.516115 0.344959 0.24302
+-0.57191 0.202805 0.324958
+-0.51764 0.202496 0.484045
+-0.350824 0.20378 0.503012
+-0.290423 0.320817 0.405586
+-0.349806 0.355489 0.259113
+
+Normals
+-0.32961 0.807932 0.48847
+-0.32961 0.807932 0.48847
+-0.258079 0.556497 0.789751
+-0.238934 0.967448 0.0833983
+-0.0341522 0.971477 0.234664
+-0.611421 0.668283 0.423748
+-0.611053 0.678175 0.408281
+-0.113855 0.649572 0.751727
+-0.69071 0.545026 0.475254
+-0.684302 0.690366 0.234788
+-0.0855127 0.704548 0.704486
+-0.140027 0.675157 0.724262
+-0.123624 0.953238 0.275778
+-0.0891451 0.949804 0.299876
+
+Colors
+0.363816 1 0
+0.363816 1 0
+0.363816 1 0
+0.363816 1 0
+0.363816 1 0
+0.363816 1 0
+0.363816 1 0
+0.363816 1 0
+0.363816 1 0
+0.363816 1 0
+0.363816 1 0
+0.363816 1 0
+0.363816 1 0
+0.363816 1 0
+Texture
+  Ambient 0.08 Diffuse 0.39 Specular 0 Opacity 1
+  Phong Plastic 0.34 Phong_size 2.81838 Color 0 0 1 TexFunc 0
+
+
+TriMesh 12
+2 3 0
+3 4 0
+4 5 0
+5 6 0
+6 7 0
+7 2 0
+8 9 1
+9 10 1
+10 11 1
+11 12 1
+12 13 1
+13 8 1
+
+End_VertexArray
+VertexArray  Numverts 14
+
+Coords
+0.132877 0.0202674 -0.644914
+0.163915 0.0964038 -0.652093
+0.256062 0.0479582 -0.530483
+0.289816 -0.0208617 -0.676276
+0.199451 0.0438534 -0.805777
+0.0394102 0.0648149 -0.760497
+0.01594 0.146484 -0.618293
+0.089695 0.0677628 -0.499698
+0.256062 0.0479582 -0.530483
+0.289816 -0.0208617 -0.676276
+0.199451 0.0438534 -0.805777
+0.0394102 0.0648149 -0.760497
+0.01594 0.146484 -0.618293
+0.089695 0.0677628 -0.499698
+
+Normals
+0.376065 0.922501 -0.0869895
+0.376065 0.922501 -0.0869895
+0.159432 0.906481 -0.390991
+0.292639 0.921262 0.2562
+0.187112 0.957868 0.217893
+0.673631 0.683431 -0.281323
+0.733088 0.680119 -0.0044458
+0.0590738 0.95385 -0.294414
+0.647567 0.735974 -0.197481
+0.668197 0.737544 -0.0976845
+0.0347283 0.94807 -0.31616
+0.186289 0.864944 -0.466013
+0.370466 0.863319 0.342689
+0.161076 0.952753 0.257518
+
+Colors
+0.20506 1 0
+0.20506 1 0
+0.20506 1 0
+0.20506 1 0
+0.20506 1 0
+0.20506 1 0
+0.20506 1 0
+0.20506 1 0
+0.20506 1 0
+0.20506 1 0
+0.20506 1 0
+0.20506 1 0
+0.20506 1 0
+0.20506 1 0
+Texture
+  Ambient 0.08 Diffuse 0.39 Specular 0 Opacity 1
+  Phong Plastic 0.34 Phong_size 2.81838 Color 0 0 1 TexFunc 0
+
+
+TriMesh 12
+2 3 0
+3 4 0
+4 5 0
+5 6 0
+6 7 0
+7 2 0
+8 9 1
+9 10 1
+10 11 1
+11 12 1
+12 13 1
+13 8 1
+
+End_VertexArray
+VertexArray  Numverts 14
+
+Coords
+0.189305 -0.339326 0.32021
+0.164437 -0.266287 0.349512
+0.00953972 -0.333659 0.33192
+0.126817 -0.396948 0.446803
+0.25933 -0.296181 0.480338
+0.338577 -0.281215 0.334045
+0.233702 -0.212976 0.224211
+0.0932623 -0.29586 0.191847
+0.00953972 -0.333659 0.33192
+0.126817 -0.396948 0.446803
+0.25933 -0.296181 0.480338
+0.338577 -0.281215 0.334045
+0.233702 -0.212976 0.224211
+0.0932623 -0.29586 0.191847
+
+Normals
+-0.301314 0.884963 0.355035
+-0.301314 0.884963 0.355035
+0.0567583 0.897816 0.436698
+-0.613286 0.787881 0.0559025
+-0.353335 0.930536 -0.0962119
+-0.314676 0.641859 0.699282
+-0.506545 0.627361 0.591465
+0.0488816 0.956574 0.28736
+-0.350127 0.622178 0.700218
+-0.586774 0.585462 0.559402
+0.0979436 0.983259 0.153649
+0.115535 0.889399 0.442291
+-0.519582 0.85113 0.0749123
+-0.399647 0.91663 0.0084838
+
+Colors
+0 1 0.433311
+0 1 0.433311
+0 1 0.433311
+0 1 0.433311
+0 1 0.433311
+0 1 0.433311
+0 1 0.433311
+0 1 0.433311
+0 1 0.433311
+0 1 0.433311
+0 1 0.433311
+0 1 0.433311
+0 1 0.433311
+0 1 0.433311
+Texture
+  Ambient 0.08 Diffuse 0.39 Specular 0 Opacity 1
+  Phong Plastic 0.34 Phong_size 2.81838 Color 0 0 1 TexFunc 0
+
+
+TriMesh 12
+2 3 0
+3 4 0
+4 5 0
+5 6 0
+6 7 0
+7 2 0
+8 9 1
+9 10 1
+10 11 1
+11 12 1
+12 13 1
+13 8 1
+
+End_VertexArray
+End_Scene 

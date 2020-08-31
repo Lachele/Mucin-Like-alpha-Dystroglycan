@@ -1,0 +1,7 @@
+trajin ../5/prod.nc
+trajin ../5/prod2.nc
+strip :WAT
+trajout ../5/prod_all_raw.nc netcdf
+trajout ../5/prod_all_raw.crd trajectory nobox
+go
+

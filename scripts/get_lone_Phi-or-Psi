@@ -1,0 +1,22 @@
+to get the lone columns of phi and psi:
+
+cat 1_sort_Phi | cut -c -16 > 1_Phi
+cat 2_sort_Phi | cut -c -16 > 2_Phi
+cat 3_sort_Phi | cut -c -16 > 3_Phi
+cat 4_sort_Phi | cut -c -16 > 4_Phi
+cat 1_sort_Psi | cut -c 16- > 1_Psi
+cat 2_sort_Psi | cut -c 16- > 2_Psi
+cat 3_sort_Psi | cut -c 16- > 3_Psi
+cat 4_sort_Psi | cut -c 16- > 4_Psi
+
+
+Then, ran the SDM program on them and changed names.  
+
+Really should make a script..
+
+Also, to get line numbers for binning Phi:
+
+sed = 1_Phi | sed 'N;s/\n/\t/' > 1_Phi_num
+(etc)
+
+

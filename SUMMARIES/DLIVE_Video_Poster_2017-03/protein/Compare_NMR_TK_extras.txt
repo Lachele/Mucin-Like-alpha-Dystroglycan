@@ -1,0 +1,2 @@
+>Main< (ANALYSIS) 6 % display resize 1280 550
+>Main< (ANALYSIS) 7 % scale to 0.293

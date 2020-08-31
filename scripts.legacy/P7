@@ -1,0 +1,8 @@
+set size 0.5,0.5
+set origin 0.5,0
+set style data dot
+set xla "Phi"
+set yla "Psi"
+set xra [-200:200]
+set yra [-200:200]
+plot "Phi-Psi_All_t00.dat" using 8:9 ti "THR 7"

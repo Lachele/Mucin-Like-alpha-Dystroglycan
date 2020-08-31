@@ -1,0 +1,4 @@
+axes location off
+(GalNAc) 1 % display resize 1280 920
+>Main< (GalNAc) 2 % display resetview
+>Main< (GalNAc) 3 % scale to 0.175

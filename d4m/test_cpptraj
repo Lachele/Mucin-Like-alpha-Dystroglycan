@@ -1,0 +1,4 @@
+trajin 1/prods.nc
+distance N-N :4@N :8@N out N-N_distance.dat
+hbond hbonds out HBONDS.dat avgout HBONDS-Avg.dat
+go

@@ -1,0 +1,1 @@
+../../scripts/Special/view_all.bash

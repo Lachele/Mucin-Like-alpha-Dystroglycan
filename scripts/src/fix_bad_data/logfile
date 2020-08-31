@@ -1,0 +1,65 @@
+Starting trajcrd cleanup for these values:
+	input.parm7 = "Single.parm7"
+	input.crd = "prod_all_raw.crd"
+	output.crd = "good.crd"
+	logfile = "bad.crd" (this file)
+
+The following information describes any trajectory deletions.
+
+       #   Set #    Res1   Res#1   Atom1    Res2   Res#2   Atom2   Distance (A)
+
+       1    2681     OLT       4     OG1     OLT       4      CB          54.30
+       2    2682     ACE       1    HH31     ACE       1     CH3           0.00
+       3    2696     OLT       7     OG1     OLT       7      CB          48.16
+       4    2697     ACE       1    HH31     ACE       1     CH3           0.00
+       5    2698     ACE       1    HH31     ACE       1     CH3           0.00
+       6    2920     0VA      15      C1     0VA      15      O5          51.31
+       7    2921     ACE       1    HH31     ACE       1     CH3           0.00
+       8    4041     ACE       1    HH31     ACE       1     CH3           3.44
+       9    4042     ACE       1    HH31     ACE       1     CH3           0.00
+      10    4803     OLT       4      CA     OLT       4       N           5.89
+      11    4804     ACE       1    HH31     ACE       1     CH3           0.00
+      12    5506     OLT       7     OG1     OLT       7      CB          39.47
+      13    5507     ACE       1    HH31     ACE       1     CH3           0.00
+      14    6761     OLT       6     OG1     OLT       6      CB          56.27
+      15    6762     ACE       1    HH31     ACE       1     CH3           0.00
+      16    6763     ACE       1    HH31     ACE       1     CH3           0.00
+      17    6805     OLT       7     OG1     OLT       7      CB          52.39
+      18    6806     ACE       1    HH31     ACE       1     CH3           0.00
+      19    6883     OLT       5     OG1     OLT       5      CB          65.94
+      20    6884     ACE       1    HH31     ACE       1     CH3           0.00
+      21    6885     ACE       1    HH31     ACE       1     CH3           0.00
+      22    6886     ACE       1    HH31     ACE       1     CH3           0.00
+      23    6995     PRO       2       N     PRO       2      CA          74.71
+      24    6996     ACE       1    HH31     ACE       1     CH3           0.00
+      25    7044     OLT       4     OG1     OLT       4      CB          68.17
+      26    7045     ACE       1    HH31     ACE       1     CH3           0.00
+      27    7294     OLT       4     OG1     OLT       4      CB          36.51
+      28    7295     ACE       1    HH31     ACE       1     CH3           0.00
+      29    7758     OLT       4     OG1     OLT       4      CB          48.46
+      30    7759     ACE       1    HH31     ACE       1     CH3           0.00
+      31    7761     PRO       3       N     PRO       3      CA          46.59
+      32    7762     ACE       1    HH31     ACE       1     CH3           0.00
+      33    7914     PRO       2       N     PRO       2      CA          48.67
+      34    7915     ACE       1    HH31     ACE       1     CH3           0.00
+      35    8157     OLT       6     OG1     OLT       6      CB          53.46
+      36    8158     ACE       1    HH31     ACE       1     CH3           0.00
+      37    8159     ACE       1    HH31     ACE       1     CH3           0.00
+      38    8358     OLT       5     OG1     OLT       5      CB          78.28
+      39    8359     ACE       1    HH31     ACE       1     CH3           0.00
+      40    8994     0VA      15      C1     0VA      15      O5          56.74
+      41    8995     ACE       1    HH31     ACE       1     CH3           0.00
+      42    9000     OLT       4     OG1     OLT       4      CB          57.76
+      43    9001     ACE       1    HH31     ACE       1     CH3           0.00
+      44    9011     0VA      15      C2     0VA      15      C1          58.27
+      45    9012     ACE       1    HH31     ACE       1     CH3           0.00
+      46    9013     ACE       1    HH31     ACE       1     CH3           0.00
+      47    9015     OLT       7     OG1     OLT       7      CB          55.79
+      48    9016     ACE       1    HH31     ACE       1     CH3           0.00
+      49    9017     ACE       1    HH31     ACE       1     CH3           0.00
+
+
+======================= End of trajectory check =====================
+
+Number of trajectory frames scanned:  10000
+	Number of frames dropped:  49

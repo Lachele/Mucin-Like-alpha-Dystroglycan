@@ -1,0 +1,43 @@
+key to run numbers and initial pdb files
+Run 1 : ../original_pdb/fn01_tleap.pdb
+Run 2 : ../original_pdb/fn02_tleap.pdb
+Run 3 : ../original_pdb/fn03_tleap.pdb
+Run 4 : ../original_pdb/fn04_tleap.pdb
+Run 5 : ../original_pdb/fn05_tleap.pdb
+Run 6 : ../original_pdb/fn06_tleap.pdb
+Run 7 : ../original_pdb/fn07_tleap.pdb
+Run 8 : ../original_pdb/fn08_tleap.pdb
+Run 9 : ../original_pdb/fn09_tleap.pdb
+Run 10 : ../original_pdb/fn10_tleap.pdb
+Run 11 : ../original_pdb/fn11_tleap.pdb
+Run 12 : ../original_pdb/fn13_tleap.pdb
+Run 13 : ../original_pdb/fn14_tleap.pdb
+Run 14 : ../original_pdb/fn15_tleap.pdb
+Run 15 : ../original_pdb/fn16_tleap.pdb
+Run 16 : ../original_pdb/fn17_tleap.pdb
+Run 17 : ../original_pdb/fn19_tleap.pdb
+Run 18 : ../original_pdb/fn21_tleap.pdb
+Run 19 : ../original_pdb/fn22_tleap.pdb
+Run 20 : ../original_pdb/fn23_tleap.pdb
+Run 21 : ../original_pdb/fn24_tleap.pdb
+Run 22 : ../original_pdb/fn25_tleap.pdb
+Run 23 : ../original_pdb/fn26_tleap.pdb
+Run 24 : ../original_pdb/fn27_tleap.pdb
+Run 25 : ../original_pdb/fn28_tleap.pdb
+Run 26 : ../original_pdb/fn29_tleap.pdb
+Run 27 : ../original_pdb/fn30_tleap.pdb
+Run 28 : ../original_pdb/fn31_tleap.pdb
+Run 29 : ../original_pdb/fn32_tleap.pdb
+Run 30 : ../original_pdb/fn33_tleap.pdb
+Run 31 : ../original_pdb/fn35_tleap.pdb
+Run 32 : ../original_pdb/fn36_tleap.pdb
+
+Thee rums are performed on single CPU's on Swift nodes.
+... BTW, since I saved too many coords during production on runs
+	1-32, I did that on these, too -- just so that the 
+	analysis procedure is the same for all.
+
+Run 33 : ../original_pdb/fn12_tleap.pdb
+Run 34 : ../original_pdb/fn18_tleap.pdb
+Run 35 : ../original_pdb/fn20_tleap.pdb
+Run 36 : ../original_pdb/fn34_tleap.pdb

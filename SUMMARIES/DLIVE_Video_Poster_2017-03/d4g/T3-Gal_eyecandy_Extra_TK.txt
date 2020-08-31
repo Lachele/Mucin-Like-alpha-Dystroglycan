@@ -1,0 +1,3 @@
+>Main< (d4g) 4 % display resize 1000 1000
+>Main< (d4g) 14 % scale to 0.23
+

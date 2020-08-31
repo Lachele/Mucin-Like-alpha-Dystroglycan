@@ -1,0 +1,8 @@
+## This is the per-site avg stdev across everything for everything....  
+##  See "RMSD_Plot_calcs.ods" and RMSD_SB_sAllSUMMARY_x.txt where x=12,13,14,15
+##
+# Site	Avg	Stdev
+1	4.36	0.41 
+2 	3.80	0.80 
+3	3.71	0.28 
+4	4.05	0.39 

@@ -1,0 +1,17 @@
+lachele@rime:~/RESEARCH/DLIVE/scripts$ diff make_cpptraj_files.bash make_cpptraj_files_d4m.bash
+10a11,18
+> ## Fix the number of atoms in the prod.nc file
+> 	echo "trajin ../${i}/prod.nc  [traj${i}] " > all_cpptraj_${i}p.in 
+> 	echo "" >> all_cpptraj_${i}p.in 
+> 	echo "strip :WAT " >> all_cpptraj_${i}p.in
+> 	echo "trajout ../${i}/prods.nc netcdf " >> all_cpptraj_${i}p.in
+> 	echo "go" >>all_cpptraj_${i}p.in
+> 
+> 
+12c20
+< 	echo "trajin ../${i}/prod.nc  [traj${i}] " > all_cpptraj_${i}.in 
+---
+> 	echo "trajin ../${i}/prods.nc  [traj${i}] " > all_cpptraj_${i}.in 
+60a69
+> 	${AMBERHOME}/bin/cpptraj -i all_cpptraj_${i}p.in -p ../input/plus8water.parm7
+

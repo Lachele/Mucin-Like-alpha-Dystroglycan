@@ -1,0 +1,35 @@
+reference solvated.rst7
+trajin min.rst7
+trajin heat.rst7
+trajin equil.rst7
+
+center
+
+rms backbone first out ptraj_initial.dat :4-7
+rms first out ptraj_initial.dat :12-15&!@H= 
+
+dihedral Phi_3-4 :3@C :4@N :4@CA :4@C out ptraj_initial.dat 
+dihedral Psi_4-5 :4@N :4@CA :4@C :5@N out ptraj_initial.dat 
+
+dihedral Phi_4-5 :4@C :5@N :5@CA :5@C out ptraj_initial.dat 
+dihedral Psi_5-6 :5@N :5@CA :5@C :6@N out ptraj_initial.dat 
+
+dihedral Phi_5-6 :5@C :6@N :6@CA :6@C out ptraj_initial.dat 
+dihedral Psi_6-7 :6@N :6@CA :6@C :7@N out ptraj_initial.dat 
+
+dihedral Phi_6-7 :6@C :7@N :7@CA :7@C out ptraj_initial.dat 
+dihedral Psi_7-8 :7@N :7@CA :7@C :8@N out ptraj_initial.dat 
+
+dihedral PhiS_4 :12@O5 :12@C1 :4@OG1 :4@CB out ptraj_initial.dat 
+dihedral PsiS_4 :12@C1 :4@OG1 :4@CB :4@CA out ptraj_initial.dat 
+
+dihedral PhiS_5 :13@O5 :13@C1 :5@OG1 :5@CB out ptraj_initial.dat 
+dihedral PsiS_5 :13@C1 :5@OG1 :5@CB :5@CA out ptraj_initial.dat 
+
+dihedral PhiS_6 :14@O5 :14@C1 :6@OG1 :6@CB out ptraj_initial.dat 
+dihedral PsiS_6 :14@C1 :6@OG1 :6@CB :6@CA out ptraj_initial.dat 
+
+dihedral PhiS_7 :15@O5 :15@C1 :7@OG1 :7@CB out ptraj_initial.dat 
+dihedral PsiS_7 :15@C1 :7@OG1 :7@CB :7@CA out ptraj_initial.dat 
+
+go

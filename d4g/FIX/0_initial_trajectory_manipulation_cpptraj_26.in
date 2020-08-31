@@ -1,0 +1,7 @@
+trajin ../26/prod.nc
+trajin ../26/prod2.nc
+trajin ../26/prod3.nc
+trajout ../26/prod_all_raw.nc netcdf
+trajout ../26/prod_all_raw.crd trajectory nobox
+go
+

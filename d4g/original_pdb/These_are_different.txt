@@ -1,0 +1,3 @@
+Based on output from "view_all.bash", these changed pdb files appear not to be like the originals.
+
+None.

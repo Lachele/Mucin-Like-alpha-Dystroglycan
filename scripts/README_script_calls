@@ -1,0 +1,58 @@
+Updated 2013-04-05
+20121227 This file explains how to call the analysis scripts
+
+ATM, these scripts assume at most 4 restarts
+
+1.  From the DLIVE directory:
+
+	bash refresh_run_data.bash
+		# requires runset/REFRESH_SETUP
+	This copies over the latest prod*.nc and prod*.info files.
+
+2.  From each runset/FIX directory:
+
+	bash make_cpptraj_files_to_fix_trajectories.bash  
+		# requires runset/cpptraj_setup.bash
+		# Also runs cpptraj
+		# calls src/fix_bad_data/fix_coords
+	This script removes (most, possibly all) bad data sets.  The data are bad due
+		to an array failure.  Some values were printed incorrectly.  The
+		program fix_coords removes any frames with inappropriate bond lengths.
+	The script  also concatenates together any restart files.
+	The output is a trajectory, not NetCDF.  Those can be converted if need 
+		be later by following the directions in the comments.
+
+3.  From each runset/ANALYSIS directory:
+
+	bash make_cpptraj_files_for_analysis.bash  # must go first
+		# requires runset/cpptraj_setup.bash
+		# Also runs cpptraj and ptraj
+	bash do_Karplus.bash
+		# calls J-Couplings.pl
+	bash do_2D_J-coupling.bash
+		# calls src/extract_data/make_phi-psi_files
+		# calls src/2D_JCOUPLING/InterpolateJ
+		# requires src/2D_JCOUPLING/grid_x_y_J_12_14
+	bash do_SDM.bash  
+		# requires runset/REFRESH_SETUP  
+	bash get_timings_sizes.bash  # do this last
+		# requires runset/REFRESH_SETUP
+	
+
+4.  These might also be of interest:
+
+	From the input directory:
+		bash view_molecules.sh
+	From the DLIVE directory
+		bash view_trajectories.bash
+		bash gather_timings.bash
+
+5.  These contain information about making plots
+	examples
+	multi.plot multiS.plot
+	P4 P5 P6 P7
+	PhiPsi_Hist4.plot PhiPsi_Map4.plot
+	S4 S5 S6 S7
+
+6.  This contains the source for any compiled programs
+	src

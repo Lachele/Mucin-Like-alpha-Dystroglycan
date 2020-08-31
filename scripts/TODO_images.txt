@@ -1,0 +1,15 @@
+RMSD:  Binned distribution of RMSD for all sims to each initial structure (easy)
+
+H-Bond of interest:  ~20-25%
+
+ 405       0    OLT_6@OG1       0VA_14@H2N      0VA_14@N2        84954     0.267          12.342
+ 423       0    OLT_7@OG1       0VA_15@H2N      0VA_15@N2        79326     0.250          12.390
+ 393       0    OLT_5@OG1       0VA_13@H2N      0VA_13@N2        74663     0.235          12.326
+ 378       0    OLT_4@OG1       0VA_12@H2N      0VA_12@N2        62071     0.195          12.418
+
+  (maybe not) Compare total % of GalpNAc to GalpNAc between Man & GalpNAc
+
+Phi-Psi:  Confirm 3D histogram
+
+
+

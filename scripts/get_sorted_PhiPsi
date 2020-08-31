@@ -1,0 +1,9 @@
+Here's how I got the sorted phi and psi files. 
+
+cd blah/blah/2D_J-Coupling
+
+for i in 1 2 3 4 ; do
+	cat ${i}_* > temp
+	sort -n -k1 < temp > ${i}_sort_Phi
+	sort -n -k2 < temp > ${i}_sort_Psi
+done

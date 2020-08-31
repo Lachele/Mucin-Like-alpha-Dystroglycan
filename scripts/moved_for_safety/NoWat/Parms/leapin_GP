@@ -1,0 +1,20 @@
+source parms/leaprc.ff12SB
+source parms/leaprc.GLYCAM_06h-12SB
+
+m = loadpdb d4g57_close_noh_tleap.pdb
+
+bond m.12.C1 m.4.OG1
+bond m.13.C1 m.5.OG1
+bond m.14.C1 m.6.OG1
+bond m.15.C1 m.7.OG1
+
+set default PBRadii bondi
+saveamberparm m bondi.parm7 bondi.rst7
+set default PBRadii mbondi
+saveamberparm m mbondi.parm7 mbondi.rst7
+set default PBRadii mbondi2
+saveamberparm m mbondi2.parm7 mbondi2.rst7
+set default PBRadii mbondi3
+saveamberparm m mbondi3.parm7 mbondi3.rst7
+
+quit
