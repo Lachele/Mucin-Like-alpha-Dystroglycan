@@ -1,0 +1,27 @@
+Begun 20120727 BLFoley
+
+These are runs for David Live.  They begin with experimental structures.
+
+directory d4m contains pdbs from /e05/lachele/Win7Mount/DLIVE_PHI-PSI_Angles/d4m_new
+
+	There are 36 total structures.  I will use 32 of them.
+
+directory d4g contains pdbs from /e05/lachele/Win7Mount/DLIVE_PHI-PSI_Angles/d4g
+
+	There are 16 structures.  I will do each twice.
+
+
+
+These jobs were moved to CPU's on Rime for the last few steps:
+
+	d4g  3 10 19 25 26
+	
+	d4m  4
+
+These jobs were moved to CPU's on Swift for the last few steps:
+
+	d4g  16 32
+
+The following had accidentally been restarted for too many steps, and was left unfinished:
+
+	d4g 13

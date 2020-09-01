@@ -1,0 +1,33 @@
+grep "Total wall time:" */prod.o
+
+
+
+
+5/prod.o:|  Total wall time:     5512491    seconds  1531.25 hours
+6/prod.o:|  Total wall time:     7024104    seconds  1951.14 hours
+7/prod.o:|  Total wall time:     6755023    seconds  1876.40 hours
+8/prod.o:|  Total wall time:     7432237    seconds  2064.51 hours
+
+
+11/prod.o:|  Total wall time:     7406448    seconds  2057.35 hours
+12/prod.o:|  Total wall time:     5474751    seconds  1520.76 hours
+
+14/prod.o:|  Total wall time:     6440479    seconds  1789.02 hours
+15/prod.o:|  Total wall time:     6164853    seconds  1712.46 hours
+
+
+
+
+20/prod.o:|  Total wall time:     7659820    seconds  2127.73 hours
+21/prod.o:|  Total wall time:     5638285    seconds  1566.19 hours
+22/prod.o:|  Total wall time:     6784056    seconds  1884.46 hours
+23/prod.o:|  Total wall time:     6676953    seconds  1854.71 hours
+24/prod.o:|  Total wall time:     7635079    seconds  2120.86 hours
+
+
+27/prod.o:|  Total wall time:     7211611    seconds  2003.23 hours
+28/prod.o:|  Total wall time:     5465763    seconds  1518.27 hours
+29/prod.o:|  Total wall time:     5916018    seconds  1643.34 hours
+30/prod.o:|  Total wall time:     6423034    seconds  1784.18 hours
+31/prod.o:|  Total wall time:     6453428    seconds  1792.62 hours
+

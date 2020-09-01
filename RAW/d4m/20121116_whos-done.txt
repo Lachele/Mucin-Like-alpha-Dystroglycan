@@ -1,0 +1,33 @@
+grep "Total wall time:" */prod.o
+1/prod.o:|  Total wall time:     5595144    seconds  1554.21 hours
+2/prod.o:|  Total wall time:     4976763    seconds  1382.43 hours
+3/prod.o:|  Total wall time:     6168812    seconds  1713.56 hours
+4:  | Estimated time remaining:     321.6 hours.  
+5/prod.o:|  Total wall time:     5419586    seconds  1505.44 hours
+6/prod.o:|  Total wall time:     4980393    seconds  1383.44 hours
+7/prod.o:|  Total wall time:     5106650    seconds  1418.51 hours
+8/prod.o:|  Total wall time:     4536439    seconds  1260.12 hours
+9:  | Estimated time remaining:      20.8 hours.  
+10/prod.o:|  Total wall time:     5971772    seconds  1658.83 hours
+11/prod.o:|  Total wall time:     5180408    seconds  1439.00 hours
+12/prod.o:|  Total wall time:     3232988    seconds   898.05 hours
+13/prod.o:|  Total wall time:     6149460    seconds  1708.18 hours
+14/prod.o:|  Total wall time:     4745828    seconds  1318.29 hours
+15/prod.o:|  Total wall time:     5882235    seconds  1633.95 hours
+16/prod.o:|  Total wall time:     4588056    seconds  1274.46 hours
+17:  | Estimated time remaining:      34.3 hours.  
+18/prod.o:|  Total wall time:     4387778    seconds  1218.83 hours
+19/prod.o:|  Total wall time:     6170629    seconds  1714.06 hours
+20/prod.o:|  Total wall time:     5653590    seconds  1570.44 hours
+21/prod.o:|  Total wall time:     3705192    seconds  1029.22 hours
+22/prod.o:|  Total wall time:     5826616    seconds  1618.50 hours
+23/prod.o:|  Total wall time:     5489384    seconds  1524.83 hours
+24/prod.o:|  Total wall time:     6252441    seconds  1736.79 hours
+25/prod.o:|  Total wall time:     5689906    seconds  1580.53 hours
+26/prod.o:|  Total wall time:     3843176    seconds  1067.55 hours
+27/prod.o:|  Total wall time:     7209826    seconds  2002.73 hours
+28/prod.o:|  Total wall time:     5937332    seconds  1649.26 hours
+29/prod.o:|  Total wall time:     3711600    seconds  1031.00 hours
+30/prod.o:|  Total wall time:     6779276    seconds  1883.13 hours
+31/prod.o:|  Total wall time:     5286103    seconds  1468.36 hours
+32/prod.o:|  Total wall time:     4471417    seconds  1242.06 hours 

@@ -1,0 +1,5 @@
+I made a mistake and used the same input file for protein as for d4m.  This 
+means I have saved too many atoms from protein.  This is why there is an extra 
+ptraj script for taking out the extra atoms.
+
+20121227 BLF

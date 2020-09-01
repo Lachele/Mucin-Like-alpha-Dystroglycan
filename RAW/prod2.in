@@ -1,0 +1,22 @@
+Dynamic Simulation with Constant Pressure
+
+ # Control section
+ &cntrl
+  ntwx = 5000, ntpr = 1000, ntave = 5000,
+  ntwprt = 259,
+  ntt = 3, temp0 = 300.0, tempi = 300.0, 
+  tautp = 1.0, gamma_ln=5.0,
+  dielc = 1, cut = 8.0, ig=103,
+  ntb = 2, ntc = 2, ntf = 2, 
+  nstlim = 50000000, dt = 0.0020, 
+  ntp = 1, taup = 2.0, comp = 44.6, pres0 = 1.0, 
+  imin = 0, irest = 1, ntx = 5, iwrap=1, ioutfm=1, 
+ /
+ &ewald
+  skinnb = 2.0,
+  nbflag = 1,
+ / 
+ &wt
+  type='END'
+ /
+END

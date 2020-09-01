@@ -1,0 +1,7 @@
+trajin 32/prods.nc
+# Get N-N distance info 
+distance N-N :4@N :8@N out DIST/Distances_N-N_t32.dat 
+# Get End-End distance info 
+distance LYS :1@CH3 :9@NZ out DIST/Distances_ACE-LYS_t32.dat 
+distance NHE :1@CH3 :11@N out DIST/Distances_ACE-NHE_t32.dat 
+go

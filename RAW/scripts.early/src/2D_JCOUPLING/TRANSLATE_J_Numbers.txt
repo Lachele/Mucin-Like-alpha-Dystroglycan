@@ -1,0 +1,23 @@
+This file helps translate between the J_#_# numbers in the grid_x_y filenames
+and the atom names you expect based on protein structure.
+
+I'm not listing them all.  See the figure in this directory for more.  
+
+The figure is from:
+
+http://pubs.rsc.org/en/content/articlehtml/2011/cp/c1cp20520j#fig1
+
+6	C
+10	O
+11	N
+12	HN
+13	CA
+14	HA
+15	CB
+16	C
+20	O
+21	N
+22	H
+
+So... 
+HN-HA is 12_14

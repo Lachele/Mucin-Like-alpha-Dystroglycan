@@ -1,0 +1,5 @@
+I made a mistake and used the same input file for d4m as for d4g.  This 
+means I have saved too many atoms from d4m.  This is why there is an extra 
+ptraj script for taking out the extra atoms.
+
+20120824 BLF

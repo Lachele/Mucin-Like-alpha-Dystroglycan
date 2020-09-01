@@ -1,0 +1,4 @@
+10/prod2.info: NSTEP =  4696000   TIME(PS) =   96934.000  TEMP(K) =   301.46  PRESS =   201.5
+16/prod2.info: NSTEP =  3258000   TIME(PS) =   93716.000  TEMP(K) =   298.62  PRESS =  -110.7
+26/prod2.info: NSTEP =  4666000   TIME(PS) =  100993.000  TEMP(K) =   305.24  PRESS =   -70.1
+32/prod2.info: NSTEP =  3301000   TIME(PS) =   89416.000  TEMP(K) =   303.10  PRESS =  -109.9
