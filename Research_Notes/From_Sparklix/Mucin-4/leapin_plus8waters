@@ -1,0 +1,33 @@
+##
+## The purpose of this leap input is to make a topology file for
+##	d4m that has 24 extra atoms (error in ntwprt keyword) so
+##	that I can have ptraj strip out the 24 extra atoms...
+##
+##	I had used ntwprt=259 for both, but d4m has only 235 atoms.
+##	Happily, the difference divides by three.
+##
+
+source parms/leaprc.ff12SB
+source parms/leaprc.GLYCAM_06h-12SB
+
+m = loadpdb ../original_pdb/fn01_tleap.pdb
+
+bond m.12.C1 m.4.OG1
+bond m.13.C1 m.5.OG1
+bond m.14.C1 m.6.OG1
+bond m.15.C1 m.7.OG1
+
+wat1 = sequence { WAT }
+wat2 = sequence { WAT }
+wat3 = sequence { WAT }
+wat4 = sequence { WAT }
+wat5 = sequence { WAT }
+wat6 = sequence { WAT }
+wat7 = sequence { WAT }
+wat8 = sequence { WAT }
+
+m = combine { m wat1 wat2 wat3 wat4 wat5 wat6 wat7 wat8 }
+
+saveamberparm m plus8water.parm7 plus8water.rst7
+
+quit
