@@ -1,0 +1,39 @@
+##
+## The purpose of this leap input is to make a topology file for
+##	protein that has 84 extra atoms (error in ntwprt keyword) so
+##	that I can have ptraj strip out the 84 extra atoms...
+##
+##	I had used ntwprt=235, but protein has only 151 atoms.
+##	Happily, the difference divides by three. (28 waters)
+##
+
+source parms/leaprc.ff12SB
+source parms/leaprc.GLYCAM_06h-12SB
+
+m = loadpdb fn1_tleap.pdb
+
+bond m.12.C1 m.4.OG1
+bond m.13.C1 m.5.OG1
+bond m.14.C1 m.6.OG1
+bond m.15.C1 m.7.OG1
+
+wat1 = sequence { WAT }
+wat2 = sequence { WAT }
+wat3 = sequence { WAT }
+wat4 = sequence { WAT }
+wat5 = sequence { WAT }
+wat6 = sequence { WAT }
+wat7 = sequence { WAT }
+
+m7wat = combine { wat1 wat2 wat3 wat4 wat5 wat6 wat7 }
+
+m7wat1 = copy m7wat
+m7wat2 = copy m7wat
+m7wat3 = copy m7wat
+m7wat4 = copy m7wat
+
+m = combine { m m7wat1 m7wat2 m7wat3 m7wat4 }
+
+saveamberparm m plus28water.parm7 plus28water.rst7
+
+quit
