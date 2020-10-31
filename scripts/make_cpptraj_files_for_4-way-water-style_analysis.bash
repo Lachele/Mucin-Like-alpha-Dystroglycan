@@ -15,9 +15,11 @@ j=1
 Headers="" # the trajin bits at the top of each file
 EQ_Headers="" # the trajin bits at the top of each file
 
-TESTWRITE="yes" # yes=only make files; no=do the runs
+#TESTWRITE="yes" # yes=only make files; no=do the runs
+TESTWRITE="no" # yes=only make files; no=do the runs
 
 echo "MAXRUNS is ${MAXRUNS}"
+
 
 # Make directories if they aren't there
 OUTDIR="4WAY_HOH"
@@ -29,9 +31,9 @@ if [ ! -d "RADIAL" ] ; then
 	echo "Can't find the RADIAL directory"
 	exit
 fi
-site=( "4", "5", "6", "7" )
-pRes=( "4", "5", "6", "7" )
-sRes=( "12", "13", "14", "15" )
+site=( "4" "5" "6" "7" )
+pRes=( "4" "5" "6" "7" )
+sRes=( "12" "13" "14" "15" )
 while [ "$i" -le "$MAXRUNS" ] ; do
 	## echo "checking for needed input files for run ${i}"
 	## echo "checking for ../${i}/"
@@ -52,20 +54,16 @@ while [ "$i" -le "$MAXRUNS" ] ; do
 	fi
 	EQTRAJECTORYIN="RADIAL/equil_all_${i}.mdcrd"
 	## echo "Found everything for ${i} and going forward."
-	j=1
-	while [ "$j" -le "4" ] ; do
+	j=0
+	while [ "$j" -lt "4" ] ; do
 		if [ -e  ${OUTDIR}/EQ_All_t${i}_site-${site[${j}]}.dat ] ; then
 			rm ${OUTDIR}/EQ_All_t${i}_site-${site[${j}]}.dat
 		fi
-		EQALL=${OUTDIR}/EQ_All_t${i}_site_${site[${j}]}.dat
 		EQ_Headers="trajin RADIAL/equil_all_${i}.mdcrd" 
 		EQINPUT=EQ_4Way-HOH_cpptraj_${i}_site_${site[${j}]}.in
-## site=( "4", "5", "6", "7" )
-## pRes=( "4", "5", "6", "7" )
-## sRes=( "12", "13", "14", "15" )
 		echo -e ${EQ_Headers} > ${EQINPUT}
 		echo "# Get H-O distance info " >> ${EQINPUT}
-		echo "distance H-O :${pRes[$j]}@H :${sRes[${j}]}@O out ${OUTDIR}/EQ_4Way-HOH-t${i}_site-${site[${j}]}.dat " >> ${EQINPUT}
+		echo "distance H-O :${pRes[$j]}@H :${pRes[${j}]}@O out ${OUTDIR}/EQ_4Way-HOH-t${i}_site-${site[${j}]}.dat " >> ${EQINPUT}
 		echo "# Get H-OG1 distance info " >> ${EQINPUT}
 		echo "distance H-OG1 :${pRes[$j]}@H :${pRes[${j}]}@OG1 out ${OUTDIR}/EQ_4Way-HOH-t${i}_site-${site[${j}]}.dat " >> ${EQINPUT}
 		echo "# Get H2N-O distance info " >> ${EQINPUT}
@@ -73,17 +71,15 @@ while [ "$i" -le "$MAXRUNS" ] ; do
 		echo "# Get H2N-OG1 distance info " >> ${EQINPUT}
 		echo "distance H2N-OG1 :${sRes[$j]}@H2N :${pRes[${j}]}@OG1 out ${OUTDIR}/EQ_4Way-HOH-t${i}_site-${site[${j}]}.dat " >> ${EQINPUT}
 		echo "go" >> ${EQINPUT}
-		echo "#     Num  H-O      Num  H-OG1      Num  H2N-O      Num  H2N-OG1 " > ${EQALL}
 	
 		if [ -e  ${OUTDIR}/All_t${i}_site-${j}.dat ] ; then
 			rm ${OUTDIR}/All_t${i}_site-${j}.dat
 		fi
-		ALL=${OUTDIR}/All_t${i}_site-${j}.dat
 		Headers="trajin ../${i}/prod_all_fixed.crd" 
-		INPUT=4Way-HOH_cpptraj_${i}_site_${j}.in
+		INPUT=4Way-HOH_cpptraj_${i}_site_${site[${j}]}.in
 		echo -e ${Headers} > ${INPUT}
 		echo "# Get H-O distance info " >> ${INPUT}
-		echo "distance H-O :${pRes[$j]}@H :${sRes[${j}]}@O out ${OUTDIR}/4Way-HOH-t${i}_site-${site[${j}]}.dat " >> ${INPUT}
+		echo "distance H-O :${pRes[$j]}@H :${pRes[${j}]}@O out ${OUTDIR}/4Way-HOH-t${i}_site-${site[${j}]}.dat " >> ${INPUT}
 		echo "# Get H-OG1 distance info " >> ${INPUT}
 		echo "distance H-OG1 :${pRes[$j]}@H :${pRes[${j}]}@OG1 out ${OUTDIR}/4Way-HOH-t${i}_site-${site[${j}]}.dat " >> ${INPUT}
 		echo "# Get H2N-O distance info " >> ${INPUT}
@@ -91,7 +87,6 @@ while [ "$i" -le "$MAXRUNS" ] ; do
 		echo "# Get H2N-OG1 distance info " >> ${INPUT}
 		echo "distance H2N-OG1 :${sRes[$j]}@H2N :${pRes[${j}]}@OG1 out ${OUTDIR}/4Way-HOH-t${i}_site-${site[${j}]}.dat " >> ${INPUT}
 		echo "go" >> ${INPUT}
-		echo "#     Num  H-O      Num  H-OG1      Num  H2N-O      Num  H2N-OG1 " > ${ALL}
 
 		## Run the ptraj script 
 		if [ "${TESTWRITE}" = "no" ] ; then
@@ -100,6 +95,8 @@ while [ "$i" -le "$MAXRUNS" ] ; do
 		if [ "${TESTWRITE}" = "no" ] ; then
 			${AMBERHOME}/bin/cpptraj ../input/Single.parm7 < ${INPUT}
 		fi
+
+#		exit
 
 		j=$((j+1))
 	done
@@ -115,26 +112,25 @@ if [ "${TESTWRITE}" = "yes" ] ; then
 	exit
 fi
 
-START HERE
-
-## Paste and concatenate files
-i=1
-while [ "$i" -le "$MAXRUNS" ] ; do
-	paste ${OUTDIR}/HH-4_t${i}.dat ${OUTDIR}/HH-5_t${i}.dat ${OUTDIR}/HH-6_t${i}.dat ${OUTDIR}/HH-7_t${i}.dat ${OUTDIR}/OO-4_t${i}.dat ${OUTDIR}/OO-5_t${i}.dat ${OUTDIR}/OO-6_t${i}.dat ${OUTDIR}/OO-7_t${i}.dat >> ${OUTDIR}/All_t${i}.dat
-	paste ${OUTDIR}/EQ_HH-4_t${i}.dat ${OUTDIR}/EQ_HH-5_t${i}.dat ${OUTDIR}/EQ_HH-6_t${i}.dat ${OUTDIR}/EQ_HH-7_t${i}.dat ${OUTDIR}/EQ_OO-4_t${i}.dat ${OUTDIR}/EQ_OO-5_t${i}.dat ${OUTDIR}/EQ_OO-6_t${i}.dat ${OUTDIR}/EQ_OO-7_t${i}.dat >> ${OUTDIR}/EQ_All_t${i}.dat
-	i=$((i+1))
+## Remove any old concatenated files
+j=0
+while [ "$j" -lt "4" ] ; do
+	if [ -e ${OUTDIR}/All_4Way-HOH_t00_site_${site[${j}]}.dat ] ; then
+		rm ${OUTDIR}/All_4Way-HOH_t00_site_${site[${j}]}.dat
+	fi
+	if [ -e ${OUTDIR}/All_EQ_4Way-HOH_t00_site_${site[${j}]}.dat ] ; then
+		rm ${OUTDIR}/All_EQ_4Way-HOH_t00_site_${site[${j}]}.dat
+	fi
+	j=$((j+1))
 done
-
-if [ -e ${OUTDIR}/All_t00.dat ] ; then
-	rm ${OUTDIR}/All_t00.dat
-fi
-if [ -e ${OUTDIR}/EQ_All_t00.dat ] ; then
-	rm ${OUTDIR}/EQ_All_t00.dat
-fi
-
+## Concatenate files
 i=1
-while [ $i -le $MAXRUNS ] ; do
-	cat ${OUTDIR}/All_t${i}.dat >> ${OUTDIR}/All_t00.dat
-	cat ${OUTDIR}/EQ_All_t${i}.dat >> ${OUTDIR}/EQ_All_t00.dat
+while [ "$i" -le "32" ] ; do
+	j=0
+	while [ "$j" -lt "4" ] ; do
+		cat ${OUTDIR}/4Way-HOH-t${i}_site-${site[${j}]}.dat >> ${OUTDIR}/All_4Way-HOH_t00_site_${site[${j}]}.dat
+		cat ${OUTDIR}/EQ_4Way-HOH-t${i}_site-${site[${j}]}.dat >> ${OUTDIR}/All_EQ_4Way-HOH_t00_site_${site[${j}]}.dat
+		j=$((j+1))
+	done
 	i=$((i+1))
 done

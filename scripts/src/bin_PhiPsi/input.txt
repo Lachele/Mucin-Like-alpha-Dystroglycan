@@ -1,0 +1,9 @@
+Data_File=4Way-HOH-t8_site-6.dat
+Output_File=bins.out
+Num_Bins=50
+First_Col=2
+First_Min=1.0
+First_Max=6.0
+Second_Col=4
+Second_Min=1.0
+Second_Max=8.0
