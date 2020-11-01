@@ -1,0 +1,1675 @@
+%!PS-Adobe-2.0
+%%Title: 2D_Heat_3-S.ps
+%%Creator: gnuplot 5.0 patchlevel rc3
+%%CreationDate: Sat Jan  3 03:04:54 2015
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 554 770
+%%Orientation: Landscape
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color true def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape true def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -53 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 554 50 lineto 554 770 lineto 50 770 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.0 (Apr 2014)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Default Line colors
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default Line Types
+/LTw {PL [] 1 setgray} def
+/LTb {BL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [4 dl1 2 dl2] LC1 DL} def
+/LT2 {PL [2 dl1 3 dl2] LC2 DL} def
+/LT3 {PL [1 dl1 1.5 dl2] LC3 DL} def
+/LT4 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL} def
+/LT6 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {textshow} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get stringwidth pop -2 div
+     dup 0 R} {dup 6 get stringwidth pop -2 div 0 R 6 get
+     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (2D_Heat_3-S.ps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 5.0 patchlevel rc3)
+  /Author (lachele)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Sat Jan  3 03:04:54 2015)
+  /DOCINFO pdfmark
+end
+} ifelse
+end
+%
+% Support for boxed text - Ethan A Merritt May 2005
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { Boxing
+    { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if } def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox 1 1 1 setrgbcolor fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.100 0.100 scale
+90 rotate
+0 -5040 translate
+0 setgray
+newpath
+(Helvetica) findfont 160 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {gsave BackgroundColor C clippath fill grestore} if
+gsave % colour palette begin
+/maxcolors 0 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .001 .0025 .0035 .005 .007 .0095 .0125 .0175 .0265 .042 .0665 
+  .104 .16 .241 .356 .516 .7345 1 1 ] def
+/RedA [1 .907 .8566 .8462 .8152 .7927 .7705 .749 .7201 .6803 .6301 .5723 
+  .5078 .4365 .3594 .2762 .187 .0921 0 0 ] def
+/GreenA [1 .907 .8566 .8462 .8152 .7927 .7705 .749 .7201 .6803 .6301 .5723 
+  .5078 .4365 .3594 .2762 .187 .0921 0 0 ] def
+/BlueA [1 .907 .8566 .8462 .8152 .7927 .7705 .749 .7201 .6803 .6301 .5723 
+  .5078 .4365 .3594 .2762 .187 .0921 0 0 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+1824 4559 N
+0 -4047 V
+4047 0 V
+0 4047 V
+-4047 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+1168 2535 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Helvetica) 160.0 0.0 true true 0 (Psi)]
+] -53.3 MCshow
+grestore
+LTb
+LCb setrgbcolor
+3847 112 M
+[ [(Helvetica) 160.0 0.0 true true 0 (Phi)]
+] -53.3 MCshow
+LTb
+LCb setrgbcolor
+3847 4799 M
+[ [(Helvetica) 160.0 0.0 true true 0 (THR 3 Glycosidic Linkage, Mannose)]
+] -53.3 MCshow
+% Begin plot #1
+1.000 UL
+LTb
+0.58 0.00 0.83 C %%%%BeginImage
+gsave 1824 4559 N 1824 512 L 5871 512 L 5871 4559 L Z clip
+InterpretLevel1 {
+  %% Construct a box instead of image
+  LTb
+  1824 4559 M
+  4047 0 V
+  0 -4047 V
+  -4047 0 V
+  1824 4559 L
+  40 -110 R
+  (PS level 2 image) Lshow
+  % Read data but ignore it
+  /imagebuf 51453 string def
+  currentfile imagebuf readstring
+} {
+gsave
+1824 4559 translate
+4047 -4047 scale
+%%%%BeginPalette
+[ /Indexed
+  /DeviceRGB 255
+  <
+   ffffff d2d2d2 c7c7c7 bfbfbf b9b9b9 b4b4b4 b0b0b0 acacac
+   a9a9a9 a5a5a5 a2a2a2 a0a0a0 9d9d9d 9a9a9a 989898 969696
+   949494 929292 909090 8e8e8e 8c8c8c 8a8a8a 888888 878787
+   858585 848484 828282 818181 7f7f7f 7e7e7e 7c7c7c 7b7b7b
+   7a7a7a 787878 777777 767676 757575 747474 727272 717171
+   707070 6f6f6f 6e6e6e 6d6d6d 6c6c6c 6b6b6b 6a6a6a 696969
+   686868 676767 666666 656565 646464 636363 626262 616161
+   606060 5f5f5f 5e5e5e 5e5e5e 5d5d5d 5c5c5c 5b5b5b 5a5a5a
+   595959 595959 585858 575757 565656 565656 555555 545454
+   535353 535353 525252 515151 505050 505050 4f4f4f 4e4e4e
+   4d4d4d 4d4d4d 4c4c4c 4b4b4b 4b4b4b 4a4a4a 494949 494949
+   484848 474747 474747 464646 464646 454545 444444 444444
+   434343 424242 424242 414141 414141 404040 3f3f3f 3f3f3f
+   3e3e3e 3e3e3e 3d3d3d 3d3d3d 3c3c3c 3b3b3b 3b3b3b 3a3a3a
+   3a3a3a 393939 393939 383838 383838 373737 373737 363636
+   363636 353535 343434 343434 333333 333333 323232 323232
+   313131 313131 303030 303030 2f2f2f 2f2f2f 2e2e2e 2e2e2e
+   2d2d2d 2d2d2d 2d2d2d 2c2c2c 2c2c2c 2b2b2b 2b2b2b 2a2a2a
+   2a2a2a 292929 292929 282828 282828 272727 272727 272727
+   262626 262626 252525 252525 242424 242424 232323 232323
+   232323 222222 222222 212121 212121 202020 202020 202020
+   1f1f1f 1f1f1f 1e1e1e 1e1e1e 1e1e1e 1d1d1d 1d1d1d 1c1c1c
+   1c1c1c 1b1b1b 1b1b1b 1b1b1b 1a1a1a 1a1a1a 1a1a1a 191919
+   191919 181818 181818 181818 171717 171717 161616 161616
+   161616 151515 151515 151515 141414 141414 131313 131313
+   131313 121212 121212 121212 111111 111111 101010 101010
+   101010 0f0f0f 0f0f0f 0f0f0f 0e0e0e 0e0e0e 0e0e0e 0d0d0d
+   0d0d0d 0d0d0d 0c0c0c 0c0c0c 0b0b0b 0b0b0b 0b0b0b 0a0a0a
+   0a0a0a 0a0a0a 090909 090909 090909 080808 080808 080808
+   070707 070707 070707 060606 060606 060606 050505 050505
+   050505 040404 040404 040404 030303 030303 030303 030303
+   020202 020202 020202 010101 010101 010101 000000 000000
+  >
+] setcolorspace
+%%%%EndPalette
+<<
+  /ImageType 1
+  /Width 360
+  /Height 360
+  /BitsPerComponent 8
+  /ImageMatrix [ 360 0 0 360 0 0 ]
+  /Decode [ 0 255 ]
+  /DataSource currentfile /ASCII85Decode filter
+  /MultipleDataSources false
+  /Interpolate false
+>>
+image
+} ifelse
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!<E3$!!33+"9n
+r4#Qk8<'+>N`&I8aS'GD/f%Kd7M$4$e;"p4o.#6G#/!<WB)!!**$!!!$"!<N9%z!<<*"zzz!<<*"!!
+!!"!<<*"!!*'"!!!$"zz!<<*"!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzz!!!!"!!*'#!<<-#!WiN0"9\i8$ORIV$Q9Hf)@Hld%i,Zb'+G9S$O[+A"U5)6!<N9'!<
+E3%!<E3%!<E0#!<<*"!!!!"!!!$"!<<*"!<<*#zz!!!$"!<<*#!!!!"zz!!!!"zzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"!<<*#!rr?&!X8`2"p>>B&.K0_$P<
+pe%35cd&0)?!$ks-[$OR4H!sK&7#6>#2!W`E)!!33(!!*'"!!!$#!!!$"z!!*'"!!!$"!!*'"!!!!"
+!<<0$!!!$"!<<*"zzzzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzz!!*'"!!!$"!!!$#!WiK*!sJl5$3pqC$k<aY(`3o)'-Iu-&/Q,p(_I5k#RpqC$4@"B!sSi0!WiB
+(!!!-&!<<-%!!3-#!WW3#!<E0$!!*'#zz!<E3$!<<-#z!!*'"z!<<-#zzz!!!$"!!*'"zzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"zz!<E<+!WrZ1":P\J&J,Kk'c.`%
+(`3r'(D@T!%iPi]%hB<b"Ub\C"T\]."9no."TSQ)!<E0$!<E0#!WrH'!!3-#!<<*"!!**#zz!!*'"!
+!*'"!<E3%z!<<*"z!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzz!!**#!<E<("9\f6$4dOP(CqDr)As\0,9eEX)&Nr#',:rc(DRMi":,2>$j-\8!X&W.!s&E(!WW3
+#!!!$"z!!3-#!<<*#!!!!"!!*'"!WW6$z!!**$!!!!"z!!*'"zzz!<<*"zzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!!33'"9JW+#7UeE$4RI_',;B&+=.gA(EOb4+
+!2R8'-%`$&.9$W$4@+D#RU\=#6b/4!X&Q+!Wi?(!WW6%!!*'"!<<*"!!30%!!!!"!!!$"!!!$"!<<-
+#!!*'"zz!!!$"!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!
+!!$"zz!!!$#!!EE.$3peA%1`ma'cIu*+!VdT-7'BB*#BM<*>fS#'G(ig%h8pM#RCJ8#6b85!s&B&!!
+*'"!<N9%!<<0&z!<<-$z!<W?&!<E0#zz!<E3$!!*'"!<<*"!<<*"!<<*"zzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"!<E3%!sJo5#R(JC&.fa&)''h:*[`6S.3U2
+`,:+WU-5d=.',M>l$O@.F$O-_A"U>/7!X&N)!<W?+!!*'"!!*'$!<W?&!!!'$!W`9$!<<*"zz!!!$"
+z!WiB&z!!*'"z!<<-$z!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzz!!**#!<N?+!<`K1#R_+P%1O-p'GMT4+"'6..l9+3,:OiW-la'B&JYic%i,ET"V(Y;!s/N*"U"r2
+"9AQ(!WW3$!<N9&!<E0%!!!$"!!**$!<<*$!<<-$!!!$"!<<*"!W`9&!<<*%zzz!!*'"zzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<W?&!sT#@%0d"P&Jl-&)AsqE0/=
+t/1b::8/ghkf+!N6U,8M".%L!7H#R1>5"U,/7":#/6"Te`*!WW9%!!!'$!W`<'!!!$"!!!$#!!*-$!
+!3-$!!!$#!!3-#!!!!#!<E0$!!*'#!!!$"!!!$"z!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!rrB)"U,5;%13dV(`aG@+=AN\*@Wiu4"D[<4=E!,,9.aI)&O
+5)%1NIM%0d.D"Tni0"9S]+"9\c,!<NB*!!!'%!<N<'!<E0#!WW9&!!**#z!!*'#!WW3%!!!$#!!*'"
+!<<-$!!!$"zzz!<<-#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!
+"!!*0(!!36)"9o,7"qMOk%hT^#-mC)g0f1^I4>e`F0./.o,:FH\*#9,"&J#B]&-rUM!=K)6#6Y,0"9
+JZ+!!30'!<E9(!<<0'!W`?(!<E0%!<<*"!<N9%z!WW6%!<E0#!!!!"!!<6&!!!!"zz!<<*"zzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'$!<N<&!X/`2"q1nG&.o`p(aU
+XU1*Ibo5;>MZ3&s#V0deV70chbi*uGP($O[LR!Xo>E#RCJ;"9ef.#6=f+!<<-$!sAT(!Wi?%!!!$'!
+<E0#!W`B(!!!'#!!*0&!<N6$!!!$$!W`9$!<<*"z!!!$#!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!3-#!!**#!X/]-#6bJE(*!u))C6R_01@TZ69-kb<'j8E3'K
+&H-R']f+<hgE((Uib%1s0a#RUS?#6b86!WiE,"98H(!<<*#!<E6%!W`<&!!30'!<W<&!s&E'!<<*"!
+!3-$!<N<&!<N6$!<E6%!!!!"z!!!$"!<<-#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzz!!!$#!<E0$!s&E)!X&Q3#RCkV(_\)--8R81.60US:H_lK5qbPq5:eH4/hACt*>]M,
+)%R/f&/,HW#6Y;:"9Sl3!s8N)!<N9%!s8T+!!!*%!rr?&!<E9&!s&B&!!<<(!!**%!rr<$!Wi?%z!<
+E0$!<<*"zzz!!!!"z!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<
+N6&!!NH+"U,57#R(\I'HnME0dn_*764"&83om5:/XPV;EQE^1FjOc/g1lC(*3qs$4I.H"UG>:#Qk/5
+!WrQ-"p4l,!s/N*"9AK'!!**$!WW6%!WiE)!<E0$!<<0%!!NE)!<W?&!!*-'!WW3%!<<*#!!!!"z!!
+*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!**$!W`B(!<iZ7$ks
+Hg'ceSF/28k77R]mH7nZ3K3_Vb"770O/4YSNA,97[=%3>ob)$^Z\!sSu6"Te`+!sAc0!!*3(!<E3&!
+WW6'!<<-$!s/K(!s&B%!<<*#!!*-%!!!'&!!<3%!!!$$!WW3#zzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!!!*&!WW9)#7(\N&.KHk+rV[^/j;?m<'3`R7o3)Z93
+YIa:bk0u1c$mE)CQaD)&E\t#S%RX$jm4@#R:M:!X/T+!W`9%!<iK)!s8N+!!*'$!WiE)!<<*%!s/K'
+!<`H)!WW?(!!!'#!W`?'!<<-&!<N9&z!<<-#!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzz!!!!"!<E3&!sSf3#7(\N(E"#(,:Y>p.R-'c7U\hY=BJj;=&2de:KC=A2'O@
+u-Q*mK)BKt4%hKBX$4$n?#Qb,6!s8W/!rrN+!<N6%#6=l,"98E'!<<-%!WW3#!Wi?&!W`<&!WiH)!!
+33&!!**$!!**$!<<-#zzz!<<-#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+z!!!$"z!!!!#!<<3+!<`T1#S@FY'-.Q'.4.&-4?,i)>YJ@)BPhlqF\-7D>t@7B5!:\G1+4:_*u,J(&
+.o?_%h&XL$3gS9!<iQ.!<E6&!<E3%"9AK'!<iK*!!*-&!<W<'"9JQ)!WW3&!!**$!!!$#!W`<&!!!$
+"!!!$#z!<<*"zzzz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<-$
+!rr<$"Tnr6$P*[Y&/6!(/hB@U3ET6]ARebVE`d<t?#!PE:f^4E3'AoD+X7mB*ul.1&Io?Z%LiXF"pP
+56"p4r/!WiB)"9JW-!<E3(!sAT)!WW9&!!<9'!<N?)!W`B(!s/K(!!30(!rr<%!W`9$!<<-#!<<*#z
+!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!EE-"pP>?#7D1_'
+,Mi?5;GE(=Bes3:2t/h@!-R3<./k&<*)je6T?bE,;(/d*"a/!&.8pO"U,)9":#,9!s/Z,!<E<,!W`<
+'!s/N)!<E0)!rr?%!<E9(!!<?(!!**$!W`9("9AZ+!<E0$!Wi?&!<<-$!!!$"!!!!"zzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!!30%!WrH*#R1P=&.fQm+=8Wi00_6
+_>"`%=ApnlDG]@qMD,b1S>>eL#2DZa2*?cCC%M9-e&JYZY$O-e?"9f,9!WrT/"p"i-"98K)"98E&!W
+`E*z!<E6%!W`?)!<W<%!!33'!!**#!!*-$!!*'$!!!!"zz!<<*#zzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"zz!<<*$!<N6+!sJr@&/>rp'dY7c5>=sT;fZYYJ<5>3I"?fu
+F)Pko>s;(V8MMkZ0H_8S*YfP-*"N;b#RC\?"9J],!XJf.!s/K+!s8W,"9JQ)!<E6(!WrK)!s&N)!sA
+W*!s&E'!<E0#!W`9$!W`9%!!33%!!**#zz!<<-#zz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzz!!!$$!W`<)"pGGH%366#+Y#$!5tP!RF_5E:KnYk?LQmX@GA1r??s,rd3]
+],K4=26o'-@_r$PNsY%gNFN"pY89"U"i2!s&H)!W`?(!s&H(!<N<(!<W?("p4r.!s/Z.!!<6(!<WB-
+!s&E&!WW6%!<WB(!<<-#!<<*"zzz!!*'"z!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzz!!!!"!!!$#!s&H/#6YAF&JZ9-.5+%]5uV,qFE2_DU5bLsL6%IKLOXYY;cZ7_3_2S"1
+ajLg*u5t8'+YT]#R:S=$O$\:!sJi3"9SZ*!s8W-!WiH)!<N9&!Wi?&!WrH+!<N9)!WW<)!Wi?'!<N9
+%!!*-%!!!$"!<<*"z!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+z!!!'%"9\f1#7CqN*$$([+Y$;O=&WsZJr>t^JtdjiNk9spO+2"WE`l4G7R8^^/gi%k*u,b1%holk$O
+7"@"U,8<"9Sc.!<WH+!sJ]+"9el-!W`?'"9S],!s&N*!W`?("9S]+!!3-$!s8N*!W`?*!<<*"!<<-$
+z!<<*"!!*'"!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!<W?
+&!!!$&"9\f6":P\R)&+2</jVKf=BAjGItEK2S[+oHS>(k=U4Ro>;djQE5=@^m1*nXt*$#k3&IJsT%1
+WXH"9S`-!s\r2!s8Z-!s/]0!<iT,"Te`,!<N6'!s/T,!s&K-!WiB)"9\c+!WrN,!!*3(!WW6$!<E0%
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"!<W<("9o&>$ksE^
++W36a3BTf,@Z,JhDi9[IPIo&.Uo1,cXF>;BBOtR92*3rX.l/It/gD,F$kWmV%0[:K%LN=B$3LP;!Wr
+K*!<iQ-!<`E)!<<6(!!*6*"9AT+"U"o."9SW+!s8N)!W`K+!Wi?&!<<-$!!!'#zzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"z!<W?($3LJ>$O[@a,p5!'5#t?S<c<GDH
+(CkS[]m!;\"':iDg-qM=CG6):d.6)/g)bi*@2IB%1Nsc$j@"D#6=i0#Qb#.!!3-&!<N9("9AQ(!!3-
+%!WiH)!X&T-"Tnf.!s/Q,!!33&!!E?'!<E3%!<<*$!!!!"!!!!"z!<<*"!<<*"zzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"!!*'$"T\W+!s/]1#Rq:b'd>1l4@WLa@<mcgM
+PIq`Ye.`J[^W*2TpgLKFB`9\;GT#(2)$C",8_7,*t8ql$k<@F"pG28"9\f1"p+f/!<E<)!rrB'!s/Z
+/!<<-%!<N9&!!3-%!!3-$!sSc-!X&W,!s/K)!Wi?&zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzz!!*'#!<E6(!Wrf=$P4C$)(mX#6;V6;FFg-SVQ%\:b-e4mgU4P[M1UJ8D
+-0qN;bo8%/2eUm-lNO0&J#?Y%0d4H":##6!sAf/!s8Q,!s8Q(!W`E,!<<0&!W`?(!<N9%"9S`-!<<*
+#!s&H(!<<-$!!*-%!<<-$!!!!"!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzz!W`9'!<`K+$3^Y=%N5ut*AflC>>/aj?#c@0Y/AqkcG?TRg;9`+Y`!pWJ7;J^3^PP_59h
+<r*[;@2'b(KY!t,58"pbD8!X&T1!WrQ,!X&T+!WrE(!W`9%!s&Q-!<E0$!WiE,!s8T*!s&N,!!<<'!
+<W?'!<<-#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<E?+%13:
+H&JGp(/2]RT@VStgI"e#n[&gXbf%\p(c,dAgS;3MWF_PAe5=@1[2Bs@d.Mrg0%hK-]$47"B#6G)6!s
+A]/"Tnc*!W`B)!W`B)!WrN*!WW6&!W`B)"TSQ(!W`B)!!30%!s/N)!!WE'!<E9&!<<*"zzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!'$!<WE*#RghE&0N&D+Z2VQ6XP%\
+LmF6r\$=!(_;*;IZ),47WIB5=H#6SU6U!Lb2'Ehd(DRGj&J53M#7M"B"pb53"9no/!s/K(!!EB,!<`
+N,!WW<'!sJc-!WrE&!!30&!<N6&!!36)!W`9$!Wi?&z!<<*#z!<<*"zzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'#!!*'""9JT*"9T#@'d+J;/3#e(Bju":S=73h^V\1Dhr
+qr%d*T"oZA+-VEaW<H9eepf.jGoM(_IYs'G1NZ$4@7L#R(A8"9\f.!!EB*#6Fo0!X/W,!s/K'!sJ]+
+!Wi?-!sAZ,!s&H'!WiB)!<E6%!!3-%!!**#!!!!"!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzz!!!$#!!**%!WiH+"U,/J&JlT=1H%NfD/Y5kPdIC#c-GJ)ft4o<YL9;D
+YFL/nDGs@p4[hOg.4cGc)@mAj%L*@N&.8RE"9no1#6t;5!W`<&!WrK+!<W?)!WW6'!W`<'!!**$!<E
+3%!X/W+!!<3%!<`E)!<<*"!!!$"!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzz!!!$"!<<*"zz!WW3$!<NB/$4ICQ&K)`O4@)A3@!@9tYb\5@l.aMLm/OuR_U,j9V4EKfDc^
+1N4[1bZ-QX<G)&F)&&.JmQ%06V?"pY>9!WrN-!<N<*!W`<'!<<*#!<<-$!W`<'!<WB'!s&H'!!*'#!
+<E6&!<<*"!s/H&!Wi?&!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzz!!!!#!s8Z,%LN[T*?d$b2*=c2<bQ]@WM@8S`8KG1f%JZi^r*gjOE6#0=&)[e4?>JP-64-C(DdS
+t#7h7H#R1D6$3LJ9!<iT.!<iQ-"9JT+!WW<&!WrK+z!s8N'!<E0$!!!!#!WW3#!!**%!!!!#!<E0#z
+z!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"z!<E0#!<<-%!X8
+f1#S@CY)(6X]3&s]@ATs<"VRb4%\*<k]m_dehbdP*bO+i1*@:*,-75ZqX-6+N\(`a;(%1!CT$NgP8!
+s/N+"p+l-"p4r-!s/N("9AW*!X&K(!<E0$!<E6%!<N9&!W`?(!<E3$!Wi?%!WW3$!<<*"!<<-#z!<<
+*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<W<'!WrQ/"q;.T(`jhQ
+6;:EYDK;2;Ts;beYk#T_cJI["hT3:"OIUBK@UiP);D]gC/ghAV*#Akj%LraL"U>/7#6kA7"9er2!s&
+E(!<`E'!<E9&!Wi?'!!!!#!<N6&!W`9&!!*'"!<<*"!!!*$!s&E&!!!!"zzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<3'!sJi6#RhF_*\/j&0g&WTF_dbR_7%80dEL>/
+e^a'*_o0'^R='^&>?=?`68gMR.3TNE*?#Cp$OQqC#6G&6"9eo4"Tn`-!W`?(!WrK*!!!$"!s&B&!!3
+0$!!!$"!<N6%!<E0%!!!'$!WW6$!!**#!<<*"!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzz!!!!"!<N9&!!N]=#7D(T*$?[o5tP$dBTA7NXgug/l,r#Hl1`uS]=?:XR$
+;3&>?jTk1GCXC+<;49(D[\q&I&FB#7:_>"9\i/!sSi/!!!$#!<E6%!<E3%!WW6$!W`<&!<E3'!!*'"
+!<E3&!!*'#!!!!"!<<*"!!!$"z!!!!"z!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzz!!!!"!!!!#!<<-#!!!-(!sAl7%h0!`%k'.c6VV62F`j4IXjk2;fAcVfip#L9^ojZ,Ed
+iCY@okr^1G1*t*>B;6((C]e'+,0S#RUnJ"9JZ,!X&Q+!s&H(!W`<&!s8N(!!<3$!<<0%!!!'$!!!'#
+!<N9'!!!$"!<<-$!<E0#!!*'#zz!!*'"z!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzz!W`9$!<E0&!WiW3"pbn\(*P+d91DZsEf6N^\B_k@d-:,WjitZcZ)FmmEe&=H@o,][
+/flPi(Fp@@+qt\#'+56R%0Hb="UY>9!s8W/"p+l.!<E3$!!!!"!!*-%!!!$"z!<<*#!!**#!!**#!!
+!!"zzz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"!!!!"!!!
+$"!W`<(!X/W/$P*gW*@iou4],QnCPS%CWOpj3kLo=`eCV[aXf.G7ML9kR:f]nW4Z"Q9(Ejb-%hT?a%
+0m">#7LkA!sA]-!s&B*!!*0&!!*-%!WW6%!<N9%"9JQ'!!!$"!!!$#!<E0$z!<E0#z!!!!"zzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<-#!W`B($O$nG$P!XT+;Z^t:d
+e'$O,0U)ZFRO!jPS\Ald4M1_4-m`GE?'8><5/14Yn<?*u-.:%M0'S"VV=N#RUV:"9Sf1"98T.!Wi?(
+"9AN)!<E0$!!*-$!W`9%!!*'"!<E3$z!<<*"!!3-#zz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzz!!**$!!!$$"p+u2$O@Rh+<`7&7Ti]AH[EECW3"\&hq.2@g#L8gZ
+EUj3AU])>69IIj,r$Vm+WV76&JGEX#RUhK#R:S9!s&T-!<`H(!WW6&!!33%!<N6%!!!$"!<<*%!<<*
+"!<<*#zzz!!*'"!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!
+$"!<<*"!<E0&!WiH)!X&W/"Utt\+Wra!3E'(*Fc2ib\'Dq!d+%(<Y10kqV5B,uKR@?-;E[-.*AT#a$
+R6Jn%L3CJ#6tD<$3Ub@!sAZ/!WrE)!!<3$!X&N)!W`<&!WW6$!<`B'!!!!#!rr<$!!!'$!<E0#!!*'
+"z!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"!!3-#!!39
+*!sAr8%i5rr+sAj*4]5m-F`i)*]"HM+eA9DZc,nA/UVE1JNF5[R7RBX"0/4\$+s%C2#RUhK#R(A8"T
+\l2"9AT,!!*-(!<E3%!W`9$!<E0$!W`9$zz!<E0#z!<<*"!!!!"!<<-#z!!!!"zzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!!*9*"9A`7%MfX'*@!@'4AT0sG)rAm[^
+ju5q!l)Ge()=@S%FN2F_40A;a`N-0-:uF*ZPt.'FG!N$k*OQ"U"l1"9Sc-!WrK)"9AT*!!*'"!!3-%
+!!!!"!!*-$!!!$"!!!$"zz!<<*"!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzz!<<-$!!!$'"9\l8%hB<o(G@d8?Y*\nKoMdt]=.7i`8.r=_Um/<R[f4uIsl$37RK!]
+0d[qY*>9G&#7(eH#R1D=!sJo7!s/H(!s&E)!!30&!<E3$!<E3$!!*'#!<<*%!!!$"!!*'"z!<E0$!<
+<*"z!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'#!<N9-!
+sf5>(D%T2(aCk!7:LCTJub*<]"GVZa0ib!^;@(fXcdRKG#i$C5!^eV1*7YV+VPV"((LNY"UG;6"T\l
+1!<WB,!<W?("98K(!W`<%!W`<&!!!!"!<<*"zzzz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!!EB)#QkG="r7pp.5aFT6W.<1Eg*#_X1Q!uZ+AWB^s8:JP
+DtQ^CM76E:cUE^+W2IF)&3hq#RgqC%gN:C$3^S6"9\]*!s/K+!<E3%!<E0%!!*0%!WW3#!<<*"!!**
+#z!<<*"!!!!"!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!
+!$#!<N6("9S]-"U5DE$kX'o,qD#96rIKAG(l]fX2h<hi4?+h\?<,t[?6edD.l[84YAfU/0u)K&0)8o
+$47"F#6tM;"p5#2!W`B(!<WE)!!**#!!!$#!!!$"!!!$#!!*'"zzzz!!*'"!!*'"zzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"zzz!!!$"!!*'&!s&Q2":#2:$540t-SmtS
+9OrBYF,,sk\\un!fuVIS]!eTATnn)@@<#RH4Zb_T/1VG^)&3Sl%L3CH!s]&4"p4o/"U"l/!<W?&!<W
+<%!!*'#!<E0%!!!!"!WW3%!!!$"z!!!!"!!**#!!!$"!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'#!!*-&"9\f/!s]&<%hKU-0/#@T79XkjL6ApL['@0d`Qb[/
+ZDF+fWK)+8DIZmK0g7EB0eOI`(_I>f%gN1@#7:_<!WrW1"Tnc+!!30&!<E9'!<<-%!!!!"!!!$"!<<
+*"!!!!"!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"z
+!!!$"!!<9)!s8Q*#6kYH%Mp*2.m#m\?X.2sKVXd7\(AL=c+q,gV88[kO`Z(d>ARG)0JP^H.PDb]*=r
+tr%L!%@#R(84"Te],#6=l,!WW3#!!*'#zzzzzz!!*'"!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!<N<'!<`Q.$3pqZ$P"6r-n7)9?WUp$O,:<Ce@W*3`4W
+k=VQIA!O+MUaBQ[!98231M+rM+:)%.;k&I/dN#6Y29#Qb&.!WrQ+!s&B%!<N9&!<E0#!!*'#!!!$"!
+!*'"zzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*0'z!
+<N9&!X&Z.!X9&B*>fqB/2]Fa?ugF;LU"%Y\[J`VcGJeoVkJm(MMQe)C1:C74[M+\,7bV,&.JsV#7:t
+L"UY>8!s&Q.!<N9%"9JT(!<E3$!!**$!!*'"!<E0#!<<*"zz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<-#z!!*'"!sJi3#7(eC)AY%e2(hWt<,??$LRGEXS`
+8MZ^>$fHadp2:RY$uj<*MF[3'ei:+;G\.()%8e!sf/>"9Sf3!sSc-!s/K(!<E9&!!*'#!<E0#!!**$
+!!**#!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"
+!<N9&!!<B+!<N?)#8J!a(`XbS-UT[UAn5/$Of4VRe@X/6g>&C-Xg4b%G\qeB>uXQi3^"u;.2Ng5'cm
+en$jHq<"U,)3!Wi?(!X&T+!<WB(!WW3#!!!$"zzzzzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"z!!**#!!!''"98]1$477K+W2CX5!MV3@r?.)Ts:;n]$7h
+<bJ`8FaJY`)P]hq6A6W,.6S9T7-lNmE()78d%1!FG"T\]+!<iN)!!*'"!<iH'!!33&!!!$"zzzzzz!
+!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!!**#!<<-$
+#6P);"qD+V(+11M2EFB-@=2@1U8b?*^Ve.:dEU%H\#ug/Lj4;UAn4D!4>AZA,pOfM&.f6X$k<FG"T\
+c.!s8T,!<E6%!!!$""9JQ'!!*'"!!*'"zzz!<<*#zzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!!!!"!<WH+!sK#:$OdU\*@EQj3]ol2>\8&/R)$Y(V9RK=c
+,n\\WOSaqLQ-[`@Ven'2E`iH,o7F;(Cpr\$3p_9"U"l0!<WB(!!**$!rrH(!!!'#!<<*#z!!*'"!!*
+'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$#!!!'#!<E6
+%!W`9("UYDE$k=-s(+(CW2FLnL>A8kCP.$4l^q7e$gXFNkbatE!FcCcS<bPN)4ZOu@-QsH<&./XJ"q
+1bA"pP/3!<WB*!!!'$!Wi?&!!*'$!!!!"!<<*"z!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"z!<<*#!<<*"!<N9($ipM:&-WLY&LJeS2EsQ7CM80OUSb#n
+Yhn-a^=oj"UnG>TLm)XaF%Al"0.&Is*??==$P!LR"q(\A"p"f-"98H)!WiE'!!**$zzzz!!!!"zzz!
+!!$"!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"zz!!*'"!!
+**(!<WH-"U52;":bkQ'HStb6Vg9OC13NjOeSbp]&V&mb1t7SQ`Z=BLkTqQARn=i6:*OU+Vkk-%h8dR
+#R:P:!s/N+!!*-%!WW3&z!<<*"!!*'"!!!$"zzzzz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzz!WW3#!!**$"T\c0":,GH$kF*l(`t@g9fcK`Ec#]fPe+-0bIH0R[
++i1"R(T6!TosM6Hqm-p3&E*0+WVO6%gi[L#RUnA!sA`,!s8T,!<E3$!<E3%!<<*"!<<*"!<E0#zzzz
+zzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"z!<E0&!s/
+Q*"q(\H%M0<s+XSTo5#=ROBo8"QWMRJId+>A;agf3m[D'&4NHK>R8PVH32)mH9)''h)%M9-Z$O@(A!
+sJ`.!s8]-!<W?&!<N<&!!*'"!!*'"!<<*"zzzz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!!33(!!*3-"UGJD#TOX%.OQc(9MeZ$CPJ%5YHkpij28(AaO\
+VDP/"MbO+)Oh=Cb6&1c6g6-P[gB&IK!P$3UM8"Tnf0!XAi/!Wi?&!!!!"!!!!#z!!!$"zzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!WW3$!!EB+!WiQ5"U5,@%hK
+Qo.j6?)4AK'`Ebh8DUUe:Ld*pLpd'gKrZ*C*hS;;W(A6;/^1*J"i*[2RF&.]-V$O-h<%0?S5!W`K,!
+<E0$!!!$"!<<*"!!!$"!!*'"zzzzz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzz!!!!"zz!<<*$!<E3%!<<-$!<E9.!=/rA$l9Wq*[`Hq8PiYZD30+3RBj96`73;WgtK3N
+ZE9gaM/d?C9NXt>1I3E>(Dn>4)@d5d#7:\="Te`,!W`<%!<E0#!rr?%!!!!"!!!$"zzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"z!!!!#!s/N,!X/]1"pG8D%
+M9Eu+Y5<*78mPrF,liqTWu#Ed_`lL_oL$6_l96/DMi.1CKsCp0Jaq',od^=%Li[O#6tA4"9er6!<<-
+#!<<*"!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+!<<*#!<<-#!<N<'!!WN4#Rh%M%iQ-).3^H.4%ELnD1$o5['67'_mI[saO%-&VQGB*P'27Q?W8XA0f^
+X/)'B_1$ks'Z":bY>"U+r/!<E9'!!*'#z!!**#!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!<N<'"9Sf1"pP>=)AO56*@rs,;)V!_Bn(qnPa%u<be
+MWWdD<B(LS:'.G^!t8@SB0S2D6U+'c.`%(CgTR#6Y)1!s/T.!<<-&!!3-#z!WW6$z!<E0#zzzzzz!!
+*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!**%!W`9%"U,#5"U
+GA<'bMN/.4?Jr1eq4mA7hEfK!1QQ\"L"5]=+r?YbQl%R;H&9>XVFL1cZ^+',(oe',V;e#7^nA"p4u1
+!rrB(!<E0$!<<*"!!*'"!<<*"z!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzz!!!!#z!<<*"!!3-#!!*'%!WiB'!<WB+"To2A',))t)C@'n9L;loL2LadW.pe5^oXZ
+_^neB:W1f-/F),Pp?V!XP0eY:,.MEU3$4mUS$jR%I!X&Q,!<N<'!<<-$zzz!!!$"zzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<0%!!!$"!!!!"!<<*"!<N9*!<`K+
+"UGJH#S[jc1a+Y85>,6hBPEQ^NhD6&YK3NdXKS%\R>QibI<'+";cHIR4X_F$)BTq,%MT*S$3gS7"9\
+f."Te]*!<E0$z!WW3#z!<<-#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzz!!!!"!<<*"!WW3#!!!$%!<r`4$3^PD&/c,u+!W0b6;LB]<d^9[PH^dFXKS1sY-a@cH(fq
+5G>M^F:f0V=/1<"j+;P_0&J5?Z$j["="98Q*"9SZ)!!*'#!!!!"zzzzzzzzz!!*'"zzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$#!!!$"!<<*#!WW6&!<W?(!s/`6#R:V@'
+GV<&+=]$)5=[k?;J:/oI<_KTPbt"BSZ\K;J"D.-@pE;B69@"c5qaAn*Zc:1'*o!V$3CD9"9el.!<W<
+&!!*0%z!W`9$zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!
+!!"!!!'$z!!*-%!W`<'!X&`3$O@:N$lKTo(`k=k2)[cp@p4.uKSPA:QBm]'P*V8SOFN.'?suet6Td^
+i1GTsf*#TM*'b_)h%gN:G!seu/!<E6%!<N6$zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzz!!!!"!<<*"!!!$"!!!!$!W`<'!sAc5#6YJF%1a-f'H\__5>G!P6<dN
+2FGkX%OdMN3Rs(*ULm`@.@oHQ(7Q*Ua1,]ss)BBk1&I/^R#6P/6"p4o/!WiB(!WW6$!WW3$!WW3#z!
+!*'"zz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<N6%
+!X&Q."T\]2":,MG&JPon*[`*b.53t]BMr5PF_Z;DH[1g'H[L3jJoPj4BM:cg6nCYR-6XZR(`!r%$jm
+CK"9Si1!WrQ.!<<*$!!!'#!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzz!!3-$!!*'"!!*'"!<`B)!<N?1#R(\J%gs3l'd+VK0e#1[>YA%!GAC`DCi=`KCii
+^2DH:UW>tIFP3C>JM*%3$I'-7Yn'aP$U#R(D4!sA],!s/K)zzzz!!*'"z!<<*"zzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"z!!!!"!<E3$!!<9)!s]#;#RghE%h'
+6l)''MA+Y,T7;+jqs;f?AkCj'rG@VoU\Dd?g=;,TtO0K^[1+tb&]*"rkk#S74D"ptJA"9f#2!!<<)!
+!!!"!!!$#zz!!!!"z!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzz!<<*"!!*'"!!*-$!s/K("9J]/"UGPJ'+YWf'c/)41c7$Y:I@fE<*<==@9e%]@:3qe9i4YJ83K
+*W4>eH?+!2gC'b_8r$4%%J$3CJ<"9JQ'!<W?'!!*'#!WW3$!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!#!<E3%!W`N-!s/W0":GV@$4RR]&/HQ*.4.
+#62E4&`<`*.+FBi<i>A.8;<_ttY6:OC.0dnY2)C6[N(`!l%)%QiT!seu2!WrQ,!<E0#!<E3$z!<<*"
+!<<*#zzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"z
+!!!$"!<E3%!s&N+!<iQ7#Rq%E%h90_*?#h</gW;&5<)#*78Zle9NP_5>#AC$?qsB`/h/b9/iGF2-70
+HD(`*ko"U>5=!sf,6"9JQ'!WW3$!W`9%!<E0$z!!!!"z!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!!*-%!WW3%!!<9'!WrN.$NgbM$kWpd&K)Z5*[N0h
+/j;fh4[r=H?V"$_:cV`J4>fDb68:>H/g`"i)&F,)$47Ua#R^bB"U"u6!sJ]*!WW9'z!!!!"z!WW3#z
+zzzzzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"zz!!!$"z
+!s&Q+"p>2:#6khD%M03g)'0G61*SP5-Tih;3&r]T85)K669.n62)m9\0eXb)-mp2W)%dE"&.]3^!s]
+29!seo.!WiH*!s&B%!!*'$zz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzz!!*'"!<<-$!rr<%!X&W0"9Sf7"V)%O#RqX^'GD?+)'^db3A<9D4@VG#1d*`a0g\
+2t+[7Y*2CU7$/1)Da(*=(u%gNFO$OR4H"Tf#7#6Y)0!!**#!!!$#!!3-$!!!$#!!!!"zzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"z!<<-(!<`E'"9JW,"9o#6
+$j[(I$PsWq'bhB!)''S:1GgO04>nfI3\NNW0g%`]0fV3<-nZYi,p+3I(DdSk$j[CO&I8^F$3pY6!<E
+3%!WW<&!!!'%!<<*"!<E0#!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzz!!!!"z!!!*(!<WH,!X8i5"UYhK$PaNk'c.Pr+;P\9+rW0a2FJoR5<L\X.Ps%D.k)e
+u.N]EL(_n),&J,E[#7(bB#R:J9"U"i-!<rN*!!<3&!<<-#!<<*"!!*'#!!!!"z!<<-#zzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"z!!!$#!s/N+!<E93%LNOS%
+LWjb(`4)'(`F/20.8h8.3g;j0fCC4-TE_//i5+**A/<R'cIVl&/>uk#6tG<#RgnB!=&Z-!s8Q)!<<*
+#!<E0#!WW6$z!<E3$!!3-#!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzz!!!!"z!!!'$!X/T/!!`]5#QtJF$4dpd'c7N!(EtCN(*b.P-8I&*,q1;i/hSJ!)CQUP)
+&"&-(D@>g%1WXO%gW@C#RCS9#6P&0"Tnf-!!*'$!<<-$!!*'$!!!$"zzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"!!*'"!!**$!<E3'"p5#9%L`[M$P*ac'c
+/A?(DnA?*Z6=J*[`cl.53(t,9nN^*@E!Q(_mf'*Yf.o"VV7Q#Rgk@#6b;5$3gS7!WW6%!<E0%!<<*"
+!!*'"zz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!
+<E3%!X/W/"9o&4$4RXW#7q%R(*4A**??:?*&AKS-7L/]-7^Ad,p4EN-ljWJ'c7`#&.fWe$kNRI#6b5
+7"pG,2!sJf1!sA],!W`9&!<<*#!WW3%!!!$"!!*'"!<<*"!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!WW6$!<E3%!!*'%!s/Z."q2%V"VVI['GDAq(_[W)*[
+i*N-R0fT.3BWS+Y"WV)As8+$P=0h%N5TW%L34B#6kM<!<`W0!sAW+!!33%!<<*$!<E3$!<<-#zzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'$"9AT,#R(;2
+":>;A#7D4W(Dd`%(`+53+!)(2+=.pD*[;X@*Zc::+Vkt4$P3[U%296U$OmFJ"U>/;!W`E,!<E?(!<<
+-#!W`9&!WW6%!<<*"!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzz!!!!"z!!!$"!<W?'!WiE+"Tnu8#7^qH'FbBZ(_mVr)@mK))''VA*#'A0*?5e-%j_c/*>K%
+n%1EIQ&.AsS#R:bD#6Ou,!<WB)!s/Q,!!<3&!!!$"zz!<E0$zz!!!!#zzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<0&!!**&"9\o5!sK)<#S7+N(^Lcm)As4u)&
+F&0+VY_2(`X,!',)2r&/>Z`&KM;a#6kY=#6G#1"9ef.!W`<&!sA],"98T+!<<*"!!*'"!!!'#z!!!$
+"!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"z!!!
+!"!rrN-!XJu6"p58C#6k_Z'GqT"(*42/*=NSj*#oY4%i?2q()[i$&I]*V#7^tG#R:b?#R(>:":#&2!
+WiE(!<`E(!<N?'!!3-#!<<*"!!!!"!!!!"!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzz!<<*"zzzz!!!$#!!!!"!!!*$!<<3&!s/K+"pYJF$3g_E#946j&Jbrm'Ghl
+3)&Ekr'bLof'Ftic'+bWa%gN=I#6YJE$j$S6!sJc0"U"l/!W`?&!<<*"!<<0&z!!*'"!<E0$zzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"!!!!"!rr?&!Wr
+T-"pbG=%1rjR'GV8r(_7As',_Z&()7Jm%N#ce&Io'W%hT'P%LNRL#6P;:"9\f-!sJi.!<E3&zz!<E3
+$z!<<*"zzzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+z!!!!#!s/N*!s/T/!s]8@%13LQ%29?f(*=S/'G(rs'cA#'%LimT',(`^$4@1L$k!7E$NpV:!sSc,!X
+&Q)!W`?(!<N<'!!3-#!<E0%!!*'"z!!!!"z!<<*#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzz!<<3%!!!$%"9nu4"9o,="pbPM%0mXW'bq5k((Cck(_[Po'+>?Z$
+3ghJ#7^tE#6tJ;#Qk,1#6k52!<N?'"9JT(!W`<&!!!!"!<<*"!WW6$zzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<-#!<E6&!WW3$!WiE)$NgbG$3p_C%L<U
+]'+>Ee()%Pq'c7Sm%LWaS#6tSE"U>89#Qt>7"9\i0!s8W-!Wi?)"T\W)!!*'"!!!'#!!*'"!!!'#!<
+E3$z!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'
+#z!WiE'!<E9("pG29#R^eC%13FQ%M9'[%M'*_(D@>h&.K!T$3^V;%1ERG$NpJ6#Qk,1!WiE)!!!'$!
+<W<%!<N9&!!!$"!!!!"zzz!<<*"zzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzz!!!$"!<<*#!!*'%!<`E*#6kAB":ttM$jmFW&IoH^%i,T^&IfB^$k!:L"p>#6
+!t#58"pP,3!<`K*!W`H+!!*-$!W`9%!!!$#!!!!"!<<*"!!!!#!<<*#!<<*"!<<*"zzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"z!<<*#!!!$"!<E0'!<iN0!X
+/]8"pbVB%1X$]%29<b%L`aM$4m[P%1NIE%0m+B#6P,4"U+o2!WrK*"9JW*!<E3%!<N9%z!<<*#!<E0
+#!!*'#!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!
+!*'"!<<-$!Wi?%!!<6&!WrN+!s/T0!sAl7#8%:R&.AsX%1EXW$jI4H$k<^W$NgS:":,#5"U,#2!WW6
+&!<E0'!<<0&!<E3%!!*'"zzzzzzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzz!!!$"!!!'&!!<6'!<N<&!Wr]2$OR"=#RgeH%MKK_$4[FQ#RCVG$ORCK"ptM9
+!X&]-#6Or+!!*-%!!**$!<E0#!<<-#z!<E6%!!*'"zzzz!<E0#z!<<*"zzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$#z!!**#!!33*"9JZ."U>8<":>PB$O@(H$j
+?hB$4@+F$jHkE!!39*"9SZ-!<WB'!!**$!!*0&!!*'"!W`<&!!!$"!<<*"!<<*"zzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"!!!$"!!!!"!!!'#!<E6(
+!s8Z."9f#9#7LkF#7V%N"Uk_F$3^V<$3gY9!sJ`.!s&N)"U"f,!<<0%!<E0$!<<*"!<<-#!!!$"zz!
+!*'"!WW3#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!
+*'"!!!!"!!**&!WiH*!<iQ.!X&c:#6tG;$jHn@#R:V<"pP;:#6Fu1!W`9,"onZ*!<E3'!<E3$!!*'$
+!!!'$!<<*"z!!*'"!!!$"z!!!!"z!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzz!<<-#!!!!#!!!$&!!!!%!<W?2!<iZ:#6Fu7$3UP<#6tJ;"9Sf/"9el1"Tn
+c0!!**&!<N6%!Wi?%!WiB'!<E3$z!!*'"z!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"!<<*"!!**$"9JT-"9Sl1$Np_D#6G)6#7Ce@#6kA@"U
+"l/!!*0'!W`?*!s&E'!!**#!!!'#!!!!"zz!!*'"z!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!<E0#!WrH(!<WE+"U"r3"pG,6#6kG>"p+i/"
+9J`2"Tec3!<`K/!X&N)!<E0$!!!!#!!3-#z!!!!"!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!!!!"!<<*"!!*0'!WiK)!WrN,!!EB*!WiT2"
+U52;"pP85"9\i.!s&K,!!!$#!!3-$z!WW3#z!!!!"zzzzzzz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"!!*'$!!!!"!<<-$!!<9'"98T-"9ei/#6P
+;;!sAZ,"T\c/"9JT*!WiE)!W`?&!!*-$z!WW3#!!*'"z!<<*"!!*'"zzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"z!s&K)!<EB+"U"o/!WrT.!<`K.
+"U##8!sSc/!WiH+!<W?&!!!!"!!**#!<<*"!!!$"zzz!<<*"!<<*"zzz!!!$"zzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"z!<E0#!s/N+!!*-%!WrK*!WrK
+-!X/W+!s/Q-"9JZ.!<<0)!<E0%"98E%!!30%!!!!"z!<E0#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!#!<E6&!!39(!=&T*!<rQ,!X&Z-"p4r
+.!<iN+!W`9%!!*0%!!3-#!!*0'z!!**#zzzzzzz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!#!!30&!X/T*!<N<(!XJl2!<W?'"p4l,"U"o3!s8T
+,!!!$#!<E3$!!!$"zzzzzz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzz!!*'"zz!!!!"!!!!#!!30%!s&E*!<`N.!!<<*!<N?'!X&N)!!3-#!WiH(!<<-
+#z!!!!"zz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzz!!*'"!!30$!WW6$!X&Q*!X/]-!WiB,!WiB&!<N9&!<<*"!s/Q*!!30%!!!'#!!!!"zz!
+!!$"zzzzzzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzz!<<*"!!**#!!**%!!*0(!s&K*!!<9+!<E<*!s8N'!<<-$!<E3%!<E3$!<E0#!!*'"!!!!"zzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"
+!W`<%!<iN,!<E6'!<<-&!rrB(!<<3%!<N6$!!!$"!!**#!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'#z!!**%!W`9$!!<3$!W`9&!Wi
+?'!WW6&!s&B%!!!$"z!!!!"!!**#!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!!!!$!WW3%!W`<%!WW6'!!<6'!!<6&!<N9&!!!'#!
+!3-#zz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzz!!**#!!**%!!30$!<E0%!s&B%!<E0#!rr<%!!!!"zz!!*'"zzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!**#!!!$"!!!$"!<N<&
+!W`B'!<E3$!WW3%!<N9%!<<-$!!*'"!!!$"z!<<*#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$#!!!!"!!*'"!!!$"!<<*$!WW3#!WW6%!WW
+6$!!*'"zzzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzz!!*'"!!**$!!*-%!<<*"!!*'"!!*-&!!!'#!<E0$!<<*"!!*'"!<<*"zzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"!!
+*-$!<E0#!!!!#!W`<%!!!$"!<<*"zz!!!$"zz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'#zz!!30&!!!$$!<<0%!<E9'z!<N6$zzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!
+!!!"!!!$"zz!!*'"!<E0#!<<*"z!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!3-#!<<*#!<<*#!WW3#!!!$#zzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!!*'
+"!!!$$zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzz!!!!"!!!$#!<<-#z!!*'"z!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!<<*"zz!<<*"!!!$"z!!!!"!!!$
+"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzz!!!!"!<<*"!!!!"!!*'$!<E0#!!!!"!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<E0#!<<*"!<N6$z!!*'"!!!!"zzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+!!!!"zz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzz!!!'$zz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"z!!!!#!<<*"zzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"zz!!!!
+"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzz!!!$"!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"zzzz!<<
+*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"zzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"zzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"zzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"zzzzz!<<*"zzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzz!!*'"zzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"zzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzz!!!$"z!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzz!!!$#z!!!!"z!!*'"!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<-#!!!!"z!!*'"zzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!
+<<*"!!!$"!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzz!!!!"!!!$"zzz!!!$"!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"zz!<<*"!!!$"z!!!!"!<E0#!W
+W3#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzz!<<*"zzzz!<<*"zz!<<*#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"zzz!<<*#!<N9%zzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!!*'"!!!$"z!!*'"z!!
+!!#!<<*#!<<-#!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzz!!!!#zz!!!'#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"zz!!!!"z!!!!"z!!!!"z!<<*"zzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"z!!!
+!"z!!*'"z!!*'"z!!!!"!<E0#z!!!$"!WW3#!<E0#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"zz!!!$"!<<*"!!!$"!!*'#!!!$"z!<<*"!
+<N6$!<<*"!!!$"!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzz!<<*"zzzz!!3-$zz!<<*"!!*'"!<<-$z!!!$"z!!*'"zzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"!!!'$z!WW6$z
+!!!!"z!!!!"!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzz!!*'"!!*'#!WW3$!<<0%!<<*#!!!$$zz!!!$"zzz!!*'"zzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"z!!!!"!!!$"!!
+!$"!<<-$!!*'#!!*'"!<<0$!!*'"!!*'"!!*'"!<E0#!!!!"!!!$"zzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!<<*"z!<<*"!<E3&zzzzz!
+!!!"z!!!$#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzz!<<*"!!!!"z!!**$!<E6%!WW9%!<<-#!!!'#!!!$"!<<*"!<<*#z!!**#!<<*"zzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'#!!*
+'#!W`<&!!*'"!!!*$!<E3%!!*'"!<E0#z!!*'#!!**#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"z!!!$"!<<-$!!!!$!<W?'!!30%!<E0#!
+!*'$!!*'"!!*'#!!*'#!!!$"z!!*'"z!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<E0#!<E0$!!30&!!*-'!<<*$!!*-&!!!$"!WW3#zz!<E0
+#!<E0&!!*'#!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzz!!!$"!!*'#!!30%!<E3$!!<<'!!*'$!!**%!!3-$!WW3$z!<E0#!WW3#z!!!!#!!*
+'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+z!!*'#!<E6&!!3-#!!*3("98H&!!!!"!!<3$!rr<%!!*-$!!!$"!!!$"!!!$"zzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!!!!#z!!*'#!!!!
+$!s/H&!s/N+!<WK-!s&K(!W`9$!<<-$z!<<*$!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!!*'"!<N9&!!!!"!<E0'!<W?'!!33&"9
+8E(!!3-#!<<*$zz!!*'"zz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzz!!*'"!<N6$z!W`9&!!*0&!s8].!W`<(!!N?'!!!'$!!30$!!!$#!W`9
+$!!!$"!WW3#!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzz!!*'"z!!**#!!3-#!!*'#!<E3$!<E6+!<WH-!<N6'"9AK'!<E6%!<<-$!WrE'z!!!$
+"!<<*"z!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzz!!!!"!<<*$!!!$#!<E3&!!<3$!<WK+"9eo.!<N9%!!*0%!WW3$z!<<*#!!!!"!<<*#zzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!**#
+!!30%!!**&!rrE(!WiK+!!<9'!<N6%!W`?&!<E3$z!!!$#z!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!#!!!$"!!*-'!!**$!s&B&!s8W
+-!WiE(!s/N)!!<<'!!*'"!W`9$!!*'"z!!!!"!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"z!W`?&!!*'"!s/N,!WrN,!WrN/!WiH*!s&N
+*!!!$%!Wi?&!<E0#!!!$"!!*'"z!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzz!!**#!!!$"!<<-$!!!'%!s&H(!W`?("9AT,"98N)!<E3$!!*'%
+!<<0$!!!$"!!*'#!<<-#!!!$#z!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!s8Q)!!N?'!<NH*!X&Q*"9AT+"T\Z+!s8N(!<E3%!!!!"
+z!!!!"zzz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzz!<<*#!W`<(!!EB,"9J]+!WrK(!s&H)!<<-%!WiE)!<<*$!!!$#!!!$#z!!!$"!!3-#zz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*-
+$!<E0$!<N9%!W`9&!WrK*!WiE*!WW6%!<N9&!!!$"z!!30$zz!!*'#zzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"zz!WW3#!W`9'!WW9)!<NH,!<
+NE)!<E6+!WiB'!W`<%!!!!"!<<*#z!<E0#!!*'"!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'#!!30$!!*0'!!!-'!s8N*"9Sc.!WiE(!<
+N9'!W`?'!W`?'!W`<%!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzz!!!!"!!!!%!WiT,!<`H("Tni0!<rW-!WW6&!!3-&!<N6%!<<0$z!!!$
+"!!!!"!<<-#z!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzz!<<*"!!!*%!!*-%"T\]-!WrN*!X&N+!WrE'!W`<&!<E0$!W`9%z!!**#!!!$"!!!$
+"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!
+!!"!<<-$!!**$!W`B,!rrE*!<E3&!<N<*!WiB'!<E3%!!**%z!!*'"zzzz!<<*"zzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!<<*"zzz!!!!"!s/H'!
+rr<'!<W<("9S`-"9Si/!s&H)!<N9&!WW6$!!!$"!<<*"!!!!"!!*'"zzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<-$!<<*#!s/T+!WiB*"Tnl0
+"T\W(!<<0&!<E0%!!*'#!<<-#z!!!!"zzzz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!**%!<<*%!<E0%!s&H)"T\W(!<W?*!!<6%!<N9%!!!
+!"!<<*"!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzz!<<*"z!!!!"!!!$"!<<*#!<E3%!!E<&!rrE*!!**$!WW6%!<W<&!<<*#z!<<*"z!<<*"
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"
+z!<<*"z!<<*"!<E0#!WiE(!s/N)!<N9&!Wi?&!WrH)!!!!#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"z!!!$#!!!*$!<E9)!<WH)"T\
+W+!rr?&!<W<&!!!$$z!!30$zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzz!!!$"!!!$"!<E6'!W`E)!<N9&!<E<*!s/H'!!3-$!!!$#!W`9%!!!'
+#z!!!$"zzzzzzzzzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzz!!*'"zz!!!!"z!<E0%!!30&!WW9&!<WH+!!!$#!W`E(!WW6%!<W<%!!!$"zzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"!!*-%!<
+N6&!<E3&!<E3%!!30$!W`?&!<E3$z!<<*"!<<-#!!*'"!<<*"z!!!!"zzzzz!!*'"zzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"!<<-#!!3-#!!!$#!s&
+N*!!!'$!W`9$!<E0#!<N9%!<<-%!Wi?%!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$$!<<-#!!30%!rrB&!!!$$!<<*#!<N6%!<E0#
+!<<*"z!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzz!!!$#!<<*"!<N6$!!*'#!!!-%!<E3'!<E0#!!3-#!<<-#!!!$"!<<*"zzzzz!!!$"zz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!!!
+!#!<<*"!!!!"!<<0$!<<0%!!3-#!!**#!!!!"!!*'"!<<*"z!!!$"zzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"!WW9%!<<*#!<N6$!<<-
+#!!*'"!!3-$!!!!#zzzz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzz!!!!"!!!!"!<<*"z!<E0#!<E9(!<<*"z!WW3#zzzzzzz!<<*"zzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!<E0#z
+!<E3&!<E9&!!!'$!!!$"z!!*'"!!!!"z!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!#!!!!"!!*'%!!**$!!3-$!<E0$!!!!"!<<*"
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+z!!*'"!!*'"!!3-#!!!!"!!!!"!!*'#!!**$!!!$#!!!!%zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!!!$#!!*'"!!!!#!!!!"z!<
+<-#!<<*"!<E0#zz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzz!<<*"!<<-'!!!$#!!!$#!<<*"zzz!!!$"zzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"!!*'"z!!!$"!!**$
+!<<0$!!!!"zz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzz!!!$"!<E0#!W`<%!WW3#z!!!$"zzzz!<<*"zzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!!!!"!!!$"!!!$#!!
+!'#z!WW3#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzz!!*'#z!<E0#z!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"z!<<-#!<<*#!!*'"zzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!!!!"!!
+!!"!!*'"z!!*'"!!**#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzz!!!$"z!<<*#z!!!!"z!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'#z!!*'"zzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"zzz
+zz!<<*"!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzz!!!$"zz!<<-%zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*#z!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"zzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'
+"!!!!"!<E0#z!!!!"zzzzzz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"zzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"zzzz!!!!"zzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzz!<<*"!<<*"!<<*"zz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"zzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!
+*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"zzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"zzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"zzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"!!!!"zzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!!!!
+"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzz!!!!"!!*'"zz!<<*"zzzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"zzz!!*'"zzzzz
+zzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzz!!*'"!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!!*'"zz!<<*"zzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+!!!!#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"zzzz!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<*"zzzz!<<*"zzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"zz
+!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzz!!*'"!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"!!**#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!3-#z!!*'"!!!!"zzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+!<<*"zz!!!!"zzz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzz!!!$"!<<*"z!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"z!!!!"z!<<-#!!!'#zzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"
+!!*'"z!<<*#!<E0#!WW3#!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"!!**%!!!$"!!!!"!!!$"zz!!*'"zzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"zzz!!
+**%!<E0$zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzz!!!!"!<E0#!!*'"!WW3#!!!!"zzzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"z!!!!"!<<*"z!!30$z!!3-#!<<
+*"!<<*"!<<*#zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzz!!!!"!!<6&!W`<%!<<*"!<E0#!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<<-#!!*'"!!*0&!!**#!!!!"z
+!<<*"!<E0#!!*'"zzzzzzzzzzz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzz!!!$"zz!!*-$!!!!"!<N9(!<<-#!<<*"!<N9%!!30$!<<*"zzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'"!!!
+!"!<<0$!<E3%z!!!$#!rrB'!!!$"!<<*"zzzzzz!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!*'#!!30&!!*'#!!*'#!WW3$!!!'#!<<*"!!*
+*#!<<*"!!*'"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzz!!!!"z!!!!"!!30%!!3-#!<<*$!WW<)!!3-#!!<<'!!*0&!WW3#z!!*'"zzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!!**
+$!!3-#!<N?(!!*-&!<E3%!rr?&!!*-$!!33&!<E0#!!*'"z!<<*"zzzz!!!!"zz!!!$"zzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"z!W`<%!s8Q*!<<
+-%!!<6&!Wi?)!<E3&!<<-$!<<-#zz!!!$"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!<E0#!<<-%!!36'!s8Q+!WiE'!s/H(!Wi?%z!!*'#zzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!
+!$"!<<*#!<<*#!!**$!rrB'!<iQ,!s8T,!<iK,!<N?)!<W<%!!**#!<E0#!!!!"zzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"z!!!$"!<<-$!
+<N<&!W`B*!s8W,!X&W/!<WE+!ser.!W`<%!<E0#!<<*"!<<-#z!!!$#zzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!rr?&!!**%!<E<*!X&T-$N^>
+4!<N?*!sAT)!WrH'!<E0$!!3-$zz!!!$"zz!!!$"zzzzzzzzz!!!$"zz!!!!"zzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"!!*'"!<E0$!!*'#!=&Z+!s8T0!X&T,!=
+/f0!s&K."9J]-!W`<&"9AT*!!<6&z!!*'"z!!!!"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!**#!!!*&!Wi?*!s8T,!<`H+"UbY>!X&Z1!s/N,!
+WiE(!<<-&!WW9%z!<<*#zzz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzz!!**$!!*'%!!33(!s8`8!sJi1!s/`0"p>,2"U"i-!!`W2!<<*"!W`<&
+!<W<&!W`9$zz!!!$"zz!!!$"zzz!!*'"z!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzz!<<*%!<E0&!s&K+!!39'"9\c0!<i`7"9o)9"U>26"U"u4!WrN+!WiH
+(!WrK,!rr?&!!!$#!!!$"!!!$"!<<*"zzzzz!!*'"zz!!!!"zzz!<<*"zzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!30%!!33%!W`B-!s8f9#7:Y@#6k>?#7C\?#RUb
+<"U+u/"9AT+!<E0$!<N6%zzz!<E0#!!!!"!!!!"z!<<*"!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!!!$##6Ou/!WrQ2"UGM>"pbPA"UYS?#6t
+M="p526#Qb/3"U,&2!W`9$!!!$"!<E0%!!*'"!!3-#z!!!!"!!*'"zzzzz!!*'"!<<*"zz!!!$"zzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!$"!<E0$!<<3'!<`H*!
+WiK.#7UqI"q1hE$P!LO$4mOP$j["A"9\r3"9\f."pP)/!<E9'!!*'#zzzz!<<*"!!!!"!!*'"z!!**
+#zzzzzzzz!<<*"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz!!!!"
+!s/T0"U>58$3pnB$3gV?%LNm[#T!mZ#7h1L"U,/5!s&N,!<W?'!!*-$!<E0#!WW3$!<<*"zz!!!$"!
+<<*"!<<*"!!!$#zzzzzzzz~>
+InterpretLevel1 not {
+  grestore
+} if
+grestore
+%%%%EndImage
+% End plot #1
+% Begin plot #2
+1.500 UP
+1.000 UL
+LTb
+0.90 0.12 0.06 C LCb setrgbcolor
+2880 4416 M
+[ [(Helvetica) 160.0 0.0 true true 0 (NMR Struct)]
+] -53.3 MRshow
+1.500 UP
+1.000 UL
+LTb
+0.90 0.12 0.06 C 4516 3338 TriUF
+4630 3942 TriUF
+4527 3655 TriUF
+4697 3662 TriUF
+4758 3709 TriUF
+4487 3609 TriUF
+4546 3541 TriUF
+4534 3534 TriUF
+4540 3667 TriUF
+4716 3653 TriUF
+4698 3662 TriUF
+4738 3609 TriUF
+4521 3695 TriUF
+4525 3502 TriUF
+4500 3612 TriUF
+4735 3714 TriUF
+4526 3503 TriUF
+4740 3708 TriUF
+4529 3531 TriUF
+4756 3711 TriUF
+4643 3950 TriUF
+4755 3704 TriUF
+4528 3536 TriUF
+4670 3676 TriUF
+4718 3682 TriUF
+4759 3709 TriUF
+4528 3537 TriUF
+4755 3704 TriUF
+4644 3950 TriUF
+4564 3722 TriUF
+4736 3694 TriUF
+4625 3574 TriUF
+4697 3662 TriUF
+4734 3698 TriUF
+4561 3710 TriUF
+4455 3591 TriUF
+3199 4416 TriUF
+% End plot #2
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+1824 849 M
+4047 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1824 849 M
+4047 0 R
+stroke
+1728 849 M
+[ [(Helvetica) 160.0 0.0 true true 0 (-150)]
+] -53.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+1824 1411 M
+4047 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1824 1411 M
+4047 0 R
+stroke
+1728 1411 M
+[ [(Helvetica) 160.0 0.0 true true 0 (-100)]
+] -53.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+1824 1973 M
+4047 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1824 1973 M
+4047 0 R
+stroke
+1728 1973 M
+[ [(Helvetica) 160.0 0.0 true true 0 (-50)]
+] -53.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+1824 2536 M
+4047 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1824 2536 M
+4047 0 R
+stroke
+1728 2536 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 0)]
+] -53.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+1824 3098 M
+4047 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1824 3098 M
+4047 0 R
+stroke
+1728 3098 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 50)]
+] -53.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+1824 3660 M
+4047 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1824 3660 M
+4047 0 R
+stroke
+1728 3660 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 100)]
+] -53.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+1824 4222 M
+4047 0 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+1824 4222 M
+4047 0 R
+stroke
+1728 4222 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 150)]
+] -53.3 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+2161 512 M
+0 3824 V
+0 160 R
+0 63 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+2161 512 M
+0 4047 R
+stroke
+2161 352 M
+[ [(Helvetica) 160.0 0.0 true true 0 (-150)]
+] -53.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+2723 512 M
+0 3824 V
+0 160 R
+0 63 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+2723 512 M
+0 4047 R
+stroke
+2723 352 M
+[ [(Helvetica) 160.0 0.0 true true 0 (-100)]
+] -53.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+3285 512 M
+0 3824 V
+0 160 R
+0 63 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+3285 512 M
+0 4047 R
+stroke
+3285 352 M
+[ [(Helvetica) 160.0 0.0 true true 0 (-50)]
+] -53.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+3848 512 M
+0 4047 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+3848 512 M
+0 4047 R
+stroke
+3848 352 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 0)]
+] -53.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+4410 512 M
+0 4047 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+4410 512 M
+0 4047 R
+stroke
+4410 352 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 50)]
+] -53.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+4972 512 M
+0 4047 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+4972 512 M
+0 4047 R
+stroke
+4972 352 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 100)]
+] -53.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+0.500 UL
+LTa
+LCa setrgbcolor
+5534 512 M
+0 4047 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+5534 512 M
+0 4047 R
+stroke
+5534 352 M
+[ [(Helvetica) 160.0 0.0 true true 0 ( 150)]
+] -53.3 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1824 4559 N
+0 -4047 V
+4047 0 V
+0 4047 V
+-4047 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+grestore % colour palette end
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Helvetica
+%%Pages: 1

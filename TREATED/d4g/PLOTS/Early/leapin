@@ -1,0 +1,3 @@
+
+m = loadpdb protein.pdb
+m = sequence { ACE m }
