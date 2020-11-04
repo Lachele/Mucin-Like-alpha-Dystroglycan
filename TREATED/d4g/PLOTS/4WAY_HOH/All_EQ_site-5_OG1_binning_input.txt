@@ -1,0 +1,10 @@
+Data_File=4WAY_HOH/All_EQ_4Way-HOH_t00_site_5.dat
+Output_File=../PLOTS/4WAY_HOH/All_EQ_site-5_OG1_binned.dat
+Num_Bins=800
+First_Col=3
+First_Min=1.0
+First_Max=9.0
+Second_Col=5
+Second_Min=1.0
+Second_Max=9.0
+
