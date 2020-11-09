@@ -15,18 +15,23 @@ unset colorbox
 unset key
 set xrange [1.0:5.0]
 set yrange [1.0:9.0]
+set xtics 1
+set ytics 1
 set grid x
 set grid y
 set xla \"H - ${3} Distance\"
 set yla \"H2N - ${3} Distance\"
 set grid front
-set size square
+set size ratio 2
 gamma = 3.2
 color(gray) = 1-gray**(1./gamma)
 set palette model RGB functions color(gray), color(gray), color(gray)
 set title \"THR ${thrNumber}, ${3} (${simPhase[${1}]})\"
 set term post enh color 16
 set output \"${5}.ps\"
+plot \"${4}\" using 1:2:5 with image
+set term png crop
+set output \"${5}.png\"
 plot \"${4}\" using 1:2:5 with image
 " > ${5}.plot
 }
