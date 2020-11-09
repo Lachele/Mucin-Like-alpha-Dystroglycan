@@ -23,6 +23,12 @@ set xla \"H - ${3} Distance\"
 set yla \"H2N - ${3} Distance\"
 set grid front
 set size ratio 2
+set object 1 rect from 1,1 to 3.5,3.5 front fs empty border rgb \"#ffbbbbbb\" lw 4
+set object 2 rect from 1,1 to 3.9,3.9 front fs empty border rgb \"#ff888888\" lw 4
+set object 3 rect from 1,1 to 3.6,4.5 front fs empty border rgb \"#ff000000\" lw 4
+set label 1 \"a\" at 1.2,3.7 front
+set label 2 \"b\" at 1.2,4.1 front
+set label 3 \"c\" at 1.2,4.7 front
 gamma = 3.2
 color(gray) = 1-gray**(1./gamma)
 set palette model RGB functions color(gray), color(gray), color(gray)
