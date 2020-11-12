@@ -17,8 +17,9 @@ gamma = 3.2
 color(gray) = 1-gray**(1./gamma)
 set palette model RGB functions color(gray), color(gray), color(gray)
 #set title "THR 3, Backbone O"
-set title "THR 3"
-set size 0.25,0.5
-set origin 0.09,0.1
+#set title "THR 3"
+unset title
+set size 0.2,0.46
+set origin 0.10,0.04
 plot "All_EQ_site-4_O_binned.dat" using 1:2:5 with image
 

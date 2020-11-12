@@ -14,11 +14,15 @@ declare -A oxygenLabel=(
 [O]='Ob'
 [OG1]='Og'
 )
-declare -A origin=(
-[4]='0.09'
-[5]='0.31'
-[6]='0.53'
-[7]='0.75'
+declare -A originX=(
+[4]='0.10'
+[5]='0.30'
+[6]='0.50'
+[7]='0.70'
+)
+declare -A originY=(
+[O]='0.04'
+[OG1]='0.5'
 )
 thisSite="${2}"
 thrNumber=$((thisSite-1))
@@ -41,9 +45,10 @@ gamma = 3.2
 color(gray) = 1-gray**(1./gamma)
 set palette model RGB functions color(gray), color(gray), color(gray)
 #set title \"THR ${thrNumber}, ${oxygenTitle[${3}]}\"
-set title \"THR ${thrNumber}\"
-set size 0.25,0.5
-set origin ${origin[${2}]},0.1
+#set title \"THR ${thrNumber}\"
+unset title
+set size 0.2,0.46
+set origin ${originX[${2}]},${originY[${3}]}
 plot \"${4}\" using 1:2:5 with image
 " > ${5}.plot
 }
