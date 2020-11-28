@@ -14,23 +14,31 @@ The following figures are not relevant to the molecular dynamics
 aspects of the publication and are not included here:  
 1, 2, 3, 8, S4
 
+All figures generated using gnuplot were exported as postscript
+files.  The latter were loaded into gimp and then saved at the
+requested resolution.
+
 ## Figure 4
 
 _Comparison of peptide backbone extension_
 
 Early versions of this figure can be found in TREATED/SUMMARIES.
+The version for the paper was remade from scratch to ensure that
+its origins could be tracked.
 
 ## Figure 5
 
 _Comparison of threonine backbone atom RMSD_
 
-
+I didn't remake this one from scratch because it seemed to be in 
+decent shape with an obvious provenance trail.  
 
 ## Figure 6
 
 _Sample Phi-Psi heatmaps for the glycosidic linkages_
 
-
+Again, this is not remade from scratch.  Check the symbolic links to
+see where the info originally came from.
 
 ## Figure 7
 
@@ -65,8 +73,6 @@ _Equilibration data for the GalNAc simulations_
 ## Figure S5
 
 _Heat maps for bifurcated and 4-way hydrogen bonding interactions_
-
-
 
 
 
