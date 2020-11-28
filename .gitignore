@@ -1,4 +1,8 @@
 ##
+## General
+##
+*.swp
+##
 ##  RAW
 ##
 RAW/d4g/[1-9]
